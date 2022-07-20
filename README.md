@@ -22,7 +22,7 @@ https://data.bnf.fr/vocabulary/roles/
 
 
 ### Pendiente
-- Usar skos:Concept para materias. Ahora se usa dc:subject con el texto completo. Interesante dividiar las conceptos de las materias.
+- Usar skos:Concept para materias. Ahora se usa dc:subject con el texto completo. Sería necesario dividir las conceptos de las materias.
 - Enriquecer los autores con identificadores externos como wikidata/viaf
 - Enriquecer los lugares con identificadores de GeoNames
 - Ampliar el repositorio con todos los elementos originales. Prototipo con 20 items.
