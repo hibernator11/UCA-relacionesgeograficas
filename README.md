@@ -31,6 +31,8 @@ https://data.bnf.fr/vocabulary/roles/
 - Enriquecer los lugares con identificadores de GeoNames
 - Ampliar el repositorio con todos los elementos originales. Prototipo con 20 items.
 - edm:Place dividir en country-state-city skos:prefLabel 
+- Establecer roles
+- Completar relaciones de autores
 
 
 ### Referencias
