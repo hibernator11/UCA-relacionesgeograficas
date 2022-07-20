@@ -6,7 +6,7 @@ UCA collection relaciones geograficas
 
 https://data.bnf.fr/vocabulary/roles/
 
-### Clases (Eurpeana Data Model y otros...)
+### Clases (Europeana Data Model y otros...)
 - void:Dataset https://txarchives.org/utlac/finding_aids/00056.xml
 - edm:Place
 - ore:Aggregation
