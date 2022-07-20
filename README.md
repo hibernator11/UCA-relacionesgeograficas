@@ -7,7 +7,7 @@ UCA collection relaciones geograficas
 https://data.bnf.fr/vocabulary/roles/
 
 ### Clases (Eurpeana Data Model y otros...)
-- void:Dataset rdf:about="https://txarchives.org/utlac/finding_aids/00056.xml"
+- void:Dataset https://txarchives.org/utlac/finding_aids/00056.xml
 - edm:Place
 - ore:Aggregation
 - edm:ProvidedCHO
@@ -26,3 +26,8 @@ https://data.bnf.fr/vocabulary/roles/
 - Enriquecer los autores con identificadores externos como wikidata/viaf
 - Ampliar el repositorio con todos los elementos originales. Prototipo con 20 items.
 - edm:Place dividir en country-state-city skos:prefLabel 
+
+
+### Referencias
+
+- https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_Documentation/EDM_Mapping_Guidelines_v2.4_102017.pdf
