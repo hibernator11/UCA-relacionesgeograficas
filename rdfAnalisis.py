@@ -71,4 +71,26 @@ q = """
 # Apply the query to the graph and iterate through results
 for r in g.query(q):
     print(r["title"])    
+    
+
+print('##### ore:Aggregation')
+    
+# Query the data in g using SPARQL
+# This query returns the 'name' of all ``edm:ProvidedCHO`` instances
+q = """
+    PREFIX ore: <http://www.openarchives.org/ore/terms/>
+    PREFIX edm: <http://www.europeana.eu/schemas/edm/>
+    PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+    SELECT DISTINCT ?p
+    WHERE {
+        ?s rdf:type ore:Aggregation .
+
+        ?s ?p ?o.
+    }
+"""
+
+# Apply the query to the graph and iterate through results
+for r in g.query(q):
+    print(r["p"])        
 
