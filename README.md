@@ -28,7 +28,7 @@ Otros posibles modelos:
 - https://unlockingarchives.com/relaciones/place/papantladeolarte
 - https://unlockingarchives.com/relaciones/aggregation/50098d40-75e0-4f70-8622-6c156da2e45d
 - https://unlockingarchives.com/relaciones/cho/50098d40-75e0-4f70-8622-6c156da2e45d
-- https://unlockingarchives.com/relaciones/autor/gutierrezdeliebana-juan
+- https://unlockingarchives.com/relaciones/agent/gutierrezdeliebana-juan
 
 ### Enriquecimiento
 
