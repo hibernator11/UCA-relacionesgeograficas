@@ -19,7 +19,7 @@ https://data.bnf.fr/vocabulary/roles/
 - https://unlockingarchives.com/relaciones/cho/50098d40-75e0-4f70-8622-6c156da2e45d
 - https://unlockingarchives.com/relaciones/autor/gutierrezdeliebana-juan
 
-## Enriquecimiento
+### Enriquecimiento
 
 - dc:coverage http://vocab.getty.edu/aat/300404510 (sixteenth century)
 - edm:hasType http://vocab.getty.edu/aat/300028233 (historical maps)
