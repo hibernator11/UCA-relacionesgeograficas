@@ -224,10 +224,6 @@
       </edm:ProvidedCHO>
     </edm:aggregatedCHO>
   </ore:Aggregation>
-  <void:Dataset rdf:about="https://txarchives.org/utlac/finding_aids/00056.xml">
-    <dcterms:description>Relaciones Geográficas of Mexico and Guatemala@en</dcterms:description>
-    <foaf:homepage>https://txarchives.org/utlac/finding_aids/00056.xml@en</foaf:homepage>
-  </void:Dataset>
   <ore:Aggregation rdf:about="https://unlockingarchives.com/relaciones/aggregation/9a78720b-d927-4635-bdc0-9993a3024f9a">
     <dcterms:isReferencedBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_9a78720b-d927-4635-bdc0-9993a3024f9a/manifests/2/utblac_9a78720b-d927-4635-bdc0-9993a3024f9a.json"/>
     <edm:isShownAt rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:9a78720b-d927-4635-bdc0-9993a3024f9a"/>
@@ -1238,4 +1234,9 @@
       </edm:ProvidedCHO>
     </edm:aggregatedCHO>
   </ore:Aggregation>
+  <void:Dataset rdf:about="https://txarchives.org/utlac/finding_aids/00056.xml">
+    <dcterms:publisher>Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</dcterms:publisher>
+    <dcterms:description xml:lang="en">Relaciones Geográficas of Mexico and Guatemala</dcterms:description>
+    <foaf:homepage rdf:resource="https://txarchives.org/utlac/finding_aids/00056.xml"/>
+  </void:Dataset>
 </rdf:RDF>

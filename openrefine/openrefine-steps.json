@@ -62043,5 +62043,3551 @@
         }
       ]
     }
+  },
+  {
+    "op": "rdf-transform/save-rdf-transform",
+    "rdf-transform": {
+      "extension": "RDFTransform",
+      "version": "2.1.1",
+      "baseIRI": "https://unlockingarchives.com/relaciones/",
+      "namespaces": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "edm": "http://www.europeana.eu/schemas/edm/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "cc": "http://creativecommons.org/ns#",
+        "ore": "http://www.openarchives.org/ore/terms/",
+        "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "schema": "http://schema.org/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "void": "http://rdfs.org/ns/void#",
+        "uca": "https://unlockingarchives.com/relaciones/"
+      },
+      "subjectMappings": [
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "identifierUTLDAMSPID"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "'cho/' + value.replace(\"utblac:\", \"\").replace(\"@en\", \"\")"
+          },
+          "typeMappings": [
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "ProvidedCHO"
+              }
+            }
+          ],
+          "propertyMappings": [
+            {
+              "prefix": "dcterms",
+              "valueSource": {
+                "source": "constant",
+                "constant": "spatial"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "geographicCoverage"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "'place/' + value.split(\"|\")[length(value.split(\"|\"))-1].replace(\"(city)@en\", '').toLowercase().replaceChars(\"áéíóú\", \"aeiou\")"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dcterms",
+              "valueSource": {
+                "source": "constant",
+                "constant": "alternative"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "alternativeTitle"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf(\"|\")).replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "es"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "creator"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 1"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(artist)'),value.contains('(signer)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "creator"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 2"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(artist)'),value.contains('(signer)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dcterms",
+              "valueSource": {
+                "source": "constant",
+                "constant": "issued"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "dateCreatedDateIssued"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "datatype_literal",
+                    "datatype": {
+                      "prefix": "xsd",
+                      "valueSource": {
+                        "source": "constant",
+                        "constant": "date"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "publisher"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "owningRepository"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "en"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "hasType"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "type"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0,value.indexOf('|'))"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "en"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "type"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "formMedium"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf(\"|\")).replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "en"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "dcterms",
+              "valueSource": {
+                "source": "constant",
+                "constant": "extent"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "extent"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "en"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "language"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "language"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf(\"|\"))"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "en"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "subject"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "topic"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf('@en'))"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "en"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "coverage"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "timePeriodCovered"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "en"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "identifier"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "identifierUTLDAMSPID"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "identifier"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "identifierLocal"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "isRelatedTo"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "relatedResourceOther"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.split('|')[1].replace(\"@en\", \"\").replace(\"(local)\", \"\").replace(\"(uri)\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "title"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "primaryTitle"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf(\"|\")).replace(\"@es\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "es"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "description"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "description"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "en"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "rights"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "license"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace('@en', '')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "identifier"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "identifierPID"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "schema",
+              "valueSource": {
+                "source": "constant",
+                "constant": "thumbnail"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "thumbnailURI"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "date"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "dateAdded"
+                  },
+                  "valueType": {
+                    "type": "datatype_literal",
+                    "datatype": {
+                      "prefix": "xsd",
+                      "valueSource": {
+                        "source": "constant",
+                        "constant": "date"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "hasType"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "type"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(value.contains(\"maps\"),\"http://vocab.getty.edu/aat/300028233\",\"\")"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "coverage"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "timePeriodCovered"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(value.contains(\"16th\"), \"http://vocab.getty.edu/aat/300404510\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "creator"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 3"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(artist)'),value.contains('(signer)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "creator"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 4"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(artist)'),value.contains('(signer)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "creator"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 5"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(artist)'),value.contains('(signer)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "creator"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 6"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(artist)'),value.contains('(signer)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "creator"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 7"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(artist)'),value.contains('(signer)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "creator"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 8"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(artist)'),value.contains('(signer)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "creator"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 9"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(artist)'),value.contains('(signer)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "contributor"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 1"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(collector)'),value.contains('(scribe)'),value.contains('(contributor)'),value.contains('(interpreter)'),value.contains('(witness)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "contributor"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 2"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(collector)'),value.contains('(scribe)'),value.contains('(contributor)'),value.contains('(interpreter)'),value.contains('(witness)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "contributor"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 3"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(collector)'),value.contains('(scribe)'),value.contains('(contributor)'),value.contains('(interpreter)'),value.contains('(witness)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "contributor"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 4"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(collector)'),value.contains('(scribe)'),value.contains('(contributor)'),value.contains('(interpreter)'),value.contains('(witness)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "contributor"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 5"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(collector)'),value.contains('(scribe)'),value.contains('(contributor)'),value.contains('(interpreter)'),value.contains('(witness)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "contributor"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 6"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(collector)'),value.contains('(scribe)'),value.contains('(contributor)'),value.contains('(interpreter)'),value.contains('(witness)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "contributor"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 7"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(collector)'),value.contains('(scribe)'),value.contains('(contributor)'),value.contains('(interpreter)'),value.contains('(witness)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "contributor"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 8"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(collector)'),value.contains('(scribe)'),value.contains('(contributor)'),value.contains('(interpreter)'),value.contains('(witness)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "contributor"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 9"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(collector)'),value.contains('(scribe)'),value.contains('(contributor)'),value.contains('(interpreter)'),value.contains('(witness)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "IIIFImage"
+          },
+          "typeMappings": [
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "WebResource"
+              }
+            }
+          ],
+          "propertyMappings": [
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "rights"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "license"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "extra"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "if(value.contains(\"PDF\"), value.replace(\"PDF@\", \"\").replace(\"|\", \"\"), \"\")"
+          },
+          "typeMappings": [
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "WebResource"
+              }
+            }
+          ],
+          "propertyMappings": [
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "rights"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "license"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "identifierUTLDAMSPID"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "'aggregation/' + value.replace(\"utblac:\", \"\").replace(\"@en\", \"\")"
+          },
+          "typeMappings": [
+            {
+              "prefix": "ore",
+              "valueSource": {
+                "source": "constant",
+                "constant": "Aggregation"
+              }
+            }
+          ],
+          "propertyMappings": [
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "aggregatedCHO"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "identifierUTLDAMSPID"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "'cho/'+ value.replace(\"utblac:\", \"\").replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "dataProvider"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "owningRepository"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "en"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "hasView"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "IIIFImage"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "hasView"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "extra"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(value.contains(\"PDF\"), value.replace(\"PDF@\", \"\").replace(\"|\", \"\"), \"\")"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "isShownBy"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "thumbnailURI"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "isShownAt"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "identifierPID"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "'https://collections.lib.utexas.edu/catalog/' + value"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dcterms",
+              "valueSource": {
+                "source": "constant",
+                "constant": "isReferencedBy"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "manifestURI"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "creatorContributor 1"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\")"
+          },
+          "typeMappings": [
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "Agent"
+              }
+            }
+          ],
+          "propertyMappings": [
+            {
+              "prefix": "skos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "prefLabel"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 1"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf('(')).trim()"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "creatorContributor 1"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "'roles/' + value.substring(value.indexOf('(')+1, value.indexOf(')'))"
+          },
+          "typeMappings": [
+            {
+              "prefix": "skos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "Concept"
+              }
+            }
+          ],
+          "propertyMappings": [
+            {
+              "prefix": "skos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "prefLabel"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 1"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(value.indexOf('(')+1, value.indexOf(')'))"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "en"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "geographicCoverage"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "'place/' + value.split(\"|\")[length(value.split(\"|\"))-1].replace(\"(city)@en\", '').toLowercase().replaceChars(\"áéíóú\", \"aeiou\")"
+          },
+          "typeMappings": [
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "Place"
+              }
+            }
+          ],
+          "propertyMappings": [
+            {
+              "prefix": "wgs84_pos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "lat"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "cartographicInformation"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf(',')).trim()"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "wgs84_pos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "long"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "cartographicInformation"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(value.contains('|'), value.substring(value.indexOf(',') + 1, value.indexOf('|')), value.substring(value.indexOf(',') + 1, value.indexOf('@'))).trim()"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "skos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "prefLabel"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "geographicCoverage"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace('@en', '')"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "en"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "sourceCollectionURI"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "value.replace('@en', '')"
+          },
+          "typeMappings": [
+            {
+              "prefix": "void",
+              "valueSource": {
+                "source": "constant",
+                "constant": "Dataset"
+              }
+            }
+          ],
+          "propertyMappings": [
+            {
+              "prefix": "foaf",
+              "valueSource": {
+                "source": "constant",
+                "constant": "homepage"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "sourceCollectionURI"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dcterms",
+              "valueSource": {
+                "source": "constant",
+                "constant": "description"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "sourceCollectionName"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "en"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "dcterms",
+              "valueSource": {
+                "source": "constant",
+                "constant": "publisher"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "owningRepository"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "creatorContributor 2"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\")"
+          },
+          "typeMappings": [],
+          "propertyMappings": [
+            {
+              "prefix": "skos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "prefLabel"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "row_index"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf('(')).trim().replace(\"@en\",\"\")"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "creatorContributor 3"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\")"
+          },
+          "typeMappings": [],
+          "propertyMappings": [
+            {
+              "prefix": "skos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "prefLabel"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 3"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf('(')).trim().replace(\"@en\",\"\")"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "creatorContributor 4"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\")"
+          },
+          "typeMappings": [],
+          "propertyMappings": [
+            {
+              "prefix": "skos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "prefLabel"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 4"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf('(')).trim().replace(\"@en\",\"\")"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "creatorContributor 5"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\")"
+          },
+          "typeMappings": [],
+          "propertyMappings": [
+            {
+              "prefix": "skos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "prefLabel"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 5"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf('(')).trim().replace(\"@en\",\"\")"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "creatorContributor 6"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\")"
+          },
+          "typeMappings": [],
+          "propertyMappings": [
+            {
+              "prefix": "skos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "prefLabel"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 6"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf('(')).trim().replace(\"@en\",\"\")"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "creatorContributor 7"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\")"
+          },
+          "typeMappings": [],
+          "propertyMappings": [
+            {
+              "prefix": "skos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "prefLabel"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 7"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf('(')).trim().replace(\"@en\",\"\")"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "creatorContributor 8"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\")"
+          },
+          "typeMappings": [],
+          "propertyMappings": [
+            {
+              "prefix": "skos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "prefLabel"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 8"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf('(')).trim().replace(\"@en\",\"\")"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "creatorContributor 9"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\")"
+          },
+          "typeMappings": [],
+          "propertyMappings": [
+            {
+              "prefix": "skos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "prefLabel"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 9"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf('(')).trim().replace(\"@en\",\"\")"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-transform/save-rdf-transform",
+    "rdf-transform": {
+      "extension": "RDFTransform",
+      "version": "2.1.1",
+      "baseIRI": "https://unlockingarchives.com/relaciones/",
+      "namespaces": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "edm": "http://www.europeana.eu/schemas/edm/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "cc": "http://creativecommons.org/ns#",
+        "ore": "http://www.openarchives.org/ore/terms/",
+        "wgs84_pos": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "schema": "http://schema.org/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "void": "http://rdfs.org/ns/void#",
+        "uca": "https://unlockingarchives.com/relaciones/"
+      },
+      "subjectMappings": [
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "identifierUTLDAMSPID"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "'cho/' + value.replace(\"utblac:\", \"\").replace(\"@en\", \"\")"
+          },
+          "typeMappings": [
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "ProvidedCHO"
+              }
+            }
+          ],
+          "propertyMappings": [
+            {
+              "prefix": "dcterms",
+              "valueSource": {
+                "source": "constant",
+                "constant": "spatial"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "geographicCoverage"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "'place/' + value.split(\"|\")[length(value.split(\"|\"))-1].replace(\"(city)@en\", '').toLowercase().replaceChars(\"áéíóú\", \"aeiou\")"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dcterms",
+              "valueSource": {
+                "source": "constant",
+                "constant": "alternative"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "alternativeTitle"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf(\"|\")).replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "es"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "creator"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 1"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(artist)'),value.contains('(signer)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "creator"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 2"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(artist)'),value.contains('(signer)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dcterms",
+              "valueSource": {
+                "source": "constant",
+                "constant": "issued"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "dateCreatedDateIssued"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "datatype_literal",
+                    "datatype": {
+                      "prefix": "xsd",
+                      "valueSource": {
+                        "source": "constant",
+                        "constant": "date"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "publisher"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "owningRepository"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "en"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "hasType"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "type"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0,value.indexOf('|'))"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "en"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "type"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "formMedium"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf(\"|\")).replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "en"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "dcterms",
+              "valueSource": {
+                "source": "constant",
+                "constant": "extent"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "extent"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "en"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "language"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "language"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf(\"|\"))"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "en"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "subject"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "topic"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf('@en'))"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "en"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "coverage"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "timePeriodCovered"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "en"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "identifier"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "identifierUTLDAMSPID"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "identifier"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "identifierLocal"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "isRelatedTo"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "relatedResourceOther"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.split('|')[1].replace(\"@en\", \"\").replace(\"(local)\", \"\").replace(\"(uri)\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "title"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "primaryTitle"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf(\"|\")).replace(\"@es\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "es"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "description"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "description"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "en"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "rights"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "license"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace('@en', '')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "identifier"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "identifierPID"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "schema",
+              "valueSource": {
+                "source": "constant",
+                "constant": "thumbnail"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "thumbnailURI"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "date"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "dateAdded"
+                  },
+                  "valueType": {
+                    "type": "datatype_literal",
+                    "datatype": {
+                      "prefix": "xsd",
+                      "valueSource": {
+                        "source": "constant",
+                        "constant": "date"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "hasType"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "type"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(value.contains(\"maps\"),\"http://vocab.getty.edu/aat/300028233\",\"\")"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "coverage"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "timePeriodCovered"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(value.contains(\"16th\"), \"http://vocab.getty.edu/aat/300404510\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "creator"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 3"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(artist)'),value.contains('(signer)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "creator"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 4"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(artist)'),value.contains('(signer)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "creator"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 5"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(artist)'),value.contains('(signer)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "creator"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 6"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(artist)'),value.contains('(signer)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "creator"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 7"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(artist)'),value.contains('(signer)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "creator"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 8"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(artist)'),value.contains('(signer)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "creator"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 9"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(artist)'),value.contains('(signer)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "contributor"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 1"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(collector)'),value.contains('(scribe)'),value.contains('(contributor)'),value.contains('(interpreter)'),value.contains('(witness)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "contributor"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 2"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(collector)'),value.contains('(scribe)'),value.contains('(contributor)'),value.contains('(interpreter)'),value.contains('(witness)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "contributor"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 3"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(collector)'),value.contains('(scribe)'),value.contains('(contributor)'),value.contains('(interpreter)'),value.contains('(witness)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "contributor"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 4"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(collector)'),value.contains('(scribe)'),value.contains('(contributor)'),value.contains('(interpreter)'),value.contains('(witness)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "contributor"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 5"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(collector)'),value.contains('(scribe)'),value.contains('(contributor)'),value.contains('(interpreter)'),value.contains('(witness)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "contributor"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 6"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(collector)'),value.contains('(scribe)'),value.contains('(contributor)'),value.contains('(interpreter)'),value.contains('(witness)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "contributor"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 7"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(collector)'),value.contains('(scribe)'),value.contains('(contributor)'),value.contains('(interpreter)'),value.contains('(witness)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "contributor"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 8"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(collector)'),value.contains('(scribe)'),value.contains('(contributor)'),value.contains('(interpreter)'),value.contains('(witness)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dc",
+              "valueSource": {
+                "source": "constant",
+                "constant": "contributor"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 9"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(or(value.contains('(collector)'),value.contains('(scribe)'),value.contains('(contributor)'),value.contains('(interpreter)'),value.contains('(witness)')),'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\"),'')"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "IIIFImage"
+          },
+          "typeMappings": [
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "WebResource"
+              }
+            }
+          ],
+          "propertyMappings": [
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "rights"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "license"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "extra"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "if(value.contains(\"PDF\"), value.replace(\"PDF@\", \"\").replace(\"|\", \"\"), \"\")"
+          },
+          "typeMappings": [
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "WebResource"
+              }
+            }
+          ],
+          "propertyMappings": [
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "rights"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "license"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "identifierUTLDAMSPID"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "'aggregation/' + value.replace(\"utblac:\", \"\").replace(\"@en\", \"\")"
+          },
+          "typeMappings": [
+            {
+              "prefix": "ore",
+              "valueSource": {
+                "source": "constant",
+                "constant": "Aggregation"
+              }
+            }
+          ],
+          "propertyMappings": [
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "aggregatedCHO"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "identifierUTLDAMSPID"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "'cho/'+ value.replace(\"utblac:\", \"\").replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "dataProvider"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "owningRepository"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "en"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "hasView"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "IIIFImage"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "hasView"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "extra"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(value.contains(\"PDF\"), value.replace(\"PDF@\", \"\").replace(\"|\", \"\"), \"\")"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "isShownBy"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "thumbnailURI"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "isShownAt"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "identifierPID"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "'https://collections.lib.utexas.edu/catalog/' + value"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dcterms",
+              "valueSource": {
+                "source": "constant",
+                "constant": "isReferencedBy"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "manifestURI"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "creatorContributor 1"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\")"
+          },
+          "typeMappings": [
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "Agent"
+              }
+            }
+          ],
+          "propertyMappings": [
+            {
+              "prefix": "skos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "prefLabel"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 1"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf('(')).trim()"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "creatorContributor 1"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "'roles/' + value.substring(value.indexOf('(')+1, value.indexOf(')'))"
+          },
+          "typeMappings": [
+            {
+              "prefix": "skos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "Concept"
+              }
+            }
+          ],
+          "propertyMappings": [
+            {
+              "prefix": "skos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "prefLabel"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 1"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(value.indexOf('(')+1, value.indexOf(')'))"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "en"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "geographicCoverage"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "'place/' + value.split(\"|\")[length(value.split(\"|\"))-1].replace(\"(city)@en\", '').toLowercase().replaceChars(\"áéíóú\", \"aeiou\")"
+          },
+          "typeMappings": [
+            {
+              "prefix": "edm",
+              "valueSource": {
+                "source": "constant",
+                "constant": "Place"
+              }
+            }
+          ],
+          "propertyMappings": [
+            {
+              "prefix": "wgs84_pos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "lat"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "cartographicInformation"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf(',')).trim()"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "wgs84_pos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "long"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "cartographicInformation"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "if(value.contains('|'), value.substring(value.indexOf(',') + 1, value.indexOf('|')), value.substring(value.indexOf(',') + 1, value.indexOf('@'))).trim()"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "skos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "prefLabel"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "geographicCoverage"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace('@en', '')"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "en"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "sourceCollectionURI"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "value.replace('@en', '')"
+          },
+          "typeMappings": [
+            {
+              "prefix": "void",
+              "valueSource": {
+                "source": "constant",
+                "constant": "Dataset"
+              }
+            }
+          ],
+          "propertyMappings": [
+            {
+              "prefix": "foaf",
+              "valueSource": {
+                "source": "constant",
+                "constant": "homepage"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "sourceCollectionURI"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "iri"
+                  },
+                  "typeMappings": [],
+                  "propertyMappings": []
+                }
+              ]
+            },
+            {
+              "prefix": "dcterms",
+              "valueSource": {
+                "source": "constant",
+                "constant": "description"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "sourceCollectionName"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "language_literal",
+                    "language": "en"
+                  }
+                }
+              ]
+            },
+            {
+              "prefix": "dcterms",
+              "valueSource": {
+                "source": "constant",
+                "constant": "publisher"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "owningRepository"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.replace(\"@en\", \"\")"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "creatorContributor 2"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\")"
+          },
+          "typeMappings": [],
+          "propertyMappings": [
+            {
+              "prefix": "skos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "prefLabel"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "row_index"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf('(')).trim().replace(\"@en\",\"\")"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "creatorContributor 3"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\")"
+          },
+          "typeMappings": [],
+          "propertyMappings": [
+            {
+              "prefix": "skos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "prefLabel"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 3"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf('(')).trim().replace(\"@en\",\"\")"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "creatorContributor 4"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\")"
+          },
+          "typeMappings": [],
+          "propertyMappings": [
+            {
+              "prefix": "skos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "prefLabel"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 4"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf('(')).trim().replace(\"@en\",\"\")"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "creatorContributor 5"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\")"
+          },
+          "typeMappings": [],
+          "propertyMappings": [
+            {
+              "prefix": "skos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "prefLabel"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 5"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf('(')).trim().replace(\"@en\",\"\")"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "creatorContributor 6"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\")"
+          },
+          "typeMappings": [],
+          "propertyMappings": [
+            {
+              "prefix": "skos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "prefLabel"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 6"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf('(')).trim().replace(\"@en\",\"\")"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "creatorContributor 7"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\")"
+          },
+          "typeMappings": [],
+          "propertyMappings": [
+            {
+              "prefix": "skos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "prefLabel"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 7"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf('(')).trim().replace(\"@en\",\"\")"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "creatorContributor 8"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\")"
+          },
+          "typeMappings": [],
+          "propertyMappings": [
+            {
+              "prefix": "skos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "prefLabel"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 8"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf('(')).trim().replace(\"@en\",\"\")"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "valueSource": {
+            "source": "column",
+            "columnName": "creatorContributor 9"
+          },
+          "expression": {
+            "language": "grel",
+            "code": "'agent/' + value.substring(0,value.indexOf('(')).replace(',', '-').toLowercase().replaceChars(\"áéíóúñí\", \"aeiouni\")"
+          },
+          "typeMappings": [],
+          "propertyMappings": [
+            {
+              "prefix": "skos",
+              "valueSource": {
+                "source": "constant",
+                "constant": "prefLabel"
+              },
+              "objectMappings": [
+                {
+                  "valueSource": {
+                    "source": "column",
+                    "columnName": "creatorContributor 9"
+                  },
+                  "expression": {
+                    "language": "grel",
+                    "code": "value.substring(0, value.indexOf('(')).trim().replace(\"@en\",\"\")"
+                  },
+                  "valueType": {
+                    "type": "literal"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
