@@ -10,6 +10,8 @@ Proyecto para la extracción y transformación de la colección digital Relacion
 
 En este prototipo se han seleccionado [20 obras](input/manifests.txt) a través de sus manifests en formato JSON de la colección [Relaciones Geográficas of Mexico and Guatemala](https://collections.lib.utexas.edu/?f%5Bmods_relatedItem_titleInfo_title_source_t%5D%5B%5D=Relaciones+Geogr%C3%A1ficas+of+Mexico+and+Guatemala).
 
+El prototipo incluye las [modificaciones realizadas para la transformación a RDF con la herramienta Open Refine](input/openrefine-steps.json). También se ha desarrollado un [Jupyter Notebook](notebooks/Ejemplos de SPARQL.ipynb) que se puede ejecutar en la plataforma Binder.
+
 ### Proceso de transformación a RDF
 El proceso de transformación a RDF funciona en cuatro pasos: 
 
