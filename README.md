@@ -17,6 +17,10 @@ El proceso de transformación a RDF funciona en cuatro pasos:
 
 <img width="75%" src="images/RDFtransformation.png">
 
+### Scripts
+- UCAmanifests2CSV.py: transforma los manifests (json) presentes en el fichero (input/manifests.txt)[input/manifests.txt] a un fichero CSV.
+- rdfAnalisis.py: realiza consultas SPARQL al repositorio creado tras el proceso de transformación.
+
 ### Modelo de datos con EDM
 
 <img width="75%" src="images/EDM-DataModeling.png">
