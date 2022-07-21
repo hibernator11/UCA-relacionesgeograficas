@@ -7,7 +7,7 @@ Proyecto para la extracción y transformación de la colección digital Relacion
 
 En este prototipo se han seleccionado [20 obras](input/manifests.txt) a través de sus manifests en formato JSON de la colección [Relaciones Geográficas of Mexico and Guatemala](https://collections.lib.utexas.edu/?f%5Bmods_relatedItem_titleInfo_title_source_t%5D%5B%5D=Relaciones+Geogr%C3%A1ficas+of+Mexico+and+Guatemala).
 
-
+<img src="images/RDFtransformation.png">
 
 ### Roles autoridad
 - creator: signer, artist
