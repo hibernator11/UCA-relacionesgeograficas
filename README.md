@@ -1,5 +1,12 @@
 # UCA-relacionesgeograficas
-UCA collection relaciones geograficas
+UCA collection relaciones geográficas
+
+### Introducción
+
+Proyecto para la extracción y transformación de la colección digital Relaciones Geográficas a un modelo semántico basado en el vocabulario [European Data Model](https://pro.europeana.eu/page/edm-documentation).
+
+En este prototipo se han seleccionado [20 obras](input/manifests.txt).
+
 
 
 ### Roles autoridad
