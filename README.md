@@ -38,3 +38,4 @@ https://data.bnf.fr/vocabulary/roles/
 ### Referencias
 
 - https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_Documentation/EDM_Mapping_Guidelines_v2.4_102017.pdf
+- https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_profiles/IIIFtoEDM_profile_042016.pdf (IIIF EDM extension guidelines)
