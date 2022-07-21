@@ -33,6 +33,7 @@ https://data.bnf.fr/vocabulary/roles/
 - edm:Place dividir en country-state-city skos:prefLabel 
 - Establecer roles
 - Completar relaciones de autores
+- Añadir texto, anotaciones? https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_profiles/EDM_Annotation_Profile_v1.2.pdf
 
 
 ### Referencias
