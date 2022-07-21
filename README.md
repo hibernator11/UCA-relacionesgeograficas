@@ -2,9 +2,10 @@
 UCA collection relaciones geograficas
 
 
-### Roles
+### Roles autoridad
 
-https://data.bnf.fr/vocabulary/roles/
+- https://data.bnf.fr/vocabulary/roles/
+- http://www.rdaregistry.info/Elements/a/#P50204
 
 ### Clases (Europeana Data Model y otros...)
 - void:Dataset https://txarchives.org/utlac/finding_aids/00056.xml
