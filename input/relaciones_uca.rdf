@@ -1,0 +1,1241 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:schema="http://schema.org/"
+    xmlns:edm="http://www.europeana.eu/schemas/edm/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:void="http://rdfs.org/ns/void#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:ore="http://www.openarchives.org/ore/terms/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:uca="https://unlockingarchives.com/relaciones/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <ore:Aggregation rdf:about="https://unlockingarchives.com/relaciones/aggregation/50098d40-75e0-4f70-8622-6c156da2e45d">
+    <dcterms:isReferencedBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_50098d40-75e0-4f70-8622-6c156da2e45d/manifests/2/utblac_50098d40-75e0-4f70-8622-6c156da2e45d.json"/>
+    <edm:isShownAt rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:50098d40-75e0-4f70-8622-6c156da2e45d"/>
+    <edm:isShownBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_50098d40-75e0-4f70-8622-6c156da2e45d/TN/utblac_50098d40-75e0-4f70-8622-6c156da2e45d.jpg"/>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_50098d40-75e0-4f70-8622-6c156da2e45d/PDF/utblac_50098d40-75e0-4f70-8622-6c156da2e45d.pdf">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/images/utldams_utblac_50098d40-75e0-4f70-8622-6c156da2e45d.jp2">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:dataProvider xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</edm:dataProvider>
+    <edm:aggregatedCHO>
+      <edm:ProvidedCHO rdf:about="https://unlockingarchives.com/relaciones/cho/50098d40-75e0-4f70-8622-6c156da2e45d">
+        <edm:type xml:lang="en">maps (documents)</edm:type>
+        <dc:contributor>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/perales-franciscode">
+            <skos:prefLabel>Perales, Francisco de</skos:prefLabel>
+          </rdf:Description>
+        </dc:contributor>
+        <schema:thumbnail rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_50098d40-75e0-4f70-8622-6c156da2e45d/TN/utblac_50098d40-75e0-4f70-8622-6c156da2e45d.jpg"/>
+        <dc:coverage xml:lang="en">16th century</dc:coverage>
+        <dc:language xml:lang="en">Spanish</dc:language>
+        <dc:description xml:lang="en">Visual representation of Huaxtepeque and its surroundings, located within the Archdiocese of Mexico. Created by an unknown artist, the map illustrates the local rivers, water sources, vegetation, and the roads connecting the economic and political center of Huaxtepeque to the surrounding communities. Huaxtepeque is centered prominently on the map with a rendering of the Dominican convent and a glyph of a lead tree signifying Huaxtepeque as the altepetl or city-state of the region. Other smaller towns depicted on the map include Teteltzingo, Tetzhuac, Tzacapalco, Ichcatepec, Cocoyoc, and Ayahualco. Other items of note include a glyph representing the local tianguis or market and in the bottom right of the map is a garden of suchinacaztles, a flowering plant. Created in response to question ten listed within the relación geográfica questionnaire for Huaxtepeque.</dc:description>
+        <dcterms:spatial>
+          <edm:Place rdf:about="https://unlockingarchives.com/relaciones/place/oaxtepec">
+            <skos:prefLabel xml:lang="en">Mexico (country)| Morelos (state)| Oaxtepec (city)</skos:prefLabel>
+            <wgs84_pos:long>-98.969033</wgs84_pos:long>
+            <wgs84_pos:lat>18.906218</wgs84_pos:lat>
+          </edm:Place>
+        </dcterms:spatial>
+        <dc:publisher xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</dc:publisher>
+        <edm:hasType xml:lang="en">maps (documents)</edm:hasType>
+        <dc:identifier>utblac:50098d40-75e0-4f70-8622-6c156da2e45d</dc:identifier>
+        <edm:hasType rdf:resource="http://vocab.getty.edu/aat/300028233"/>
+        <dc:contributor>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/garciaicazbalceta-joaquin-1825-1894">
+            <skos:prefLabel>García Icazbalceta, Joaquín,‏ ‎1825-1894</skos:prefLabel>
+          </rdf:Description>
+        </dc:contributor>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >1580-09-24</dcterms:issued>
+        <dc:title xml:lang="es">Pintura de Huaxtepeque</dc:title>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2022-01-14</dc:date>
+        <dc:creator>
+          <edm:Agent rdf:about="https://unlockingarchives.com/relaciones/agent/unknown">
+            <skos:prefLabel>unknown</skos:prefLabel>
+          </edm:Agent>
+        </dc:creator>
+        <dc:contributor>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/garciaruiz-hernan">
+            <skos:prefLabel>García Ruiz, Hernán</skos:prefLabel>
+          </rdf:Description>
+        </dc:contributor>
+        <dc:identifier>JGI_XXIV-03_Huaxtepeque_map</dc:identifier>
+        <dcterms:extent xml:lang="en">1 map, 85 x 62 cm</dcterms:extent>
+        <dc:coverage rdf:resource="http://vocab.getty.edu/aat/300404510"/>
+        <dc:subject xml:lang="en">Art--16th century--New Spain| Indigenous peoples--Mexico--Art| Indigenous peoples--Mexico--History--Sources| Manuscripts, Mexican| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources</dc:subject>
+        <dc:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+        <dcterms:alternative xml:lang="es">Descripción de Guastepeque</dcterms:alternative>
+        <dc:creator>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/gutierrezdeliebana-juan">
+            <skos:prefLabel>Gutiérrez de Liébana, Juan</skos:prefLabel>
+          </rdf:Description>
+        </dc:creator>
+        <edm:isRelatedTo rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:08e8318a-13f1-4bd9-934e-dca47020281b"/>
+      </edm:ProvidedCHO>
+    </edm:aggregatedCHO>
+  </ore:Aggregation>
+  <ore:Aggregation rdf:about="https://unlockingarchives.com/relaciones/aggregation/d5ddf214-248e-462f-acdc-81d27463226f">
+    <dcterms:isReferencedBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_d5ddf214-248e-462f-acdc-81d27463226f/manifests/2/utblac_d5ddf214-248e-462f-acdc-81d27463226f.json"/>
+    <edm:isShownAt rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:d5ddf214-248e-462f-acdc-81d27463226f"/>
+    <edm:isShownBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_d5ddf214-248e-462f-acdc-81d27463226f/TN/utblac_d5ddf214-248e-462f-acdc-81d27463226f.jpg"/>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_d5ddf214-248e-462f-acdc-81d27463226f/PDF/utblac_d5ddf214-248e-462f-acdc-81d27463226f.pdf">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/images/utldams_utblac_d5ddf214-248e-462f-acdc-81d27463226f.jp2">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:dataProvider xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</edm:dataProvider>
+    <edm:aggregatedCHO>
+      <edm:ProvidedCHO rdf:about="https://unlockingarchives.com/relaciones/cho/d5ddf214-248e-462f-acdc-81d27463226f">
+        <dc:language xml:lang="en">Spanish</dc:language>
+        <dcterms:spatial>
+          <edm:Place rdf:about="https://unlockingarchives.com/relaciones/place/culhuacan">
+            <skos:prefLabel xml:lang="en">Mexico (country)| State of Mexico (state)| Culhuacán (city)</skos:prefLabel>
+            <wgs84_pos:long>-99.107265</wgs84_pos:long>
+            <wgs84_pos:lat>19.339773</wgs84_pos:lat>
+          </edm:Place>
+        </dcterms:spatial>
+        <schema:thumbnail rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_d5ddf214-248e-462f-acdc-81d27463226f/TN/utblac_d5ddf214-248e-462f-acdc-81d27463226f.jpg"/>
+        <dc:creator>
+          <edm:Agent rdf:about="https://unlockingarchives.com/relaciones/agent/sanagustin-pedrode">
+            <skos:prefLabel>San Agustín, Pedro de</skos:prefLabel>
+          </edm:Agent>
+        </dc:creator>
+        <dc:creator>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/nunez-frayjuan">
+            <skos:prefLabel>Núñez, Fray Juan</skos:prefLabel>
+          </rdf:Description>
+        </dc:creator>
+        <dc:contributor>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/paz-diegode">
+            <skos:prefLabel>Paz, Diego de</skos:prefLabel>
+          </rdf:Description>
+        </dc:contributor>
+        <edm:hasType rdf:resource="http://vocab.getty.edu/aat/300028233"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >1580-01-17</dcterms:issued>
+        <dc:description xml:lang="en">Visual representation of Culhuacan, located in the Archdiocese of Mexico. Created by Pedro de San Agustín, the map depicts the administrative capital of Culhuacan and its surrounding communities and landscape. Culhuacan is seen with its principal church and nearby pond, paper mill, and a glyph representative of Culhuacan. Footpaths and rivers are visible throughout the map as well as the Cerro de Iztapalapa towards the top of the map. Other communities depicted and labeled include Santiago, San Lorenzo, Santa María, San Andrés, San Pedro, San Sebastián, San Miguel (S Miguel), Santa María Magdalena (Sta María Magdalena), Santa Ana (Sta Ana), San Juan Bautista (S Ju Bautista), Santa Cruz (Sta Cruz), and Santo Bartolomé (Sto Bartolomé). Created in response to question ten listed within the relaciones geográficas questionnaire for Culhuacan.</dc:description>
+        <dc:subject xml:lang="en">Art--16th century--New Spain| Indigenous peoples--Mexico--Art| Indigenous peoples--Mexico--History--Sources| Manuscripts, Mexican| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources</dc:subject>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2022-01-14</dc:date>
+        <dc:publisher xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</dc:publisher>
+        <edm:hasType xml:lang="en">maps (documents)</edm:hasType>
+        <dc:contributor>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/salcedo-franciscode">
+            <skos:prefLabel>Salcedo, Francisco de</skos:prefLabel>
+          </rdf:Description>
+        </dc:contributor>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/nunez-frayjuan"/>
+        <dc:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+        <dc:coverage rdf:resource="http://vocab.getty.edu/aat/300404510"/>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/gallegos-gonzalo"/>
+        <dc:title xml:lang="es">Pintura de Culhuacan</dc:title>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/garciaicazbalceta-joaquin-1825-1894"/>
+        <dc:coverage xml:lang="en">16th century</dc:coverage>
+        <edm:isRelatedTo rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:d47cb590-3bda-4f2c-a48e-2e33b91dda2f"/>
+        <dcterms:alternative xml:lang="es">Descripción de Culhuacan</dcterms:alternative>
+        <edm:type xml:lang="en">maps (documents)</edm:type>
+        <dcterms:extent xml:lang="en">1 map, 70 x 54 cm</dcterms:extent>
+        <dc:identifier>utblac:d5ddf214-248e-462f-acdc-81d27463226f</dc:identifier>
+        <dc:identifier>JGI_XXIII-14_Culhuacan_map</dc:identifier>
+      </edm:ProvidedCHO>
+    </edm:aggregatedCHO>
+  </ore:Aggregation>
+  <ore:Aggregation rdf:about="https://unlockingarchives.com/relaciones/aggregation/e45a4bc1-8115-4938-879d-ac7f93fb5655">
+    <dcterms:isReferencedBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_e45a4bc1-8115-4938-879d-ac7f93fb5655/manifests/2/utblac_e45a4bc1-8115-4938-879d-ac7f93fb5655.json"/>
+    <edm:isShownAt rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:e45a4bc1-8115-4938-879d-ac7f93fb5655"/>
+    <edm:isShownBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_e45a4bc1-8115-4938-879d-ac7f93fb5655/TN/utblac_e45a4bc1-8115-4938-879d-ac7f93fb5655.jpg"/>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_e45a4bc1-8115-4938-879d-ac7f93fb5655/PDF/utblac_e45a4bc1-8115-4938-879d-ac7f93fb5655.pdf">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/images/utldams_utblac_e45a4bc1-8115-4938-879d-ac7f93fb5655.jp2">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:dataProvider xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</edm:dataProvider>
+    <edm:aggregatedCHO>
+      <edm:ProvidedCHO rdf:about="https://unlockingarchives.com/relaciones/cho/e45a4bc1-8115-4938-879d-ac7f93fb5655">
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/garciaicazbalceta-joaquin-1825-1894"/>
+        <edm:isRelatedTo rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:a1d7fe6b-6f27-49c3-9818-8e0666d9dd73"/>
+        <dc:identifier>utblac:e45a4bc1-8115-4938-879d-ac7f93fb5655</dc:identifier>
+        <dc:coverage rdf:resource="http://vocab.getty.edu/aat/300404510"/>
+        <edm:type xml:lang="en">maps (documents)</edm:type>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/gallegos-gonzalo"/>
+        <dc:contributor>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/acebo-gasparde">
+            <skos:prefLabel>Acebo, Gaspar de</skos:prefLabel>
+          </rdf:Description>
+        </dc:contributor>
+        <edm:hasType xml:lang="en">maps (documents)</edm:hasType>
+        <dcterms:spatial>
+          <edm:Place rdf:about="https://unlockingarchives.com/relaciones/place/iztapalapa">
+            <skos:prefLabel xml:lang="en">Mexico (country)| Mexico City (state)| Iztapalapa (city)</skos:prefLabel>
+            <wgs84_pos:long>-99.092485</wgs84_pos:long>
+            <wgs84_pos:lat>19.360932</wgs84_pos:lat>
+          </edm:Place>
+        </dcterms:spatial>
+        <dcterms:alternative xml:lang="es">Descripción de Iztapalapa</dcterms:alternative>
+        <edm:hasType rdf:resource="http://vocab.getty.edu/aat/300028233"/>
+        <dc:title xml:lang="es">Pintura de Iztapalapa</dc:title>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >1580-01-31</dcterms:issued>
+        <dc:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+        <dcterms:extent xml:lang="en">1 map, 42 x 31 cm</dcterms:extent>
+        <dc:contributor>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/loya-franciscode">
+            <skos:prefLabel>Loya, Francisco de</skos:prefLabel>
+          </rdf:Description>
+        </dc:contributor>
+        <dc:coverage xml:lang="en">16th century</dc:coverage>
+        <dc:description xml:lang="en">Visual representation of Iztapalapa, located in the Archdiocese of Mexico. Created by Martín Cano, the map illustrates the administrative capital of Iztapalapa and the surrounding communities and landscape. The principal church of Iztapalapa (San Lucas) is prominently placed near the center of the map, directly above the glyph for the city. The houses of the community are seen to the left and the principal roads to Mexico City and Cuitlahuac and Puebla are also visible. The "Laguna grande" (Lake Texcoco) is also seen at the upper left of the map. The surrounding communities depicted and labeled include San Cristóbal (San Cróbal), Santa María, San Juan, Santa Cruz, and San Felipe. Created in response to question ten listed within the relación geográfica questionnaire for Iztapalapa.</dc:description>
+        <dc:subject xml:lang="en">Art--16th century--New Spain| Indigenous peoples--Mexico--Art| Indigenous peoples--Mexico--History--Sources| Manuscripts, Mexican| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources</dc:subject>
+        <dc:identifier>JGI_XXIV-08_Iztapalapa_map</dc:identifier>
+        <dc:publisher xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</dc:publisher>
+        <dc:language xml:lang="en">Spanish</dc:language>
+        <dc:creator>
+          <edm:Agent rdf:about="https://unlockingarchives.com/relaciones/agent/cano-martin">
+            <skos:prefLabel>Cano, Martín</skos:prefLabel>
+          </edm:Agent>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2022-01-14</dc:date>
+        <schema:thumbnail rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_e45a4bc1-8115-4938-879d-ac7f93fb5655/TN/utblac_e45a4bc1-8115-4938-879d-ac7f93fb5655.jpg"/>
+      </edm:ProvidedCHO>
+    </edm:aggregatedCHO>
+  </ore:Aggregation>
+  <void:Dataset rdf:about="https://txarchives.org/utlac/finding_aids/00056.xml">
+    <dcterms:description>Relaciones Geográficas of Mexico and Guatemala@en</dcterms:description>
+    <foaf:homepage>https://txarchives.org/utlac/finding_aids/00056.xml@en</foaf:homepage>
+  </void:Dataset>
+  <ore:Aggregation rdf:about="https://unlockingarchives.com/relaciones/aggregation/9a78720b-d927-4635-bdc0-9993a3024f9a">
+    <dcterms:isReferencedBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_9a78720b-d927-4635-bdc0-9993a3024f9a/manifests/2/utblac_9a78720b-d927-4635-bdc0-9993a3024f9a.json"/>
+    <edm:isShownAt rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:9a78720b-d927-4635-bdc0-9993a3024f9a"/>
+    <edm:isShownBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_9a78720b-d927-4635-bdc0-9993a3024f9a/TN/utblac_9a78720b-d927-4635-bdc0-9993a3024f9a.jpg"/>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_9a78720b-d927-4635-bdc0-9993a3024f9a/PDF/utblac_9a78720b-d927-4635-bdc0-9993a3024f9a.pdf">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/images/utldams_utblac_9a78720b-d927-4635-bdc0-9993a3024f9a.jp2">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:dataProvider xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</edm:dataProvider>
+    <edm:aggregatedCHO>
+      <edm:ProvidedCHO rdf:about="https://unlockingarchives.com/relaciones/cho/9a78720b-d927-4635-bdc0-9993a3024f9a">
+        <edm:type xml:lang="en">maps (documents)</edm:type>
+        <edm:hasType xml:lang="en">maps (documents)</edm:hasType>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >1580-04-29</dcterms:issued>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/cangasyquinonez-suerode"/>
+        <edm:hasType rdf:resource="http://vocab.getty.edu/aat/300028233"/>
+        <schema:thumbnail rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_9a78720b-d927-4635-bdc0-9993a3024f9a/TN/utblac_9a78720b-d927-4635-bdc0-9993a3024f9a.jpg"/>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/garciaicazbalceta-joaquin-1825-1894"/>
+        <edm:isRelatedTo rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:92548fa7-f6f6-411d-b50d-46d4809a211d"/>
+        <dcterms:spatial>
+          <edm:Place rdf:about="https://unlockingarchives.com/relaciones/place/coatzacoalcos">
+            <skos:prefLabel xml:lang="en">Mexico (country)| Veracruz (state)| Coatzacoalcos (city)</skos:prefLabel>
+            <wgs84_pos:long>-94.416455</wgs84_pos:long>
+            <wgs84_pos:lat>18.147329</wgs84_pos:lat>
+          </edm:Place>
+        </dcterms:spatial>
+        <dc:subject xml:lang="en">Art--16th century--New Spain| Indigenous peoples--Mexico--Art| Indigenous peoples--Mexico--History--Sources| Manuscripts, Mexican| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources</dc:subject>
+        <dc:identifier>utblac:9a78720b-d927-4635-bdc0-9993a3024f9a</dc:identifier>
+        <dc:language xml:lang="en">Spanish</dc:language>
+        <dc:contributor>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/martindevalencia-juan">
+            <skos:prefLabel>Martín de Valencia, Juan</skos:prefLabel>
+          </rdf:Description>
+        </dc:contributor>
+        <dc:identifier>JGI_XXIV-02_Coatzacualco_map</dc:identifier>
+        <dc:coverage rdf:resource="http://vocab.getty.edu/aat/300404510"/>
+        <dc:description xml:lang="en">Visual representation of the Coatzacualco River and the towns on its banks, located in the province of Coatzacualco in the Diocese of Oaxaca. Drawn by Francisco Stroza Gali, the map covers the full course of the river from the Gulf of Mexico to Utatepeque, which is in the province of Teguantepeque. The depths of the water are calculated at the mouth of the river along the coast and there is detail of the towns closest to the Gulf along with some detail of the coastal features including a lake and mountains. The rest of the map is essentially the course of the river with details including the curves, other smaller branches of the river, and dozens sections of rapids. A few other towns are noted but the map focuses on the river and its course. The towns included are Xaltepeque and Utatepeque. Created in response to question ten listed within the relación geográfica questionnaire for Coatzacualco.</dc:description>
+        <dcterms:alternative xml:lang="es">Descripción de la Villa del Espíritu Santo…y un mapa del curso del rio de Goatzcoalcos</dcterms:alternative>
+        <dc:creator>
+          <edm:Agent rdf:about="https://unlockingarchives.com/relaciones/agent/strozagali-francisco">
+            <skos:prefLabel>Stroza Gali, Francisco</skos:prefLabel>
+          </edm:Agent>
+        </dc:creator>
+        <dc:publisher xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</dc:publisher>
+        <dc:coverage xml:lang="en">16th century</dc:coverage>
+        <dcterms:extent xml:lang="en">1 map, 85 x 31 cm</dcterms:extent>
+        <dc:contributor>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/basurto-diego">
+            <skos:prefLabel>Basurto, Diego</skos:prefLabel>
+          </rdf:Description>
+        </dc:contributor>
+        <dc:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+        <dc:contributor>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/hernandezalconohel-gonzalo">
+            <skos:prefLabel>Hernández Alconohel, Gonzalo</skos:prefLabel>
+          </rdf:Description>
+        </dc:contributor>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2022-01-14</dc:date>
+        <dc:title xml:lang="es">Pintura de Coatzacualco</dc:title>
+      </edm:ProvidedCHO>
+    </edm:aggregatedCHO>
+  </ore:Aggregation>
+  <ore:Aggregation rdf:about="https://unlockingarchives.com/relaciones/aggregation/929d3c16-f31f-49a8-910d-71b34cada1e4">
+    <dcterms:isReferencedBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_929d3c16-f31f-49a8-910d-71b34cada1e4/manifests/2/utblac_929d3c16-f31f-49a8-910d-71b34cada1e4.json"/>
+    <edm:isShownAt rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:929d3c16-f31f-49a8-910d-71b34cada1e4"/>
+    <edm:isShownBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_929d3c16-f31f-49a8-910d-71b34cada1e4/TN/utblac_929d3c16-f31f-49a8-910d-71b34cada1e4.jpg"/>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_929d3c16-f31f-49a8-910d-71b34cada1e4/PDF/utblac_929d3c16-f31f-49a8-910d-71b34cada1e4.pdf">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/images/utldams_utblac_929d3c16-f31f-49a8-910d-71b34cada1e4.jp2">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:dataProvider xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</edm:dataProvider>
+    <edm:aggregatedCHO>
+      <edm:ProvidedCHO rdf:about="https://unlockingarchives.com/relaciones/cho/929d3c16-f31f-49a8-910d-71b34cada1e4">
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/carrion-juande"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >1581-05-30</dcterms:issued>
+        <edm:isRelatedTo rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:c967a6e3-9bc2-45b9-91ce-4a9f1792f830"/>
+        <edm:type xml:lang="en">maps (documents)</edm:type>
+        <dc:identifier>JGI_XXIV-05_Zacatlan_map</dc:identifier>
+        <dc:language xml:lang="en">Spanish</dc:language>
+        <edm:hasType xml:lang="en">maps (documents)</edm:hasType>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/garciaicazbalceta-joaquin-1825-1894"/>
+        <dcterms:extent xml:lang="en">1 map, 21.5 x 31 cm</dcterms:extent>
+        <dc:subject xml:lang="en">Art--16th century--New Spain| Indigenous peoples--Mexico--Art| Indigenous peoples--Mexico--History--Sources| Manuscripts, Mexican| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources</dc:subject>
+        <dc:contributor>
+          <edm:Agent rdf:about="https://unlockingarchives.com/relaciones/agent/velasquez-josephde">
+            <skos:prefLabel>Velásquez, Joseph de</skos:prefLabel>
+          </edm:Agent>
+        </dc:contributor>
+        <dc:description xml:lang="en">Visual representation of Zacatlan, located in the Diocese of Tlaxcala. Created by Joseph de Velásquez, the map illustrates the administrative center of Zacatlan and the surrounding communities. Centered on the map is the town of Zacatlan and its church which is connected by roads to the outlying communities. Fifteen communities are represented with traditional houses, but none are labeled on the map. A river is drawn prominently near to Zacatlan along with several plants and a glyph representing the town. Also visible is a prominent fountain near to the church of Zacatlan and a secondary river on the lower half of the map. Created in response to question ten listed within the relación geográfica questionnaire for Hueytlalpa.</dc:description>
+        <dc:title xml:lang="es">Pintura de Zacatlan</dc:title>
+        <dc:identifier>utblac:929d3c16-f31f-49a8-910d-71b34cada1e4</dc:identifier>
+        <schema:thumbnail rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_929d3c16-f31f-49a8-910d-71b34cada1e4/TN/utblac_929d3c16-f31f-49a8-910d-71b34cada1e4.jpg"/>
+        <dc:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+        <dcterms:alternative xml:lang="es">Descripción de Gueytlalpa, Zacatlan, Jujupango, Matlatlan y Chila, Papantla, Tecolutla, Tenanpulco y Matlactonatico</dcterms:alternative>
+        <edm:hasType rdf:resource="http://vocab.getty.edu/aat/300028233"/>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/velasquez-josephde"/>
+        <dc:publisher xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</dc:publisher>
+        <dc:coverage xml:lang="en">16th century</dc:coverage>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2022-01-14</dc:date>
+        <dc:coverage rdf:resource="http://vocab.getty.edu/aat/300404510"/>
+        <dcterms:spatial>
+          <edm:Place rdf:about="https://unlockingarchives.com/relaciones/place/zacatlan">
+            <skos:prefLabel xml:lang="en">Mexico (country)| Puebla (state)| Zacatlán (city)</skos:prefLabel>
+            <wgs84_pos:long>-97.960259</wgs84_pos:long>
+            <wgs84_pos:lat>19.931958</wgs84_pos:lat>
+          </edm:Place>
+        </dcterms:spatial>
+      </edm:ProvidedCHO>
+    </edm:aggregatedCHO>
+  </ore:Aggregation>
+  <ore:Aggregation rdf:about="https://unlockingarchives.com/relaciones/aggregation/5bc4e8a8-3f8f-4729-83c2-49e4f319c3fa">
+    <dcterms:isReferencedBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_5bc4e8a8-3f8f-4729-83c2-49e4f319c3fa/manifests/2/utblac_5bc4e8a8-3f8f-4729-83c2-49e4f319c3fa.json"/>
+    <edm:isShownAt rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:5bc4e8a8-3f8f-4729-83c2-49e4f319c3fa"/>
+    <edm:isShownBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_5bc4e8a8-3f8f-4729-83c2-49e4f319c3fa/TN/utblac_5bc4e8a8-3f8f-4729-83c2-49e4f319c3fa.jpg"/>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_5bc4e8a8-3f8f-4729-83c2-49e4f319c3fa/PDF/utblac_5bc4e8a8-3f8f-4729-83c2-49e4f319c3fa.pdf">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/images/utldams_utblac_5bc4e8a8-3f8f-4729-83c2-49e4f319c3fa.jp2">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:dataProvider xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</edm:dataProvider>
+    <edm:aggregatedCHO>
+      <edm:ProvidedCHO rdf:about="https://unlockingarchives.com/relaciones/cho/5bc4e8a8-3f8f-4729-83c2-49e4f319c3fa">
+        <edm:isRelatedTo rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:c5f60019-ec83-41b3-8641-a383d2a7773c"/>
+        <dc:language xml:lang="en">Spanish</dc:language>
+        <schema:thumbnail rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_5bc4e8a8-3f8f-4729-83c2-49e4f319c3fa/TN/utblac_5bc4e8a8-3f8f-4729-83c2-49e4f319c3fa.jpg"/>
+        <dc:contributor>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/ircio-martinde">
+            <skos:prefLabel>Ircio, Martín de</skos:prefLabel>
+          </rdf:Description>
+        </dc:contributor>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >1580-11-01</dcterms:issued>
+        <dc:contributor>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/aquino-donpablode">
+            <skos:prefLabel>Aquino, Don Pablo de</skos:prefLabel>
+          </rdf:Description>
+        </dc:contributor>
+        <dc:identifier>JGI_XXV-11_Epazoyuca_map</dc:identifier>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/unknown"/>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/garciaicazbalceta-joaquin-1825-1894"/>
+        <dc:contributor>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/guzman-donfranciscode">
+            <skos:prefLabel>Guzmán, Don Francisco de</skos:prefLabel>
+          </rdf:Description>
+        </dc:contributor>
+        <dc:contributor>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/ilmana-juande">
+            <skos:prefLabel>Ilmana, Juan de</skos:prefLabel>
+          </rdf:Description>
+        </dc:contributor>
+        <dc:description xml:lang="en">Visual representation of Epazoyuca, located in the Archdiocese of Mexico. Created by an unknown artist, the map lays out the streets of Epazoyuca in a grid like fashion with the town plaza and church in the center. Most of the other buildings depicted are nondescript dwellings and the streets are also unlabeled. There are several larger roads that are noted with drawn footprints signifying they are more well traveled and connect Epazoyuca with the surrounding areas. At the top of the map is the depiction of a large mountain (Tláloc) which contains the water source for Epazoyuca. The mountain's slopes are adorned with local vegetation including cactus and mazote. At the bottom of the map are rows of irrigated crops. Created in response to question ten listed within the relación geográfica questionnaire for Epazoyuca</dc:description>
+        <dcterms:extent xml:lang="en">1 map, 31 x 21.5 cm</dcterms:extent>
+        <dc:contributor>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/mendoza-diegode">
+            <skos:prefLabel>Mendoza, Diego de</skos:prefLabel>
+          </rdf:Description>
+        </dc:contributor>
+        <dc:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+        <dc:coverage rdf:resource="http://vocab.getty.edu/aat/300404510"/>
+        <dc:title xml:lang="es">Pintura de Epazoyuca</dc:title>
+        <dc:identifier>utblac:5bc4e8a8-3f8f-4729-83c2-49e4f319c3fa</dc:identifier>
+        <dc:publisher xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</dc:publisher>
+        <edm:type xml:lang="en">maps (documents)</edm:type>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2022-01-14</dc:date>
+        <edm:hasType rdf:resource="http://vocab.getty.edu/aat/300028233"/>
+        <dc:contributor>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/osorio-bartolome">
+            <skos:prefLabel>Osorio, Bartolomé</skos:prefLabel>
+          </rdf:Description>
+        </dc:contributor>
+        <dc:coverage xml:lang="en">16th century</dc:coverage>
+        <edm:hasType xml:lang="en">maps (documents)</edm:hasType>
+        <dc:subject xml:lang="en">Art--16th century--New Spain| Indigenous peoples--Mexico--Art| Indigenous peoples--Mexico--History--Sources| Manuscripts, Mexican| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources</dc:subject>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/obregon-luis"/>
+        <dcterms:spatial>
+          <edm:Place rdf:about="https://unlockingarchives.com/relaciones/place/epazoyucan">
+            <skos:prefLabel xml:lang="en">Mexico (country)| Hidalgo (state)| Epazoyucan (city)</skos:prefLabel>
+            <wgs84_pos:long>-98.635318</wgs84_pos:long>
+            <wgs84_pos:lat>20.017849</wgs84_pos:lat>
+          </edm:Place>
+        </dcterms:spatial>
+        <dcterms:alternative xml:lang="es">Descripción de Epazoyuca</dcterms:alternative>
+      </edm:ProvidedCHO>
+    </edm:aggregatedCHO>
+  </ore:Aggregation>
+  <skos:Concept rdf:about="https://unlockingarchives.com/relaciones/roles/artist">
+    <skos:prefLabel xml:lang="en">artist</skos:prefLabel>
+  </skos:Concept>
+  <ore:Aggregation rdf:about="https://unlockingarchives.com/relaciones/aggregation/4283412f-28f4-4452-a1fd-0faef9ed2fcb">
+    <dcterms:isReferencedBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_4283412f-28f4-4452-a1fd-0faef9ed2fcb/manifests/2/utblac_4283412f-28f4-4452-a1fd-0faef9ed2fcb.json"/>
+    <edm:isShownAt rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:4283412f-28f4-4452-a1fd-0faef9ed2fcb"/>
+    <edm:isShownBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_4283412f-28f4-4452-a1fd-0faef9ed2fcb/TN/utblac_4283412f-28f4-4452-a1fd-0faef9ed2fcb.jpg"/>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_4283412f-28f4-4452-a1fd-0faef9ed2fcb/PDF/utblac_4283412f-28f4-4452-a1fd-0faef9ed2fcb.pdf">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/images/utldams_utblac_4283412f-28f4-4452-a1fd-0faef9ed2fcb.jp2">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:dataProvider xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</edm:dataProvider>
+    <edm:aggregatedCHO>
+      <edm:ProvidedCHO rdf:about="https://unlockingarchives.com/relaciones/cho/4283412f-28f4-4452-a1fd-0faef9ed2fcb">
+        <dc:identifier>utblac:4283412f-28f4-4452-a1fd-0faef9ed2fcb</dc:identifier>
+        <dc:publisher xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</dc:publisher>
+        <dcterms:extent xml:lang="en">1 map, 42 x 31 cm</dcterms:extent>
+        <edm:hasType xml:lang="en">maps (documents)</edm:hasType>
+        <dc:contributor>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/aguilera-pedrode">
+            <skos:prefLabel>Aguilera, Pedro de</skos:prefLabel>
+          </rdf:Description>
+        </dc:contributor>
+        <dc:language xml:lang="en">Spanish</dc:language>
+        <dc:title xml:lang="es">Pintura de Atlatlauhca</dc:title>
+        <dcterms:alternative xml:lang="es">Descripción de Atlatlauca</dcterms:alternative>
+        <dc:description xml:lang="en">Visual representation of Atlatlauhca, located in the Archdiocese of Mexico. The map, created by an unknown artist, depicts the administrative capital of Atlatlauhca and the surrounding communities and landscape. The town of Atlatlauhca is seen at the center of the map with its principal church and a few houses. Two large mountains dotted with trees bookend the town, one being identified as Monte de Atlatlauhca. The region water source is just above the town and the map shows the direction of its flow. Footpaths and roads connect Atlatlauhca to the smaller surrounding communities including Suchiaca (and its mountain), Tenantzinco, Teutenango, Calimaya y Tepemaxalco, and Toluca. The map also includes the two towns of San Pedro (San Po) Cihuatepeque (Cihutepeq) and Epayauhtlan (Epayautla), which are subjects of Tacuba. Also shown is the town of Maxteca, which is a subject of Tenango. Created in response to question ten listed within the relación geográfica questionnaire for Atlatlauhca.</dc:description>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >1580-09-17</dcterms:issued>
+        <dc:coverage rdf:resource="http://vocab.getty.edu/aat/300404510"/>
+        <dc:contributor>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/lorenzo-juan">
+            <skos:prefLabel>Lorenzo, Juan</skos:prefLabel>
+          </rdf:Description>
+        </dc:contributor>
+        <edm:hasType rdf:resource="http://vocab.getty.edu/aat/300028233"/>
+        <dc:subject xml:lang="en">Art--16th century--New Spain| Indigenous peoples--Mexico--Art| Indigenous peoples--Mexico--History--Sources| Manuscripts, Mexican| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources</dc:subject>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2022-01-14</dc:date>
+        <edm:isRelatedTo rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:0a22bcf2-b70f-496f-8f8f-83bc1ea94089"/>
+        <dc:coverage xml:lang="en">16th century</dc:coverage>
+        <dc:contributor>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/jacobo-dondiego">
+            <skos:prefLabel>Jacobo, Don Diego</skos:prefLabel>
+          </rdf:Description>
+        </dc:contributor>
+        <dc:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+        <dc:identifier>JGI_XXIII-13_Atlatlauhca_map</dc:identifier>
+        <dc:contributor>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/hernandez-donpablo">
+            <skos:prefLabel>Hernández, Don Pablo</skos:prefLabel>
+          </rdf:Description>
+        </dc:contributor>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/unknown"/>
+        <schema:thumbnail rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_4283412f-28f4-4452-a1fd-0faef9ed2fcb/TN/utblac_4283412f-28f4-4452-a1fd-0faef9ed2fcb.jpg"/>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/garciaicazbalceta-joaquin-1825-1894"/>
+        <dcterms:spatial>
+          <edm:Place rdf:about="https://unlockingarchives.com/relaciones/place/sanbartolomeatlatlahuca">
+            <skos:prefLabel xml:lang="en">Mexico (country)| State of Mexico (state)| San Bartolomé Atlatlahuca (city)</skos:prefLabel>
+            <wgs84_pos:long>-99.611873</wgs84_pos:long>
+            <wgs84_pos:lat>19.06939</wgs84_pos:lat>
+          </edm:Place>
+        </dcterms:spatial>
+        <edm:type xml:lang="en">maps (documents)</edm:type>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/solis-gasparde"/>
+      </edm:ProvidedCHO>
+    </edm:aggregatedCHO>
+  </ore:Aggregation>
+  <ore:Aggregation rdf:about="https://unlockingarchives.com/relaciones/aggregation/874cc4b5-f987-4987-a640-b60133be3d07">
+    <dcterms:isReferencedBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_874cc4b5-f987-4987-a640-b60133be3d07/manifests/2/utblac_874cc4b5-f987-4987-a640-b60133be3d07.json"/>
+    <edm:isShownAt rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:874cc4b5-f987-4987-a640-b60133be3d07"/>
+    <edm:isShownBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_874cc4b5-f987-4987-a640-b60133be3d07/TN/utblac_874cc4b5-f987-4987-a640-b60133be3d07.jpg"/>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_874cc4b5-f987-4987-a640-b60133be3d07/PDF/utblac_874cc4b5-f987-4987-a640-b60133be3d07.pdf">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/images/utldams_utblac_874cc4b5-f987-4987-a640-b60133be3d07.jp2">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:dataProvider xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</edm:dataProvider>
+    <edm:aggregatedCHO>
+      <edm:ProvidedCHO rdf:about="https://unlockingarchives.com/relaciones/cho/874cc4b5-f987-4987-a640-b60133be3d07">
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/velasquez-josephde"/>
+        <edm:type xml:lang="en">maps (documents)</edm:type>
+        <edm:hasType xml:lang="en">maps (documents)</edm:hasType>
+        <dcterms:extent xml:lang="en">1 map, 21.5 x 31 cm</dcterms:extent>
+        <dc:identifier>JGI_XXIV-05_Jujupango_map</dc:identifier>
+        <dcterms:alternative xml:lang="es">Descripción de Gueytlalpa, Zacatlan, Jujupango, Matlatlan y Chila, Papantla, Tecolutla, Tenanpulco y Matlactonatico</dcterms:alternative>
+        <dcterms:spatial>
+          <edm:Place rdf:about="https://unlockingarchives.com/relaciones/place/sanmigueljojupango">
+            <skos:prefLabel xml:lang="en">Mexico (country)| Puebla (state)| San Miguel Jojupango (city)</skos:prefLabel>
+            <wgs84_pos:long>-97.771694</wgs84_pos:long>
+            <wgs84_pos:lat>20.096289</wgs84_pos:lat>
+          </edm:Place>
+        </dcterms:spatial>
+        <edm:hasType rdf:resource="http://vocab.getty.edu/aat/300028233"/>
+        <dc:subject xml:lang="en">Art--16th century--New Spain| Indigenous peoples--Mexico--Art| Indigenous peoples--Mexico--History--Sources| Manuscripts, Mexican| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources</dc:subject>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >1581-05-30</dcterms:issued>
+        <dc:publisher xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</dc:publisher>
+        <dc:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2022-01-14</dc:date>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/garciaicazbalceta-joaquin-1825-1894"/>
+        <dc:coverage rdf:resource="http://vocab.getty.edu/aat/300404510"/>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/velasquez-josephde"/>
+        <schema:thumbnail rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_874cc4b5-f987-4987-a640-b60133be3d07/TN/utblac_874cc4b5-f987-4987-a640-b60133be3d07.jpg"/>
+        <dc:title xml:lang="es">Pintura de Jujupango</dc:title>
+        <edm:isRelatedTo rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:c967a6e3-9bc2-45b9-91ce-4a9f1792f830"/>
+        <dc:language xml:lang="en">Spanish</dc:language>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/carrion-juande"/>
+        <dc:description xml:lang="en">Visual representation of Jujupango, located in the Diocese of Tlaxcala. Created by Joseph de Velásquez, the map illustrates the administrative center of Jujupango along with the named surrounding communities of Amiztlan, Coayango, Quauhtotola (Quatotola), and Tecpatlan. Each town is depicted with a corresponding glyph and toponym. Roads connecting the towns are visible on the map as well as a couple of water sources. Created in response to question ten listed within the relación geográfica questionnaire for Hueytlalpa.</dc:description>
+        <dc:coverage xml:lang="en">16th century</dc:coverage>
+        <dc:identifier>utblac:874cc4b5-f987-4987-a640-b60133be3d07</dc:identifier>
+      </edm:ProvidedCHO>
+    </edm:aggregatedCHO>
+  </ore:Aggregation>
+  <ore:Aggregation rdf:about="https://unlockingarchives.com/relaciones/aggregation/32713c87-b23c-474c-acb9-0757bc1d2dd3">
+    <dcterms:isReferencedBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_32713c87-b23c-474c-acb9-0757bc1d2dd3/manifests/2/utblac_32713c87-b23c-474c-acb9-0757bc1d2dd3.json"/>
+    <edm:isShownAt rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:32713c87-b23c-474c-acb9-0757bc1d2dd3"/>
+    <edm:isShownBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_32713c87-b23c-474c-acb9-0757bc1d2dd3/TN/utblac_32713c87-b23c-474c-acb9-0757bc1d2dd3.jpg"/>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/images/utldams_utblac_32713c87-b23c-474c-acb9-0757bc1d2dd3.jp2">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:dataProvider xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</edm:dataProvider>
+    <edm:aggregatedCHO>
+      <edm:ProvidedCHO rdf:about="https://unlockingarchives.com/relaciones/cho/32713c87-b23c-474c-acb9-0757bc1d2dd3">
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/estrada-juande"/>
+        <edm:hasType rdf:resource="http://vocab.getty.edu/aat/300028233"/>
+        <dc:coverage xml:lang="en">16th century</dc:coverage>
+        <dcterms:extent xml:lang="en">1 map, 40 x 62 cm</dcterms:extent>
+        <dcterms:alternative xml:lang="es">Descripción de Zapotitlan y Suchitepec</dcterms:alternative>
+        <dc:publisher xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</dc:publisher>
+        <dc:identifier>JGI_XX-09_Zapotitlan_map</dc:identifier>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2022-01-14</dc:date>
+        <schema:thumbnail rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_32713c87-b23c-474c-acb9-0757bc1d2dd3/TN/utblac_32713c87-b23c-474c-acb9-0757bc1d2dd3.jpg"/>
+        <dc:identifier>utblac:32713c87-b23c-474c-acb9-0757bc1d2dd3</dc:identifier>
+        <dc:coverage rdf:resource="http://vocab.getty.edu/aat/300404510"/>
+        <dc:title xml:lang="es">Pintura de Zapotitlan</dc:title>
+        <dc:creator>
+          <edm:Agent rdf:about="https://unlockingarchives.com/relaciones/agent/niebla-fernandode">
+            <skos:prefLabel>Niebla, Fernando de</skos:prefLabel>
+          </edm:Agent>
+        </dc:creator>
+        <edm:hasType xml:lang="en">maps (documents)</edm:hasType>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/garciaicazbalceta-joaquin-1825-1894"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >1579-11-22</dcterms:issued>
+        <dc:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/niebla-fernandode"/>
+        <dcterms:spatial>
+          <edm:Place rdf:about="https://unlockingarchives.com/relaciones/place/sanantoniosuchitepequez">
+            <skos:prefLabel xml:lang="en">Guatemala (country)| Suchitepéquez (state)| San Antonio Suchitepéquez (city)</skos:prefLabel>
+            <wgs84_pos:long>-91.41645</wgs84_pos:long>
+            <wgs84_pos:lat>14.539595</wgs84_pos:lat>
+          </edm:Place>
+        </dcterms:spatial>
+        <dc:subject xml:lang="en">Art--16th century--New Spain| Guatemala--History--16th century--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Indigenous peoples--Guatemala--Art| Indigenous peoples--Guatemala--History--Sources</dc:subject>
+        <dc:language xml:lang="en">Spanish</dc:language>
+        <dc:description xml:lang="en">Visual representation of Zapotitlan, located in the Diocese of Guatemala. Created by Fernando de Niebla, the map depicts the coastline near Zapotitlan and the larger area of Suchitepéquez. Visible at the top of the map are the prominent volcanoes in Guatemala near Quetzaltenango, Lake Atitlan, and Guatemala City as well as the prominent rivers that run towards the Pacific coast from the range of volcanoes. The map shows the towns and villages within the depicted region. The population centers are labeled and include a population count. There is also a large depiction of the map and the region at the bottom of the map. Created in response to questions one and ten listed within the relación geográfica questionnaire for Zapotitlan.</dc:description>
+        <edm:isRelatedTo rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:3affb1e7-0e19-4c34-944b-d57313f05482"/>
+        <edm:type xml:lang="en">maps (documents)</edm:type>
+      </edm:ProvidedCHO>
+    </edm:aggregatedCHO>
+  </ore:Aggregation>
+  <ore:Aggregation rdf:about="https://unlockingarchives.com/relaciones/aggregation/90dca2a6-6851-4d2b-b6c9-9fc2b75104b7">
+    <dcterms:isReferencedBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_90dca2a6-6851-4d2b-b6c9-9fc2b75104b7/manifests/2/utblac_90dca2a6-6851-4d2b-b6c9-9fc2b75104b7.json"/>
+    <edm:isShownAt rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:90dca2a6-6851-4d2b-b6c9-9fc2b75104b7"/>
+    <edm:isShownBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_90dca2a6-6851-4d2b-b6c9-9fc2b75104b7/TN/utblac_90dca2a6-6851-4d2b-b6c9-9fc2b75104b7.jpg"/>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/images/utldams_utblac_90dca2a6-6851-4d2b-b6c9-9fc2b75104b7.jp2">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:dataProvider xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</edm:dataProvider>
+    <edm:aggregatedCHO>
+      <edm:ProvidedCHO rdf:about="https://unlockingarchives.com/relaciones/cho/90dca2a6-6851-4d2b-b6c9-9fc2b75104b7">
+        <dc:publisher xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</dc:publisher>
+        <dc:title xml:lang="es">Pintura de Cholula</dc:title>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2022-01-14</dc:date>
+        <schema:thumbnail rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_90dca2a6-6851-4d2b-b6c9-9fc2b75104b7/TN/utblac_90dca2a6-6851-4d2b-b6c9-9fc2b75104b7.jpg"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >1580-11-30</dcterms:issued>
+        <dc:description xml:lang="en">Visual representation of Cholula, located in the Diocese of Tlaxcala. Created by an unknown artist, the map depicts the administrative capital of Cholula and the surrounding six principal neighborhoods of Cholula. The map is laid out in a grid like fashion with each community represented in a quadrant. The city center of San Gabriel de Cholula is seen in the middle of the map and includes the convent, chapel, and church of San Gabriel, the main plaza, fountain, and marketplace. Each of the six neighborhoods is labeled and depicted with its church and a representative image of a mountain. The rest of the map shows the streets connecting the different neighborhoods and depictions of the houses and other buildings of each area. The six neighborhoods are San Miguel Tecpan, Santiago, San Juan, Santa María, San Pablo, and San Andrés. The principal roads are visible, leading to outlying cities like Mexico City, Huexotzingo (Huejotzingo), and Los Ángeles (Puebla). Created in response to question ten listed within the relación geográfica questionnaire for Cholula.</dc:description>
+        <dcterms:spatial>
+          <edm:Place rdf:about="https://unlockingarchives.com/relaciones/place/choluladerivadabia">
+            <skos:prefLabel xml:lang="en">Mexico (country)| Puebla (state)| Cholula de Rivadabia (city)</skos:prefLabel>
+            <wgs84_pos:long>-98.306357</wgs84_pos:long>
+            <wgs84_pos:lat>19.062581</wgs84_pos:lat>
+          </edm:Place>
+        </dcterms:spatial>
+        <edm:type xml:lang="en">maps (documents)</edm:type>
+        <dcterms:extent xml:lang="en">1 map, 43 x 31 cm</dcterms:extent>
+        <dc:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/garciaicazbalceta-joaquin-1825-1894"/>
+        <dc:coverage xml:lang="en">16th century</dc:coverage>
+        <dc:subject xml:lang="en">Art--16th century--New Spain| Indigenous peoples--Mexico--Art| Indigenous peoples--Mexico--History--Sources| Manuscripts, Mexican| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources</dc:subject>
+        <dc:language xml:lang="en">Spanish</dc:language>
+        <dc:contributor>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/rojas-gabrielde">
+            <skos:prefLabel>Rojas, Gabriel de</skos:prefLabel>
+          </rdf:Description>
+        </dc:contributor>
+        <dc:identifier>utblac:90dca2a6-6851-4d2b-b6c9-9fc2b75104b7</dc:identifier>
+        <edm:hasType rdf:resource="http://vocab.getty.edu/aat/300028233"/>
+        <dcterms:alternative xml:lang="es">Descripción de Cholula</dcterms:alternative>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/unknown"/>
+        <edm:isRelatedTo rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:bfe9df59-d0c1-46a6-8c45-0026a345642b"/>
+        <edm:hasType xml:lang="en">maps (documents)</edm:hasType>
+        <dc:coverage rdf:resource="http://vocab.getty.edu/aat/300404510"/>
+        <dc:identifier>JGI_XXIV-01_Cholula_map</dc:identifier>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/rojas-gabrielde"/>
+      </edm:ProvidedCHO>
+    </edm:aggregatedCHO>
+  </ore:Aggregation>
+  <ore:Aggregation rdf:about="https://unlockingarchives.com/relaciones/aggregation/e783be03-6c1a-4c1c-9893-7c568ef18d87">
+    <dcterms:isReferencedBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_e783be03-6c1a-4c1c-9893-7c568ef18d87/manifests/2/utblac_e783be03-6c1a-4c1c-9893-7c568ef18d87.json"/>
+    <edm:isShownAt rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:e783be03-6c1a-4c1c-9893-7c568ef18d87"/>
+    <edm:isShownBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_e783be03-6c1a-4c1c-9893-7c568ef18d87/TN/utblac_e783be03-6c1a-4c1c-9893-7c568ef18d87.jpg"/>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_e783be03-6c1a-4c1c-9893-7c568ef18d87/PDF/utblac_e783be03-6c1a-4c1c-9893-7c568ef18d87.pdf">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/images/utldams_utblac_e783be03-6c1a-4c1c-9893-7c568ef18d87.jp2">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:dataProvider xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</edm:dataProvider>
+    <edm:aggregatedCHO>
+      <edm:ProvidedCHO rdf:about="https://unlockingarchives.com/relaciones/cho/e783be03-6c1a-4c1c-9893-7c568ef18d87">
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/garciaicazbalceta-joaquin-1825-1894"/>
+        <dc:identifier>utblac:e783be03-6c1a-4c1c-9893-7c568ef18d87</dc:identifier>
+        <dc:coverage rdf:resource="http://vocab.getty.edu/aat/300404510"/>
+        <dc:publisher xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</dc:publisher>
+        <edm:type xml:lang="en">maps (documents)</edm:type>
+        <dc:identifier>JGI_XXIV-05_MatlatlanChila_map</dc:identifier>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/carrion-juande"/>
+        <dcterms:alternative xml:lang="es">Descripción de Gueytlalpa, Zacatlan, Jujupango, Matlatlan y Chila, Papantla, Tecolutla, Tenanpulco y Matlactonatico</dcterms:alternative>
+        <dc:language xml:lang="en">Spanish</dc:language>
+        <dc:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2022-01-14</dc:date>
+        <dc:coverage xml:lang="en">16th century</dc:coverage>
+        <dc:title xml:lang="es">Pintura de Matlatlan y Chila</dc:title>
+        <edm:hasType rdf:resource="http://vocab.getty.edu/aat/300028233"/>
+        <edm:isRelatedTo rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:c967a6e3-9bc2-45b9-91ce-4a9f1792f830"/>
+        <edm:hasType xml:lang="en">maps (documents)</edm:hasType>
+        <dc:description xml:lang="en">Visual representation of Matlatlan y Chila, located in the Diocese of Tlaxcala. Created by Joseph de Velásquez, the map illustrates the administrative centers of Matlatlan and Chila and their surrounding communities. Centered on the map are the two towns of Matlatlan and Chila with their corresponding glyphs. Chila is depicted with a toponym of a chile pepper. A river divides the two administrative centers, essentially dividing the map in two parts: Chila on the top part with its eight surrounding communities and Matlatlan on the lower part with its seven surrounding communities. Created in response to question ten listed within the relación geográfica questionnaire for Hueytlalpa.</dc:description>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >1581-05-30</dcterms:issued>
+        <dcterms:extent xml:lang="en">1 map, 21.5 x 31 cm</dcterms:extent>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/velasquez-josephde"/>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/velasquez-josephde"/>
+        <dc:subject xml:lang="en">Art--16th century--New Spain| Indigenous peoples--Mexico--Art| Indigenous peoples--Mexico--History--Sources| Manuscripts, Mexican| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources</dc:subject>
+        <dcterms:spatial>
+          <edm:Place rdf:about="https://unlockingarchives.com/relaciones/place/chila">
+            <skos:prefLabel xml:lang="en">Mexico (country)| Puebla (state)| Chila (city)</skos:prefLabel>
+            <wgs84_pos:long>-97.860806</wgs84_pos:long>
+            <wgs84_pos:lat>17.970267</wgs84_pos:lat>
+          </edm:Place>
+        </dcterms:spatial>
+        <schema:thumbnail rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_e783be03-6c1a-4c1c-9893-7c568ef18d87/TN/utblac_e783be03-6c1a-4c1c-9893-7c568ef18d87.jpg"/>
+      </edm:ProvidedCHO>
+    </edm:aggregatedCHO>
+  </ore:Aggregation>
+  <ore:Aggregation rdf:about="https://unlockingarchives.com/relaciones/aggregation/9202cf3b-3a38-4498-89bc-67d0b03e9509">
+    <dcterms:isReferencedBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_9202cf3b-3a38-4498-89bc-67d0b03e9509/manifests/2/utblac_9202cf3b-3a38-4498-89bc-67d0b03e9509.json"/>
+    <edm:isShownAt rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:9202cf3b-3a38-4498-89bc-67d0b03e9509"/>
+    <edm:isShownBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_9202cf3b-3a38-4498-89bc-67d0b03e9509/TN/utblac_9202cf3b-3a38-4498-89bc-67d0b03e9509.jpg"/>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/images/utldams_utblac_9202cf3b-3a38-4498-89bc-67d0b03e9509.jp2">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:dataProvider xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</edm:dataProvider>
+    <edm:aggregatedCHO>
+      <edm:ProvidedCHO rdf:about="https://unlockingarchives.com/relaciones/cho/9202cf3b-3a38-4498-89bc-67d0b03e9509">
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/gutierrezdeliebana-juan"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >1580-10-10</dcterms:issued>
+        <dc:coverage rdf:resource="http://vocab.getty.edu/aat/300404510"/>
+        <dc:creator>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/cortes-pablo">
+            <skos:prefLabel>Cortés, Pablo</skos:prefLabel>
+          </rdf:Description>
+        </dc:creator>
+        <dcterms:alternative xml:lang="es">Descripción de Acapistla</dcterms:alternative>
+        <edm:hasType xml:lang="en">maps (documents)</edm:hasType>
+        <edm:hasType rdf:resource="http://vocab.getty.edu/aat/300028233"/>
+        <dcterms:extent xml:lang="en">1 map, 85 x 62 cm</dcterms:extent>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/garciaruiz-hernan"/>
+        <dc:creator>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/sanjuan-martinde">
+            <skos:prefLabel>San Juan, Martín de</skos:prefLabel>
+          </rdf:Description>
+        </dc:creator>
+        <dc:identifier>JGI_XXIII-08_Acapistla_map</dc:identifier>
+        <dc:creator>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/cruz-gabrieldela">
+            <skos:prefLabel>Cruz, Gabriel de la</skos:prefLabel>
+          </rdf:Description>
+        </dc:creator>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/gutierrezdeliebana-juan"/>
+        <dc:description xml:lang="en">Visual representation of the administrative capital of Acapistla and its surroundings located within the Archdiocese of Mexico. Created by an unknown indigenous artist, the map illustrates the local water sources and the roads connecting the economic and political center of Acapistla to sixteen surrounding communities. The principal church of Acapistla with its atrium and water well is centered on the map and is surrounded by the smaller communities of Texcala, Atlitiqui, Suchitlan, Zuquiapa, Ayapanco, Itlacan, Tecaxiqui, Tecocuzpa, Zahuatlan, Tetliculuca, Calalpa, Ecatepeque, Zacatepeque, Atlahuymulco, and Pazulco. In addition, four different toponyms are visible along with depictions of mountains and rivers. Created in response to question ten listed within the relación geográfica questionnaire for Acapistla.</dc:description>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/unknown"/>
+        <edm:type xml:lang="en">maps (documents)</edm:type>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/garciaicazbalceta-joaquin-1825-1894"/>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/perales-franciscode"/>
+        <schema:thumbnail rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_9202cf3b-3a38-4498-89bc-67d0b03e9509/TN/utblac_9202cf3b-3a38-4498-89bc-67d0b03e9509.jpg"/>
+        <dc:coverage xml:lang="en">16th century</dc:coverage>
+        <dc:subject xml:lang="en">Art--16th century--New Spain| Indigenous peoples--Mexico--Art| Indigenous peoples--Mexico--History--Sources| Manuscripts, Mexican| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources</dc:subject>
+        <dc:language xml:lang="en">Spanish</dc:language>
+        <dc:publisher xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</dc:publisher>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2022-01-14</dc:date>
+        <dc:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+        <dc:identifier>utblac:9202cf3b-3a38-4498-89bc-67d0b03e9509</dc:identifier>
+        <dcterms:spatial>
+          <edm:Place rdf:about="https://unlockingarchives.com/relaciones/place/yecapixtla">
+            <skos:prefLabel xml:lang="en">Mexico (country)| Morelos (state)| Yecapixtla (city)</skos:prefLabel>
+            <wgs84_pos:long>-98.866007</wgs84_pos:long>
+            <wgs84_pos:lat>18.883171</wgs84_pos:lat>
+          </edm:Place>
+        </dcterms:spatial>
+        <dc:title xml:lang="es">Pintura de Acapistla</dc:title>
+        <edm:isRelatedTo rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:740d6d5b-280a-45f4-a3b6-e4382efb6c8f"/>
+      </edm:ProvidedCHO>
+    </edm:aggregatedCHO>
+  </ore:Aggregation>
+  <ore:Aggregation rdf:about="https://unlockingarchives.com/relaciones/aggregation/d6360c5d-e505-49af-84a3-b2538f7be43b">
+    <dcterms:isReferencedBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_d6360c5d-e505-49af-84a3-b2538f7be43b/manifests/2/utblac_d6360c5d-e505-49af-84a3-b2538f7be43b.json"/>
+    <edm:isShownAt rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:d6360c5d-e505-49af-84a3-b2538f7be43b"/>
+    <edm:isShownBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_d6360c5d-e505-49af-84a3-b2538f7be43b/TN/utblac_d6360c5d-e505-49af-84a3-b2538f7be43b.jpg"/>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_d6360c5d-e505-49af-84a3-b2538f7be43b/PDF/utblac_d6360c5d-e505-49af-84a3-b2538f7be43b.pdf">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/images/utldams_utblac_d6360c5d-e505-49af-84a3-b2538f7be43b.jp2">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:dataProvider xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</edm:dataProvider>
+    <edm:aggregatedCHO>
+      <edm:ProvidedCHO rdf:about="https://unlockingarchives.com/relaciones/cho/d6360c5d-e505-49af-84a3-b2538f7be43b">
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/garciaicazbalceta-joaquin-1825-1894"/>
+        <dc:identifier>utblac:d6360c5d-e505-49af-84a3-b2538f7be43b</dc:identifier>
+        <dcterms:extent xml:lang="en">1 map, 77 x 56 cm</dcterms:extent>
+        <dc:publisher xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</dc:publisher>
+        <edm:hasType xml:lang="en">maps (documents)</edm:hasType>
+        <dc:description xml:lang="en">Visual representation of Atengo and Misquihuala, towns in the archbishopric of Mexico. Created by a local, Indigenous artist, the map illustrates the positioning and boundaries between Santa María de Atengo, Misquiahuala, and Tesontepeque. Outlying, smaller communities are also depicted as well as the landscape and geographical features of the region. Other communities shown are Tecapatepeque, Tula, and Tepeitic (Tepeiti) and the properties listed include Juan de Cabrera, Martín Cerón, and Jerónimo López (Jrmo Lópz). The map also features dozens of glyphs representing communities such as "cerro con cuchillo de pedernal" for Tecpatepec, "Cerro con cuenta de collar" for Cuzcatepec and "Cerro con culebra" for Coatepec. Created in response to question ten listed within the relación geográfica questionnaire for Atengo y Misquiahuala.</dc:description>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/unknown"/>
+        <edm:type xml:lang="en">maps (documents)</edm:type>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2022-01-14</dc:date>
+        <dc:title xml:lang="es">Pintura de Atengo y Misquiahuala</dc:title>
+        <dcterms:spatial>
+          <edm:Place rdf:about="https://unlockingarchives.com/relaciones/place/mixquiahualadejuarez">
+            <skos:prefLabel xml:lang="en">Mexico (country)| Hidalgo (state)| Atengo (city)| Mexico (country)| Hidalgo (state)| Mixquiahuala de Juárez (city)</skos:prefLabel>
+            <wgs84_pos:long>-99.332347</wgs84_pos:long>
+            <wgs84_pos:lat>20.176589</wgs84_pos:lat>
+          </edm:Place>
+        </dcterms:spatial>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >1579-10-08</dcterms:issued>
+        <dc:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+        <dcterms:alternative xml:lang="es">Descripción de Atengo y Misquiahuala</dcterms:alternative>
+        <edm:hasType rdf:resource="http://vocab.getty.edu/aat/300028233"/>
+        <dc:contributor>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/fernandezdecordoba-francisco">
+            <skos:prefLabel>Fernández de Córdoba, Francisco</skos:prefLabel>
+          </rdf:Description>
+        </dc:contributor>
+        <edm:isRelatedTo rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:e9055aaa-903a-4cc3-9611-da0015c607f1"/>
+        <dc:subject xml:lang="en">Art--16th century--New Spain| Indigenous peoples--Mexico--Art| Indigenous peoples--Mexico--History--Sources| Manuscripts, Mexican| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources</dc:subject>
+        <dc:identifier>JGI_XXIII-12_AtengoMisquiahuala_map</dc:identifier>
+        <schema:thumbnail rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_d6360c5d-e505-49af-84a3-b2538f7be43b/TN/utblac_d6360c5d-e505-49af-84a3-b2538f7be43b.jpg"/>
+        <dc:coverage rdf:resource="http://vocab.getty.edu/aat/300404510"/>
+        <dc:coverage xml:lang="en">16th century</dc:coverage>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/padilla-juande"/>
+        <dc:language xml:lang="en">Spanish</dc:language>
+      </edm:ProvidedCHO>
+    </edm:aggregatedCHO>
+  </ore:Aggregation>
+  <ore:Aggregation rdf:about="https://unlockingarchives.com/relaciones/aggregation/d3b0a22d-e861-4ccd-a7df-b2be938c1b00">
+    <dcterms:isReferencedBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_d3b0a22d-e861-4ccd-a7df-b2be938c1b00/manifests/2/utblac_d3b0a22d-e861-4ccd-a7df-b2be938c1b00.json"/>
+    <edm:isShownAt rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:d3b0a22d-e861-4ccd-a7df-b2be938c1b00"/>
+    <edm:isShownBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_d3b0a22d-e861-4ccd-a7df-b2be938c1b00/TN/utblac_d3b0a22d-e861-4ccd-a7df-b2be938c1b00.jpg"/>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_d3b0a22d-e861-4ccd-a7df-b2be938c1b00/PDF/utblac_d3b0a22d-e861-4ccd-a7df-b2be938c1b00.pdf">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/images/utldams_utblac_d3b0a22d-e861-4ccd-a7df-b2be938c1b00.jp2">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:dataProvider xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</edm:dataProvider>
+    <edm:aggregatedCHO>
+      <edm:ProvidedCHO rdf:about="https://unlockingarchives.com/relaciones/cho/d3b0a22d-e861-4ccd-a7df-b2be938c1b00">
+        <edm:type xml:lang="en">maps (documents)</edm:type>
+        <dc:subject xml:lang="en">Art--16th century--New Spain| Indigenous peoples--Mexico--Art| Indigenous peoples--Mexico--History--Sources| Manuscripts, Mexican| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources</dc:subject>
+        <schema:thumbnail rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_d3b0a22d-e861-4ccd-a7df-b2be938c1b00/TN/utblac_d3b0a22d-e861-4ccd-a7df-b2be938c1b00.jpg"/>
+        <dc:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/velasquez-josephde"/>
+        <dc:coverage xml:lang="en">16th century</dc:coverage>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/carrion-juande"/>
+        <dc:identifier>JGI_XXIV-05_TenanpulcoMatlactonatico_map</dc:identifier>
+        <dc:coverage rdf:resource="http://vocab.getty.edu/aat/300404510"/>
+        <dc:publisher xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</dc:publisher>
+        <edm:hasType xml:lang="en">maps (documents)</edm:hasType>
+        <dc:identifier>utblac:d3b0a22d-e861-4ccd-a7df-b2be938c1b00</dc:identifier>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/garciaicazbalceta-joaquin-1825-1894"/>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/velasquez-josephde"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2022-01-14</dc:date>
+        <dcterms:extent xml:lang="en">1 map, 21.5 x 31 cm</dcterms:extent>
+        <dcterms:alternative xml:lang="es">Descripción de Gueytlalpa, Zacatlan, Jujupango, Matlatlan y Chila, Papantla, Tecolutla, Tenanpulco y Matlactonatico</dcterms:alternative>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >1581-05-30</dcterms:issued>
+        <edm:isRelatedTo rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:c967a6e3-9bc2-45b9-91ce-4a9f1792f830"/>
+        <dc:language xml:lang="en">Spanish</dc:language>
+        <dcterms:spatial>
+          <edm:Place rdf:about="https://unlockingarchives.com/relaciones/place/tenampulco">
+            <skos:prefLabel xml:lang="en">Mexico (country)| Puebla (state)| Tenampulco (city)</skos:prefLabel>
+            <wgs84_pos:long>-97.405858</wgs84_pos:long>
+            <wgs84_pos:lat>20.171199</wgs84_pos:lat>
+          </edm:Place>
+        </dcterms:spatial>
+        <edm:hasType rdf:resource="http://vocab.getty.edu/aat/300028233"/>
+        <dc:description xml:lang="en">Visual representation of Tenanpulco y Matlactonatico, located in Diocese of Tlaxcala. Created by Joseph de Velásquez, the map illustrates the towns of Tenanpulco and Matlactonatico and their surrounding communities. Both Tenanpulco and Matlactonatico are labeled and shown with rock foundations and a glyph while the four other surrounding towns are unlabeled. Also seen on the map is a prominent river towards the bottom and a drawing of a large cow with a label saying that this area is one of cow pastures. Created in response to question ten listed within the relación geográfica questionnaire for Hueytlalpa.</dc:description>
+        <dc:title xml:lang="es">Pintura de Tenanpulco y Matlactonatico</dc:title>
+      </edm:ProvidedCHO>
+    </edm:aggregatedCHO>
+  </ore:Aggregation>
+  <ore:Aggregation rdf:about="https://unlockingarchives.com/relaciones/aggregation/627cf1b7-9f91-4df6-8101-c5a8b5e55272">
+    <dcterms:isReferencedBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_627cf1b7-9f91-4df6-8101-c5a8b5e55272/manifests/2/utblac_627cf1b7-9f91-4df6-8101-c5a8b5e55272.json"/>
+    <edm:isShownAt rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:627cf1b7-9f91-4df6-8101-c5a8b5e55272"/>
+    <edm:isShownBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_627cf1b7-9f91-4df6-8101-c5a8b5e55272/TN/utblac_627cf1b7-9f91-4df6-8101-c5a8b5e55272.jpg"/>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_627cf1b7-9f91-4df6-8101-c5a8b5e55272/PDF/utblac_627cf1b7-9f91-4df6-8101-c5a8b5e55272.pdf">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/images/utldams_utblac_627cf1b7-9f91-4df6-8101-c5a8b5e55272.jp2">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:dataProvider xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</edm:dataProvider>
+    <edm:aggregatedCHO>
+      <edm:ProvidedCHO rdf:about="https://unlockingarchives.com/relaciones/cho/627cf1b7-9f91-4df6-8101-c5a8b5e55272">
+        <dc:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/carrion-juande"/>
+        <schema:thumbnail rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_627cf1b7-9f91-4df6-8101-c5a8b5e55272/TN/utblac_627cf1b7-9f91-4df6-8101-c5a8b5e55272.jpg"/>
+        <dc:description xml:lang="en">Visual representation of Papantla, located in the Diocese of Tlaxcala. Created by Joseph de Velásquez, the map illustrates the administrative center of Papantla and the surrounding communities. Centered on the left side of the map is the town of Papantla which is connected by roads to the outlying communities. Three communities are represented with traditional houses, but none are labeled on the map. Papantla is depicted with a glyph and a toponym of a bird. Created in response to question ten listed within the relación geográfica questionnaire for Hueytlalpa.</dc:description>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/velasquez-josephde"/>
+        <edm:type xml:lang="en">maps (documents)</edm:type>
+        <edm:isRelatedTo rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:c967a6e3-9bc2-45b9-91ce-4a9f1792f830"/>
+        <dcterms:extent xml:lang="en">1 map, 21.5 x 31 cm</dcterms:extent>
+        <edm:hasType xml:lang="en">maps (documents)</edm:hasType>
+        <dc:identifier>JGI_XXIV-05_Papantla_map</dc:identifier>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/velasquez-josephde"/>
+        <dc:title xml:lang="es">Pintura de Papantla</dc:title>
+        <dc:subject xml:lang="en">Art--16th century--New Spain| Indigenous peoples--Mexico--Art| Indigenous peoples--Mexico--History--Sources| Manuscripts, Mexican| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources</dc:subject>
+        <dcterms:alternative xml:lang="es">Descripción de Gueytlalpa, Zacatlan, Jujupango, Matlatlan y Chila, Papantla, Tecolutla, Tenanpulco y Matlactonatico</dcterms:alternative>
+        <dc:language xml:lang="en">Spanish</dc:language>
+        <dc:identifier>utblac:627cf1b7-9f91-4df6-8101-c5a8b5e55272</dc:identifier>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >1581-05-30</dcterms:issued>
+        <dcterms:spatial>
+          <edm:Place rdf:about="https://unlockingarchives.com/relaciones/place/papantladeolarte">
+            <skos:prefLabel xml:lang="en">Mexico (country)| Veracruz (state)| Papantla de Olarte (city)</skos:prefLabel>
+            <wgs84_pos:long>-97.322151</wgs84_pos:long>
+            <wgs84_pos:lat>20.446642</wgs84_pos:lat>
+          </edm:Place>
+        </dcterms:spatial>
+        <dc:coverage rdf:resource="http://vocab.getty.edu/aat/300404510"/>
+        <dc:coverage xml:lang="en">16th century</dc:coverage>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/garciaicazbalceta-joaquin-1825-1894"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2022-01-14</dc:date>
+        <dc:publisher xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</dc:publisher>
+        <edm:hasType rdf:resource="http://vocab.getty.edu/aat/300028233"/>
+      </edm:ProvidedCHO>
+    </edm:aggregatedCHO>
+  </ore:Aggregation>
+  <ore:Aggregation rdf:about="https://unlockingarchives.com/relaciones/aggregation/9abf4616-db21-4905-affb-54b77b89c501">
+    <dcterms:isReferencedBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_9abf4616-db21-4905-affb-54b77b89c501/manifests/2/utblac_9abf4616-db21-4905-affb-54b77b89c501.json"/>
+    <edm:isShownAt rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:9abf4616-db21-4905-affb-54b77b89c501"/>
+    <edm:isShownBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_9abf4616-db21-4905-affb-54b77b89c501/TN/utblac_9abf4616-db21-4905-affb-54b77b89c501.jpg"/>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_9abf4616-db21-4905-affb-54b77b89c501/PDF/utblac_9abf4616-db21-4905-affb-54b77b89c501.pdf">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/images/utldams_utblac_9abf4616-db21-4905-affb-54b77b89c501.jp2">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:dataProvider xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</edm:dataProvider>
+    <edm:aggregatedCHO>
+      <edm:ProvidedCHO rdf:about="https://unlockingarchives.com/relaciones/cho/9abf4616-db21-4905-affb-54b77b89c501">
+        <edm:hasType rdf:resource="http://vocab.getty.edu/aat/300028233"/>
+        <dcterms:extent xml:lang="en">1 map, 21.5 x 31 cm</dcterms:extent>
+        <dcterms:alternative xml:lang="es">Descripción de Gueytlalpa (Zacatlan, Jujupango, Matlatlan y Chila, Papantla, Tecolutla, Tenanpulco y Matlactonatico)</dcterms:alternative>
+        <dc:identifier>utblac:9abf4616-db21-4905-affb-54b77b89c501</dc:identifier>
+        <dc:title xml:lang="es">Pintura de Hueytlalpa</dc:title>
+        <dc:identifier>JGI_XXIV-05_Hueytlalpa_map</dc:identifier>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >1581-05-30</dcterms:issued>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/velasquez-josephde"/>
+        <edm:hasType xml:lang="en">maps (documents)</edm:hasType>
+        <schema:thumbnail rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_9abf4616-db21-4905-affb-54b77b89c501/TN/utblac_9abf4616-db21-4905-affb-54b77b89c501.jpg"/>
+        <dc:description xml:lang="en">Visual representation of Hueytlalpa, located in the Diocese of Tlaxcala. Created by Joseph de Velásquez, the map illustrates the administrative center of Hueytlalpa and the surrounding communities. Centered on the map is the town of Hueytlalpa and its church which is connected by roads to the outlying communities. Twenty communities are represented with traditional houses, but none are labeled on the map. A river is visible on the left of the map along with a water source near the principal church of Hueytlalpa. Created in response to question ten listed within the relación geográfica questionnaire for Hueytlalpa.</dc:description>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/garciaicazbalceta-joaquin-1825-1894"/>
+        <dc:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+        <edm:isRelatedTo rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:c967a6e3-9bc2-45b9-91ce-4a9f1792f830"/>
+        <dc:publisher xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</dc:publisher>
+        <dc:language xml:lang="en">Spanish</dc:language>
+        <dcterms:spatial>
+          <edm:Place rdf:about="https://unlockingarchives.com/relaciones/place/hueytlalpan">
+            <skos:prefLabel xml:lang="en">Mexico (country)| Puebla (state)| Hueytlalpan (city)</skos:prefLabel>
+            <wgs84_pos:long>-97.696745</wgs84_pos:long>
+            <wgs84_pos:lat>20.026808</wgs84_pos:lat>
+          </edm:Place>
+        </dcterms:spatial>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/velasquez-josephde"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2022-01-14</dc:date>
+        <edm:type xml:lang="en">maps (documents)</edm:type>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/carrion-juande"/>
+        <dc:coverage xml:lang="en">16th century</dc:coverage>
+        <dc:coverage rdf:resource="http://vocab.getty.edu/aat/300404510"/>
+        <dc:subject xml:lang="en">Art--16th century--New Spain| Indigenous peoples--Mexico--Art| Indigenous peoples--Mexico--History--Sources| Manuscripts, Mexican| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources</dc:subject>
+      </edm:ProvidedCHO>
+    </edm:aggregatedCHO>
+  </ore:Aggregation>
+  <ore:Aggregation rdf:about="https://unlockingarchives.com/relaciones/aggregation/b35a74c8-358b-4192-8c61-9668332985dd">
+    <dcterms:isReferencedBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_b35a74c8-358b-4192-8c61-9668332985dd/manifests/2/utblac_b35a74c8-358b-4192-8c61-9668332985dd.json"/>
+    <edm:isShownAt rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:b35a74c8-358b-4192-8c61-9668332985dd"/>
+    <edm:isShownBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_b35a74c8-358b-4192-8c61-9668332985dd/TN/utblac_b35a74c8-358b-4192-8c61-9668332985dd.jpg"/>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_b35a74c8-358b-4192-8c61-9668332985dd/PDF/utblac_b35a74c8-358b-4192-8c61-9668332985dd.pdf">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/images/utldams_utblac_b35a74c8-358b-4192-8c61-9668332985dd.jp2">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:dataProvider xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</edm:dataProvider>
+    <edm:aggregatedCHO>
+      <edm:ProvidedCHO rdf:about="https://unlockingarchives.com/relaciones/cho/b35a74c8-358b-4192-8c61-9668332985dd">
+        <dc:identifier>utblac:b35a74c8-358b-4192-8c61-9668332985dd</dc:identifier>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2022-01-14</dc:date>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/unknown"/>
+        <edm:isRelatedTo rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:f87917e2-e3c9-4eb2-a838-51ea2975c655"/>
+        <dc:contributor>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/umana-juande">
+            <skos:prefLabel>Umana, Juan de</skos:prefLabel>
+          </rdf:Description>
+        </dc:contributor>
+        <dc:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+        <dcterms:spatial>
+          <edm:Place rdf:about="https://unlockingarchives.com/relaciones/place/zempoala">
+            <skos:prefLabel xml:lang="en">Mexico (country)| Hidalgo (state)| Zempoala (city)</skos:prefLabel>
+            <wgs84_pos:long>-98.668525</wgs84_pos:long>
+            <wgs84_pos:lat>19.915595</wgs84_pos:lat>
+          </edm:Place>
+        </dcterms:spatial>
+        <dc:description xml:lang="en">Visual representation of Cempoala and its surroundings, located within the Archdiocese of Mexico. Cempoala is also known by the indigenous name of Campoli. Created by an unknown indigenous artist, the map features dozens of toponyms, and dozens of glyphs with identifying captions representing natural resources, animals, churches, and other places throughout the depicted region. The map also features thirteen named human figures, representing both Spanish and indigenous people. Featured prominently on the map is the glyph for Campoli, the altepetl, or city-state, of the region. The glyph is of a large hill topped with the drawing of a head of a Totonac (indigenous group of Campoli). Other items to note include the Acueducto del Padre Tembleque and its route that leads to the main church Todos Santos in Campoli, the human figures that are identified and typically associated with a smaller town within the region, and the numerous glyphs that signify the natural resources, animals, and other items of note within the region. Created in response to question ten listed within the relaciones geográficas questionnaire for Cempoala.</dc:description>
+        <dc:coverage rdf:resource="http://vocab.getty.edu/aat/300404510"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >1580-11-01</dcterms:issued>
+        <dcterms:alternative xml:lang="es">Descripción de Zempoala</dcterms:alternative>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/ircio-martinde"/>
+        <edm:type xml:lang="en">maps (documents)</edm:type>
+        <dc:title xml:lang="es">Pintura de Cempoala</dc:title>
+        <edm:hasType xml:lang="en">maps (documents)</edm:hasType>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/garciaicazbalceta-joaquin-1825-1894"/>
+        <edm:hasType rdf:resource="http://vocab.getty.edu/aat/300028233"/>
+        <dc:language xml:lang="en">Spanish</dc:language>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/obregon-luisde"/>
+        <dc:identifier>JGI_XXV-10_Cempoala_map</dc:identifier>
+        <dcterms:extent xml:lang="en">1 map, 83 x 66 cm</dcterms:extent>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/osorio-bartolome"/>
+        <dc:coverage xml:lang="en">16th century</dc:coverage>
+        <dc:publisher xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</dc:publisher>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/aquino-donpablode"/>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/mendoza-diegode"/>
+        <schema:thumbnail rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_b35a74c8-358b-4192-8c61-9668332985dd/TN/utblac_b35a74c8-358b-4192-8c61-9668332985dd.jpg"/>
+        <dc:subject xml:lang="en">Art--16th century--New Spain| Indigenous peoples--Mexico--Art| Indigenous peoples--Mexico--History--Sources| Manuscripts, Mexican| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources</dc:subject>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/guzman-donfranciscode"/>
+      </edm:ProvidedCHO>
+    </edm:aggregatedCHO>
+  </ore:Aggregation>
+  <ore:Aggregation rdf:about="https://unlockingarchives.com/relaciones/aggregation/28734f55-c00f-4426-b517-6052fd2145ba">
+    <dcterms:isReferencedBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_28734f55-c00f-4426-b517-6052fd2145ba/manifests/2/utblac_28734f55-c00f-4426-b517-6052fd2145ba.json"/>
+    <edm:isShownAt rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:28734f55-c00f-4426-b517-6052fd2145ba"/>
+    <edm:isShownBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_28734f55-c00f-4426-b517-6052fd2145ba/TN/utblac_28734f55-c00f-4426-b517-6052fd2145ba.jpg"/>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_28734f55-c00f-4426-b517-6052fd2145ba/PDF/utblac_28734f55-c00f-4426-b517-6052fd2145ba.pdf">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/images/utldams_utblac_28734f55-c00f-4426-b517-6052fd2145ba.jp2">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:dataProvider xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</edm:dataProvider>
+    <edm:aggregatedCHO>
+      <edm:ProvidedCHO rdf:about="https://unlockingarchives.com/relaciones/cho/28734f55-c00f-4426-b517-6052fd2145ba">
+        <dc:coverage xml:lang="en">16th century</dc:coverage>
+        <dc:subject xml:lang="en">Art--16th century--New Spain| Indigenous peoples--Mexico--Art| Indigenous peoples--Mexico--History--Sources| Manuscripts, Mexican| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources</dc:subject>
+        <edm:isRelatedTo rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:c967a6e3-9bc2-45b9-91ce-4a9f1792f830"/>
+        <dc:publisher xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</dc:publisher>
+        <schema:thumbnail rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_28734f55-c00f-4426-b517-6052fd2145ba/TN/utblac_28734f55-c00f-4426-b517-6052fd2145ba.jpg"/>
+        <dcterms:extent xml:lang="en">1 map, 21.5 x 31 cm</dcterms:extent>
+        <edm:type xml:lang="en">maps (documents)</edm:type>
+        <dc:language xml:lang="en">Spanish</dc:language>
+        <dc:description xml:lang="en">Visual representation of Tecolutla, located in the Diocese of Tlaxcala. Created by Joseph de Velásquez, the map illustrates the port town of Tecolutla and the surrounding area. A cow is featured prominently on the map signifying that this area is one of agriculture and cow pastures. 6 traditional houses are also shown along with a large river labeled as Río de San Pedro y San Pablo (Río Tecolutla). At the bottom of the map the Mar del Norte (Gulf of Mexico) is depicted with a boat and a label saying that the people in this area are fishermen. Created in response to question ten listed within the relación geográfica questionnaire for Hueytlalpa.</dc:description>
+        <dc:coverage rdf:resource="http://vocab.getty.edu/aat/300404510"/>
+        <dc:identifier>utblac:28734f55-c00f-4426-b517-6052fd2145ba</dc:identifier>
+        <dc:identifier>JGI_XXIV-05_Tecolutla_map</dc:identifier>
+        <dc:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+        <edm:hasType rdf:resource="http://vocab.getty.edu/aat/300028233"/>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/velasquez-josephde"/>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/velasquez-josephde"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2022-01-14</dc:date>
+        <edm:hasType xml:lang="en">maps (documents)</edm:hasType>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/garciaicazbalceta-joaquin-1825-1894"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >1581-05-30</dcterms:issued>
+        <dcterms:alternative xml:lang="es">Descripción de Gueytlalpa, Zacatlan, Jujupango, Matlatlan y Chila, Papantla, Tecolutla, Tenanpulco y Matlactonatico</dcterms:alternative>
+        <dcterms:spatial>
+          <edm:Place rdf:about="https://unlockingarchives.com/relaciones/place/tecolutla">
+            <skos:prefLabel xml:lang="en">Mexico (country)| Veracruz (state)| Tecolutla (city)</skos:prefLabel>
+            <wgs84_pos:long>-97.00846</wgs84_pos:long>
+            <wgs84_pos:lat>20.477139</wgs84_pos:lat>
+          </edm:Place>
+        </dcterms:spatial>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/carrion-juande"/>
+        <dc:title xml:lang="es">Pintura de Tecolutla</dc:title>
+      </edm:ProvidedCHO>
+    </edm:aggregatedCHO>
+  </ore:Aggregation>
+  <ore:Aggregation rdf:about="https://unlockingarchives.com/relaciones/aggregation/e38f8f71-f967-46fb-9493-1edec8cbc1b3">
+    <dcterms:isReferencedBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_e38f8f71-f967-46fb-9493-1edec8cbc1b3/manifests/2/utblac_e38f8f71-f967-46fb-9493-1edec8cbc1b3.json"/>
+    <edm:isShownAt rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:e38f8f71-f967-46fb-9493-1edec8cbc1b3"/>
+    <edm:isShownBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_e38f8f71-f967-46fb-9493-1edec8cbc1b3/TN/utblac_e38f8f71-f967-46fb-9493-1edec8cbc1b3.jpg"/>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/images/utldams_utblac_e38f8f71-f967-46fb-9493-1edec8cbc1b3.jp2">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:dataProvider xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</edm:dataProvider>
+    <edm:aggregatedCHO>
+      <edm:ProvidedCHO rdf:about="https://unlockingarchives.com/relaciones/cho/e38f8f71-f967-46fb-9493-1edec8cbc1b3">
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/castanedaleon-juande"/>
+        <dc:identifier>JGI_XXIII-15_Cuzcatlan_map</dc:identifier>
+        <dc:contributor>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/garcia-pero">
+            <skos:prefLabel>García, Pero</skos:prefLabel>
+          </rdf:Description>
+        </dc:contributor>
+        <edm:type xml:lang="en">maps (documents)</edm:type>
+        <dc:publisher xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</dc:publisher>
+        <dc:coverage xml:lang="en">16th century</dc:coverage>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2022-01-14</dc:date>
+        <dc:contributor>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/garcia-alonso">
+            <skos:prefLabel>García, Alonso</skos:prefLabel>
+          </rdf:Description>
+        </dc:contributor>
+        <dc:contributor>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/cortes-martin">
+            <skos:prefLabel>Cortes, Martin</skos:prefLabel>
+            <skos:prefLabel>Cortes, Martín</skos:prefLabel>
+          </rdf:Description>
+        </dc:contributor>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >1580-10-26</dcterms:issued>
+        <dcterms:alternative xml:lang="es">Descripción de Cuzcatlan</dcterms:alternative>
+        <dc:subject xml:lang="en">Art--16th century--New Spain| Indigenous peoples--Mexico--Art| Indigenous peoples--Mexico--History--Sources| Manuscripts, Mexican| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources</dc:subject>
+        <schema:thumbnail rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_e38f8f71-f967-46fb-9493-1edec8cbc1b3/TN/utblac_e38f8f71-f967-46fb-9493-1edec8cbc1b3.jpg"/>
+        <dc:title xml:lang="es">Pintura de Cuzcatlan</dc:title>
+        <dc:identifier>utblac:e38f8f71-f967-46fb-9493-1edec8cbc1b3</dc:identifier>
+        <dc:coverage rdf:resource="http://vocab.getty.edu/aat/300404510"/>
+        <edm:hasType xml:lang="en">maps (documents)</edm:hasType>
+        <dc:description xml:lang="en">Visual representation of Cuzcatlan, located in the Diocese of Tlaxcala. Created by an unknown indigenous artist, the map depicts the administrative capital of Cuzcatlan and the surrounding communities and landscape. The principal church and fountain of Cuzcatlan are seen in the upper center of the map. Roads and footpaths lead to the outlying communities that fall within the Cuzcatlan jurisdiction. The towns are represented by either a church or a traditional house and include San Francisco Istlaman (Xitlaman) (S Franco Istlaman (Xitlaman)), Santa María Jujutla (Sta Mra Jujutla), San Martín Mazateopan (S Mín Mazateopan), San Joseph Petlapan (S Joseph Petlapan), Santiago Tilapa (Stiago Tilapa), Santa María Calipan (Sta María Calipan), San Mateo Tlacuchcalco (S Mateo Tlacuchcalco), San Antonio Comulco (S Anto Comulco), San Pedro Otontepetl (S Po Otontepetl), a church without a label, thought to be San Juan Ajusco, and San Jerónimo Asuchitlan. Irrigated fields near prominent rivers are seen throughout the map along with squares representing salt production on the lower half of the map. Toponyms and glyphs are also seen throughout the map. Created in response to question ten listed within the relación geográfica questionnaire for Cuzcatlan.</dc:description>
+        <dc:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/unknown"/>
+        <edm:hasType rdf:resource="http://vocab.getty.edu/aat/300028233"/>
+        <dcterms:extent xml:lang="en">1 map, 43 x 30 cm</dcterms:extent>
+        <dc:language xml:lang="en">Spanish</dc:language>
+        <dcterms:spatial>
+          <edm:Place rdf:about="https://unlockingarchives.com/relaciones/place/coxcatlan">
+            <skos:prefLabel xml:lang="en">Mexico (country)| Puebla (state)| Coxcatlán (city)</skos:prefLabel>
+            <wgs84_pos:long>-97.147278</wgs84_pos:long>
+            <wgs84_pos:lat>18.266262</wgs84_pos:lat>
+          </edm:Place>
+        </dcterms:spatial>
+        <edm:isRelatedTo rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:1dafc85c-ba6b-45cc-8975-fd9b2cfd1f2b"/>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/garciaicazbalceta-joaquin-1825-1894"/>
+      </edm:ProvidedCHO>
+    </edm:aggregatedCHO>
+  </ore:Aggregation>
+  <ore:Aggregation rdf:about="https://unlockingarchives.com/relaciones/aggregation/38127378-7a33-412f-a425-cc511ff1d351">
+    <dcterms:isReferencedBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_38127378-7a33-412f-a425-cc511ff1d351/manifests/2/utblac_38127378-7a33-412f-a425-cc511ff1d351.json"/>
+    <edm:isShownAt rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:38127378-7a33-412f-a425-cc511ff1d351"/>
+    <edm:isShownBy rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_38127378-7a33-412f-a425-cc511ff1d351/TN/utblac_38127378-7a33-412f-a425-cc511ff1d351.jpg"/>
+    <edm:hasView>
+      <edm:WebResource rdf:about="https://curio.lib.utexas.edu/assets/images/utldams_utblac_38127378-7a33-412f-a425-cc511ff1d351.jp2">
+        <edm:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+      </edm:WebResource>
+    </edm:hasView>
+    <edm:dataProvider xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</edm:dataProvider>
+    <edm:aggregatedCHO>
+      <edm:ProvidedCHO rdf:about="https://unlockingarchives.com/relaciones/cho/38127378-7a33-412f-a425-cc511ff1d351">
+        <dc:creator>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/nunez-juan">
+            <skos:prefLabel>Núñez, Juan</skos:prefLabel>
+          </rdf:Description>
+        </dc:creator>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/leyva-antoniode"/>
+        <dc:creator>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/bejarano-pedro">
+            <skos:prefLabel>Bejarano, Pedro</skos:prefLabel>
+          </rdf:Description>
+        </dc:creator>
+        <dc:identifier>utblac:38127378-7a33-412f-a425-cc511ff1d351</dc:identifier>
+        <dc:creator>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/vazquez-juan">
+            <skos:prefLabel>Vázquez, Juan</skos:prefLabel>
+          </rdf:Description>
+        </dc:creator>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >1579-10-02</dcterms:issued>
+        <dc:description xml:lang="en">Visual representation of Ameca, initially located in the Archdiocese of Mexico (now under the Diocese of Guadalajara). Created by an unknown artist, the map depicts the administrative capital of Ameca and the surrounding communities and landscape. Centered on the map is the Pueblo de Ameca with its principal church, plaza, jail, and royal houses. Surrounding the plaza and central buildings are the houses of the town of Ameca. A river with various branches is seen throughout the map as well as two ranges of mountains that mark the left and right of the map. The main roads are marked and labeled, reaching outlying cities like Ixcatlan, Guadalajara, las minas de Guachingo, minas de Palmarejo, Mexico, and the province of Avalos. There are a good number of farms and properties shown and corresponding labels of their owners. Some of these include the different wheat farms of Juan Sanchez, Juan Vazquez, Juan Nunez, and Francisco de Mesa. Other farms of livestock include the sheep farms of Uergara, Martin Jurado, and Nuno de Lemos. A few smaller towns depicted include Jayamitlan and Huitzquilic. Created in response to question ten listed within the relación geográfica questionnaire for Ameca.</dc:description>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date"
+        >2022-01-14</dc:date>
+        <dc:coverage xml:lang="en">16th century</dc:coverage>
+        <dc:subject xml:lang="en">Art--16th century--New Spain| Indigenous peoples--Mexico--Art| Indigenous peoples--Mexico--History--Sources| Manuscripts, Mexican| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources</dc:subject>
+        <dc:publisher xml:lang="en">Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin</dc:publisher>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/unknown"/>
+        <dc:language xml:lang="en">Spanish</dc:language>
+        <dc:creator rdf:resource="https://unlockingarchives.com/relaciones/agent/cortes-martin"/>
+        <dc:identifier>JGI_XXIII-10_Ameca_map</dc:identifier>
+        <edm:hasType xml:lang="en">maps (documents)</edm:hasType>
+        <edm:isRelatedTo rdf:resource="https://collections.lib.utexas.edu/catalog/utblac:24db164c-91c4-423a-af08-3e163774a3d7"/>
+        <dcterms:alternative xml:lang="es">Descripción de Ameca</dcterms:alternative>
+        <dcterms:extent xml:lang="en">1 map, 43 x 31.5 cm</dcterms:extent>
+        <dc:title xml:lang="es">Pintura de Ameca</dc:title>
+        <dc:contributor>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/moras-pedrode">
+            <skos:prefLabel>Moras, Pedro de</skos:prefLabel>
+          </rdf:Description>
+        </dc:contributor>
+        <dc:coverage rdf:resource="http://vocab.getty.edu/aat/300404510"/>
+        <edm:hasType rdf:resource="http://vocab.getty.edu/aat/300028233"/>
+        <dc:contributor rdf:resource="https://unlockingarchives.com/relaciones/agent/garciaicazbalceta-joaquin-1825-1894"/>
+        <dc:creator>
+          <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/agent/mesa-franciscode">
+            <skos:prefLabel>Mesa, Francisco de</skos:prefLabel>
+          </rdf:Description>
+        </dc:creator>
+        <schema:thumbnail rdf:resource="https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_38127378-7a33-412f-a425-cc511ff1d351/TN/utblac_38127378-7a33-412f-a425-cc511ff1d351.jpg"/>
+        <dcterms:spatial>
+          <edm:Place rdf:about="https://unlockingarchives.com/relaciones/place/ameca">
+            <skos:prefLabel xml:lang="en">Mexico (country)| Jalisco (state)| Ameca (city)</skos:prefLabel>
+            <wgs84_pos:long>-104.04662</wgs84_pos:long>
+            <wgs84_pos:lat>20.547647</wgs84_pos:lat>
+          </edm:Place>
+        </dcterms:spatial>
+        <dc:rights rdf:resource="https://creativecommons.org/publicdomain/mark/1.0/"/>
+        <edm:type xml:lang="en">maps (documents)</edm:type>
+      </edm:ProvidedCHO>
+    </edm:aggregatedCHO>
+  </ore:Aggregation>
+</rdf:RDF>
