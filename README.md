@@ -3,7 +3,10 @@ UCA collection relaciones geograficas
 
 
 ### Roles autoridad
+- creator: signer, artist
+- contributor: interpreter, collector, scribe, contributor, witness
 
+Otros posibles modelos:
 - https://data.bnf.fr/vocabulary/roles/
 - http://www.rdaregistry.info/Elements/a/#P50204
 
