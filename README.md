@@ -21,6 +21,8 @@ El proceso de transformación a RDF funciona en cuatro pasos:
 
 <img width="75%" src="images/EDM-DataModeling.png">
 
+<img width="75%" src="images/EDM-DataModeling-case.png">
+
 ### Roles autoridad
 Los textos originales para los autores incluyen el rol con el que se asigna el autor. Siguiendo los roles que ofrece EDM, se ha realizado el siguiente mapeo:
 
