@@ -12,6 +12,8 @@ En este prototipo se han seleccionado [20 obras](input/manifests.txt) a través 
 
 El prototipo incluye las [modificaciones realizadas para la transformación a RDF con la herramienta Open Refine](openrefine/openrefine-steps.json). También se ha desarrollado un [Jupyter Notebook](https://nbviewer.org/github/hibernator11/UCA-relacionesgeograficas/blob/main/notebooks/EjemplosSPARQL.ipynb) que se puede ejecutar en la plataforma Binder.
 
+El [dataset](rdf/relaciones_uca.rdf) se ha transformado al formato RDF siguiendo el vocabulario EDM.
+
 ### Proceso de transformación a RDF
 El proceso de transformación a RDF funciona en cuatro pasos: 
 
