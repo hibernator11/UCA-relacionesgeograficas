@@ -1,6 +1,9 @@
 # UCA-relacionesgeograficas
 UCA collection relaciones geográficas
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hibernator11/UCA-relacionesgeograficas/HEAD)
+
+
 ### Introducción
 
 Proyecto para la extracción y transformación de la colección digital Relaciones Geográficas a un modelo semántico basado en el vocabulario [European Data Model](https://pro.europeana.eu/page/edm-documentation).
