@@ -7,9 +7,19 @@ Proyecto para la extracción y transformación de la colección digital Relacion
 
 En este prototipo se han seleccionado [20 obras](input/manifests.txt) a través de sus manifests en formato JSON de la colección [Relaciones Geográficas of Mexico and Guatemala](https://collections.lib.utexas.edu/?f%5Bmods_relatedItem_titleInfo_title_source_t%5D%5B%5D=Relaciones+Geogr%C3%A1ficas+of+Mexico+and+Guatemala).
 
+### Proceso de transformación a RDF
+El proceso de transformación a RDF funciona en cuatro pasos: 
 
+- Identificación de recursos a través de sus manifest.json
+- Transformación a un fichero tabulado CSV
+- Modelado de datos RDF a través del vocabulario EDM con la herramienta OpenRefine 
+- Enriquecimiento con repositorios externos como Wikidata y GeoNames
+
+<img width="75%" src="images/RDFtransformation.png">
 
 ### Roles autoridad
+Los textos originales para los autores incluyen el rol con el que se asigna el autor. Siguiendo los roles que ofrece EDM, se ha realizado el siguiente mapeo:
+
 - creator: signer, artist
 - contributor: interpreter, collector, scribe, contributor, witness
 
