@@ -73,7 +73,7 @@ Otros posibles modelos:
 - Completar relaciones de autores
 - Añadir texto, anotaciones? https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_profiles/EDM_Annotation_Profile_v1.2.pdf
 - Espacio de nombres https://unlockingarchives.com/? O usar nodos internos en el fichero RDF para evitar 404. O también podemos responder a esas URLs de alguna forma.
-
+- Validar el dataset
 
 ### Referencias
 
