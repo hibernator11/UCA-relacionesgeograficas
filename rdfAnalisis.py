@@ -8,7 +8,7 @@ Created on Thu Jul 21 12:51:21 2022
 from rdflib import Graph
 
 # Create a Graph
-g = Graph().parse("input/relaciones_uca.rdf")
+g = Graph().parse("rdf/relaciones_uca.rdf")
 
 print('##### edm:Agent')
 
