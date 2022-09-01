@@ -1,0 +1,5 @@
+Es necesario configurar el tamaño de los formularios en open refine mediante la siguiente modificación en el fichero refine.ini:
+
+# Maximum JVM heap (memory) and max form size allocations
+#REFINE_MAX_FORM_CONTENT_SIZE=1048576
+REFINE_MAX_FORM_CONTENT_SIZE=10000000
