@@ -8,7 +8,7 @@ UCA collection relaciones geográficas
 
 Proyecto para la extracción y transformación de la colección digital Relaciones Geográficas a un modelo semántico basado en el vocabulario [European Data Model](https://pro.europeana.eu/page/edm-documentation).
 
-En este prototipo se han seleccionado [20 obras](input/manifests.txt) a través de sus manifests en formato JSON de la colección [Relaciones Geográficas of Mexico and Guatemala](https://collections.lib.utexas.edu/?f%5Bmods_relatedItem_titleInfo_title_source_t%5D%5B%5D=Relaciones+Geogr%C3%A1ficas+of+Mexico+and+Guatemala). 
+En este prototipo se han seleccionado [81 obras](input/manifests.txt) a través de sus manifests en formato JSON de la colección [Relaciones Geográficas of Mexico and Guatemala](https://collections.lib.utexas.edu/?f%5Bmods_relatedItem_titleInfo_title_source_t%5D%5B%5D=Relaciones+Geogr%C3%A1ficas+of+Mexico+and+Guatemala). 
 El [dataset](rdf/relaciones_uca.rdf) se ha transformado al formato RDF siguiendo el vocabulario EDM.
 
 El prototipo incluye las [modificaciones realizadas para la transformación a RDF con la herramienta Open Refine](openrefine/openrefine-steps.json). También se ha desarrollado un [Jupyter Notebook](https://nbviewer.org/github/hibernator11/UCA-relacionesgeograficas/blob/main/notebooks/EjemplosSPARQL.ipynb) que se puede ejecutar en la plataforma Binder.
