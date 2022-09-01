@@ -79,5 +79,3 @@ https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_c43cc46e-4694-40d2-be2b-1
 https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_7f50756e-7000-43d0-b593-62c80ae36892/manifests/2/utblac_7f50756e-7000-43d0-b593-62c80ae36892.json
 https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_e98983f6-9321-45cf-9976-40373dbd61a6/manifests/2/utblac_e98983f6-9321-45cf-9976-40373dbd61a6.json
 https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_9e9ca33c-2580-4851-86c2-0760d62fa7fb/manifests/2/utblac_9e9ca33c-2580-4851-86c2-0760d62fa7fb.json
-
-
