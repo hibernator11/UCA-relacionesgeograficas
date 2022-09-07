@@ -67,7 +67,6 @@ Otros posibles modelos:
 - Usar skos:Concept para materias. Ahora se usa dc:subject con el texto completo. Sería necesario dividir las conceptos de las materias.
 - Enriquecer los autores con identificadores externos como wikidata/viaf
 - Enriquecer los lugares con identificadores de GeoNames
-- Ampliar el repositorio con todos los elementos originales. Prototipo con 20 items.
 - edm:Place dividir en country-state-city skos:prefLabel 
 - Establecer roles
 - Completar relaciones de autores
