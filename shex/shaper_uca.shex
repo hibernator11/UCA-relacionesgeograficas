@@ -46,6 +46,7 @@ weso-s:ProvidedCHO
    dc:rights  IRI  ;                                           # 100.0 %
    schema:thumbnail  IRI  ;                                    # 100.0 %
    dc:coverage  rdf:langString  ;                              # 100.0 %
+   dc:coverage  IRI  ;                
    dc:description  rdf:langString  ;                           # 100.0 %
    dc:spatial  @weso-s:Place  ;                                # 100.0 %
    dc:publisher  rdf:langString  ;                             # 100.0 %

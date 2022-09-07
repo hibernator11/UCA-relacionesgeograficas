@@ -144,7 +144,7 @@
         dc:date              "2022-01-14"^^xsd:date ;
         dc:description       "Description of Tecuicuilco and surrounding towns in the Diocese of Oaxaca. Census is signed by Francisco de Villagar. Document lists Zapoteca as the spoken language, full descriptions of the surrounding towns such as Yetía, Guaxilotitlan, Atepeque, Zoquiapa and Xaltianguiz, topographic features, and flora and fauna. There are also details of the local jurisdiction, hierarchy, and systems of governance, medicines used, etymology of names, churches, and architecture. Also included is a visual representation of the landscape, known as a pintura or map. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "utblac:6944fa60-46f6-4bb8-97da-c7adeae33b66" , "JGI_XXIV-19_Tecuicuilco_text" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -154,7 +154,7 @@
         dcterms:issued       "1580-10-02"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/santamariajaltianguis> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_6944fa60-46f6-4bb8-97da-c7adeae33b66/TN/utblac_6944fa60-46f6-4bb8-97da-c7adeae33b66.jpg> ;
-        edm:hasType          "text@e"@en ;
+        edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:b48b5d10-4a89-493f-a14f-cf8019599bbb> .
 
 <https://unlockingarchives.com/relaciones/aggregation/5e2afb53-d229-48e1-a279-bd6c707edb69>
@@ -305,7 +305,7 @@
         dc:date              "2022-01-12"^^xsd:date ;
         dc:description       "19th century copy of a description of Texcoco, located in the Archdiocese of Mexico. Signer of the original 1582 work is Juan Bautista de Pomar. Document lists Chichimeca, Mexicana, and Otomí as the spoken languages, surrounding towns such as Chiauhtlacae, Tetzoyucan, and Cohuatlichancomo, topographic features, medicines used, and flora and fauna. Also mentioned are descriptions of the local jurisdiction, hierarchy, systems of governance, etymology of names, and architecture. This is a copy of one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585. This 19th century copy is one of two existing copies of Pomar's Relación de Texcoco, with the other also being found in this repository. It is a 17th century copy titled \"Relación de Tezcuco\" and is classified as García MSS 58-57. Bibliophile Ignacio Rayón along with the collector Joaquín García Icazbalceta, utilized the 17th century copy, which at the time was located at the library of the Colegio de San Gregorio in Mexico City, to create this 19th century copy."@en ;
         dc:identifier        "JGI_XII-16_Texcoco_text" , "utblac:9e9ca33c-2580-4851-86c2-0760d62fa7fb" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -315,7 +315,7 @@
         dcterms:issued       "1851-04-15"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/texcoco> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_9e9ca33c-2580-4851-86c2-0760d62fa7fb/TN/utblac_9e9ca33c-2580-4851-86c2-0760d62fa7fb.jpg> ;
-        edm:hasType          "text@e"@en .
+        edm:hasType          "text"@en .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_b9393f97-b3ce-4da6-a905-e14db71cf765.jp2>
         a           edm:WebResource ;
@@ -538,7 +538,7 @@
         dc:date              "2022-01-14"^^xsd:date ;
         dc:description       "Description of Atlatlauhca and surrounding towns located in the Archdiocese of Mexico. Census was signed by Gaspar de Solís. Responses describe Mexicana and Matlatzinca as the languages spoken, local hierarchy, topographic features and etymology of its name. Also included are the surrounding communities of Villa de Toluca, Teutenango, Suchiaca, Mactexa, Calimaya, and Tepemaxalco. Also included is a visual representation of the landscape, known as a pintura or map. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "JGI_XXIII-13_Atlatlauhca_text" , "utblac:0a22bcf2-b70f-496f-8f8f-83bc1ea94089" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -548,7 +548,7 @@
         dcterms:issued       "1580-09-17"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/sanbartolomeatlatlahuca> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_0a22bcf2-b70f-496f-8f8f-83bc1ea94089/TN/utblac_0a22bcf2-b70f-496f-8f8f-83bc1ea94089.jpg> ;
-        edm:hasType          "text@e"@en ;
+        edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:4283412f-28f4-4452-a1fd-0faef9ed2fcb> .
 
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_e45a4bc1-8115-4938-879d-ac7f93fb5655/PDF/utblac_e45a4bc1-8115-4938-879d-ac7f93fb5655.pdf>
@@ -568,7 +568,7 @@
         dc:date              "2022-01-14"^^xsd:date ;
         dc:description       "Description of Culhuacan, town in the Archdiocese of Mexico. Census was signed by Gonzalo Gallegos and Fray Juan Núñez. Document lists Mexicaltzingo as the cabecera, Mexicana as the language spoken, natural resources, and fauna. There are also descriptions of systems of governance, the native population, topographic features, and architecture. Also included is a visual representation of the landscape, known as a pintura or map. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "utblac:d47cb590-3bda-4f2c-a48e-2e33b91dda2f" , "JGI_XXIII-14_Culhuacan_text" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -578,7 +578,7 @@
         dcterms:issued       "1580-01-17"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/culhuacan> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_d47cb590-3bda-4f2c-a48e-2e33b91dda2f/TN/utblac_d47cb590-3bda-4f2c-a48e-2e33b91dda2f.jpg> ;
-        edm:hasType          "text@e"@en ;
+        edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:d5ddf214-248e-462f-acdc-81d27463226f> .
 
 <https://unlockingarchives.com/relaciones/agent/mendez-frayandres>
@@ -618,7 +618,7 @@
         dc:date              "2022-01-11"^^xsd:date ;
         dc:description       "Description of the administrative capital of Iztepec located in the Diocese of Oaxaca. Census was signed by Fray Andrés Méndez. Document describes Iztepec and its surrounding communities with details of their history, etymology of place names, geographic location, natural resources, flora and fauna, clothing, trading partners, and other information. Zapoteca is listed as the spoken language. Smaller communities mentioned include Santa Ana Tacolabacoya, Ayocuexco, San Bernardo, and Santa María Magdalena Tepecimatlan. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "utblac:cf4d787d-3872-4fd8-8900-4417ffdc468b" , "JGI_XXIV-09_Iztepec_text" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -628,7 +628,7 @@
         dcterms:issued       "1581-01-10"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/santacruzmixtepec> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_cf4d787d-3872-4fd8-8900-4417ffdc468b/TN/utblac_cf4d787d-3872-4fd8-8900-4417ffdc468b.jpg> ;
-        edm:hasType          "text@e"@en ;
+        edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://txarchives.org/utlac/finding_aids/00036.xml> .
 
 <https://unlockingarchives.com/relaciones/agent/vargas-antoniode>
@@ -702,7 +702,7 @@
         dc:date              "2022-01-14"^^xsd:date ;
         dc:description       "Description of Santiago Atitlan, located in the Diocese of Guatemala, as well as full descriptions of its estancias named San Bartolomé, San Andrés and San Francisco. Census is signed by Alonso Páez Betancor. Document lists Mexicana and various Guatemalan languages as the spoken languages, natural resources, medicines used, and monasteries and convents. Document describes the province, climate, topographic features, the native population, local jurisdiction, hierarchy and customs, systems of governance, flora and fauna, and farms. Also included is a visual representation of the landscape, known as a pintura or map. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "utblac:9e181f9e-0d70-4b7c-af4c-7c1ea3ae244b" , "JGI_XX-10_Santiago_Atitlan_text" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Guatemala--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Guatemala--History--16th century--Sources"@en ;
@@ -712,7 +712,7 @@
         dcterms:issued       "1585-02-08"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/sanfranciscozapotitlan> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_9e181f9e-0d70-4b7c-af4c-7c1ea3ae244b/TN/utblac_9e181f9e-0d70-4b7c-af4c-7c1ea3ae244b.jpg> ;
-        edm:hasType          "text@e"@en ;
+        edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:a04b68ae-8c53-43d7-838a-e04e2a20284e> .
 
 <https://unlockingarchives.com/relaciones/cho/92548fa7-f6f6-411d-b50d-46d4809a211d>
@@ -724,7 +724,7 @@
         dc:date              "2022-01-14"^^xsd:date ;
         dc:description       "Description of the province of Coatzacualco, which includes the town of Espíritu Santo and other adjacent towns in the Diocese of Oaxaca. Census was signed by alcalde mayor Suero de Cangas y Quiñonez. Document lists Mexicana, Mixteca, Zapotexa, and Popoluca as spoken languages, and over sixty towns. Additionally mentioned are, topographic features, natural resources, hospitals, churches, local hierarchy, and customs.  Also included is a visual representation of the landscape, known as a pintura or map, which maps the course of the Coatzacualco River and the towns on its banks. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "utblac:92548fa7-f6f6-411d-b50d-46d4809a211d" , "JGI_XXIV-02_Coatzacualco_text" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -734,7 +734,7 @@
         dcterms:issued       "1580-04-29"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/coatzacoalcos> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_92548fa7-f6f6-411d-b50d-46d4809a211d/TN/utblac_92548fa7-f6f6-411d-b50d-46d4809a211d.jpg> ;
-        edm:hasType          "text@e"@en ;
+        edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:9a78720b-d927-4635-bdc0-9993a3024f9a> .
 
 <https://unlockingarchives.com/relaciones/aggregation/24db164c-91c4-423a-af08-3e163774a3d7>
@@ -771,7 +771,7 @@
         dc:date              "2022-01-11"^^xsd:date ;
         dc:description       "17th century copy of a description of Texcoco, located in the Archdiocese of Mexico. Author of the original, lost 1582 work is Juan Bautista de Pomar. This copy was created by Fernando de Alva Ixtlilxóchitl, a chronicler of indigenous Aztec history. Document lists Chichimeca, Mexicana, and Otomí as the spoken languages, surrounding towns such as Chiauhtlacae, Tetzoyucan, and Cohuatlichancomo, topographic features, medicines used, and flora and fauna. Also mentioned are descriptions of the local jurisdiction, hierarchy, systems of governance, etymology of names, and architecture. This is a 17th century copy of one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585. This copy is one of two existing copies of Pomar's Relación de Texcoco, with the other also being held by this repository. It is a 19th century copy titled \"Relación de la Ciudad de Tezcoco\" and is cataloged as JGI XII-16."@en ;
         dc:identifier        "GG_MSS_G58-G57_Texcoco_text" , "utblac:e98983f6-9321-45cf-9976-40373dbd61a6" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -781,7 +781,7 @@
         dcterms:issued       "1600-01-01"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/texcoco> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_e98983f6-9321-45cf-9976-40373dbd61a6/TN/utblac_e98983f6-9321-45cf-9976-40373dbd61a6.jpg> ;
-        edm:hasType          "text@e"@en .
+        edm:hasType          "text"@en .
 
 <https://unlockingarchives.com/relaciones/cho/f5b6a65a-1c41-48b5-b856-437d1bd4a586>
         a                    edm:ProvidedCHO ;
@@ -843,7 +843,7 @@
         dc:date              "2022-01-14"^^xsd:date ;
         dc:description       "Description of Hueytlalpa as well as full descriptions of the surrounding towns located in the Diocese of Tlaxcala. Surrounding towns include Zacatlan, Xuxupango, Matlatlan y Chila, Papantla, Tecolutla, and Tenanpulco y Matlactonatico. Census was signed by Juan de Carrión. Document lists Mexicana and Totonaco as the languages spoken, fauna, etymology of place names, and topographic features of the land such as rivers and roads.  Descriptions place these communities in a historical, geographical, and cultural context within the larger province of Zacatlan and provides details on native population, and systems of governance.  Also included are multiple visual representations of the landscape, known as pinturas or maps. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "JGI_XXIV-05_Hueytlalpa_text" , "utblac:c967a6e3-9bc2-45b9-91ce-4a9f1792f830" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -853,7 +853,7 @@
         dcterms:issued       "1581-05-30"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/tenampulco> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_c967a6e3-9bc2-45b9-91ce-4a9f1792f830/TN/utblac_c967a6e3-9bc2-45b9-91ce-4a9f1792f830.jpg> ;
-        edm:hasType          "text@e"@en ;
+        edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:9abf4616-db21-4905-affb-54b77b89c501> .
 
 <https://unlockingarchives.com/relaciones/aggregation/6944fa60-46f6-4bb8-97da-c7adeae33b66>
@@ -878,7 +878,7 @@
         dc:date              "2022-01-19"^^xsd:date ;
         dc:description       "Description of Tetlistaca, town in the Archdiocese of Mexico. Census signed by Luis de Obregón. Description lists Mexicana as the spoken language, topographic features, and flora and fauna. There are also descriptions of the etymology of names, local hierarchy and systems of governance.  Also included is a visual representation of the landscape, known as a pintura or map. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "JGI_XXV-12_Tetlistaca_text" , "utblac:d6867ccb-092b-47b1-87a2-41162e8878f5" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -888,7 +888,7 @@
         dcterms:issued       "1580-11-15"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/santotomas> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_d6867ccb-092b-47b1-87a2-41162e8878f5/TN/utblac_d6867ccb-092b-47b1-87a2-41162e8878f5.jpg> ;
-        edm:hasType          "text@e"@en ;
+        edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:6f42ff06-ff73-4471-9454-d3a264276d67> .
 
 <https://unlockingarchives.com/relaciones/agent/ilmana-juande>
@@ -979,7 +979,7 @@
         dc:date              "2022-01-11"^^xsd:date ;
         dc:description       "Description of Zacatula, located in the Diocese of Michoacan. Census was signed by Diego de Ortega and Juan Ruiz de Mendoza. Document lists many languages including Mexicana as the spoken languages. The document begins with correspondence from Hernando de Vascones to Lorenzo Suárez de Mendoza dated 1581, as well as another letter signed by Hernando de Vascones and his scribe Andrés de Zebreros dated 1580. Document also describes the climate, local jurisdiction, local hierarchy and systems of governance, topographic features, flora and fauna, medicines used, local sanitation methods, and port capacity. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "utblac:68c4084b-0c5c-4f4e-8c3f-3ff15560bd65" , "JGI_XXV-09_Zacatula_text" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -989,7 +989,7 @@
         dcterms:issued       "1580-11-25"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/zacatula> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_68c4084b-0c5c-4f4e-8c3f-3ff15560bd65/TN/utblac_68c4084b-0c5c-4f4e-8c3f-3ff15560bd65.jpg> ;
-        edm:hasType          "text@e"@en .
+        edm:hasType          "text"@en .
 
 <https://unlockingarchives.com/relaciones/cho/5bc4e8a8-3f8f-4729-83c2-49e4f319c3fa>
         a                    edm:ProvidedCHO ;
@@ -1037,7 +1037,7 @@
         dc:date              "2022-01-11"^^xsd:date ;
         dc:description       "Description of the administrative capital of Justlahuaca and several other towns found in this part of the Diocese of Oaxaca within the province of Mixteca Baja. Census was signed by Andrés Aznar de Cózar. Document includes complete descriptions of the towns of Mixtepeque, Ayusuchiquilazala,  Xicayan, Puctla, and Zacatepeque. Descriptions place these communities in a historical, geographical, and cultural context within the larger province of Mixteca Baja. Details include Amuzgo, Mixteca, and Mexicana as the spoken languages, etymology of place names, building construction, natural resources, flora and fauna of the surrounding area, and the local systems of governance. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "utblac:49a6f268-446e-4379-a947-35a7cf20864e" , "JGI_XXIV-11_Justlahuaca_text" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -1047,7 +1047,7 @@
         dcterms:issued       "1580-01-03"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/santamariazacatepec> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_49a6f268-446e-4379-a947-35a7cf20864e/TN/utblac_49a6f268-446e-4379-a947-35a7cf20864e.jpg> ;
-        edm:hasType          "text@e"@en .
+        edm:hasType          "text"@en .
 
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_874cc4b5-f987-4987-a640-b60133be3d07/PDF/utblac_874cc4b5-f987-4987-a640-b60133be3d07.pdf>
         a           edm:WebResource ;
@@ -1098,7 +1098,7 @@
         dc:date              "2022-01-11"^^xsd:date ;
         dc:description       "Description of Antequera located in the Diocese of Oaxaca. Census signed by priest clergyman, Pedro Franco, and mayor Pedro de Ledesma. Document details the spoken languages of Mexicana, Zapoteca, and Mixteca. Also mentioned are topographic features, natural resources, and locations of churches and monasteries. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "JGI_XXIII-11_Antequera_text" , "utblac:0841382a-d043-4cbf-9701-bc3c21bceadd" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -1108,7 +1108,7 @@
         dcterms:issued       "1580-01-09"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/oaxaca> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_0841382a-d043-4cbf-9701-bc3c21bceadd/TN/utblac_0841382a-d043-4cbf-9701-bc3c21bceadd.jpg> ;
-        edm:hasType          "text@e"@en .
+        edm:hasType          "text"@en .
 
 <https://unlockingarchives.com/relaciones/cho/24db164c-91c4-423a-af08-3e163774a3d7>
         a                    edm:ProvidedCHO ;
@@ -1119,7 +1119,7 @@
         dc:date              "2022-01-19"^^xsd:date ;
         dc:description       "Description of Ameca, initially located in the Archdiocese of Mexico (now under the   Diocese of Guadalajara). Census was signed by alcalde mayor Pedro de Moras. Document details flora and fauna, locations of churches, estancias, and lists Caxcan and Mexicana as the languages spoken. Additionally mentioned are the surrounding communities of Jayamitla, El Cabezón, and San Martín de Hidalgo.  Also included is a visual representation of the landscape, known as a pintura or map. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "utblac:24db164c-91c4-423a-af08-3e163774a3d7" , "JGI_XXIII-10_Ameca_text" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -1129,7 +1129,7 @@
         dcterms:issued       "1579-10-02"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/ameca> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_24db164c-91c4-423a-af08-3e163774a3d7/TN/utblac_24db164c-91c4-423a-af08-3e163774a3d7.jpg> ;
-        edm:hasType          "text@e"@en ;
+        edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://txarchives.org/utlac/finding_aids/00036.xml> .
 
 <https://unlockingarchives.com/relaciones/agent/velasquez-josephde>
@@ -1172,7 +1172,7 @@
         dc:date              "2022-01-11"^^xsd:date ;
         dc:description       "Description of Tancitaro, located in the Diocese of Michoacan. Signer of census is believed to be Sebastián Macarro. Document lists Tarasca and Mexicana as the spoken languages and wildlife. Document also details the province, climate, topographic features, the native population, local jurisdictions, etymology of names, monasteries and convents, and includes full descriptions of the surrounding towns named Tlapalcatepeque and Pinzandaro Arimao, with Tancitaro as the cabecera. Also of note is marginialia throughout the manuscript, which has been added by a second, anonymous scribe. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "JGI_XXIV-18_Tancitaro_text" , "utblac:1ad1f404-d1ae-42e0-9fb9-692b18376aef" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -1182,7 +1182,7 @@
         dcterms:issued       "1580-09-27"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/tancitaro> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_1ad1f404-d1ae-42e0-9fb9-692b18376aef/TN/utblac_1ad1f404-d1ae-42e0-9fb9-692b18376aef.jpg> ;
-        edm:hasType          "text@e"@en .
+        edm:hasType          "text"@en .
 
 <https://unlockingarchives.com/relaciones/place/tecolutla>
         a               edm:Place ;
@@ -1330,7 +1330,7 @@
         dc:date              "2022-01-11"^^xsd:date ;
         dc:description       "Description of Tequaltiche, located in the Diocese of Guadalajara. Census signed by Hernando Gallegos. Document lists Caxan and Mexicana as the spoken languages, and topographic features. Also mentioned are descriptions of the native population, local jurisdiction, hierarchy, and systems of governance, and medicines used. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "utblac:88f85e35-6ce0-4899-a4eb-2632c435edbe" , "JGI_XXV-02_Tequaltiche_text" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -1340,7 +1340,7 @@
         dcterms:issued       "1584-12-30"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/teocaltiche> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_88f85e35-6ce0-4899-a4eb-2632c435edbe/TN/utblac_88f85e35-6ce0-4899-a4eb-2632c435edbe.jpg> ;
-        edm:hasType          "text@e"@en .
+        edm:hasType          "text"@en .
 
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_68c4084b-0c5c-4f4e-8c3f-3ff15560bd65/PDF/utblac_68c4084b-0c5c-4f4e-8c3f-3ff15560bd65.pdf>
         a           edm:WebResource ;
@@ -1429,7 +1429,7 @@
         dc:date              "2022-01-14"^^xsd:date ;
         dc:description       "Description of Epazoyuca, located in the Archdiocese of Mexico. Census was signed by Luis de Obregón. Document lists Mexicana as the spoken language and surrounding towns such as Tzihuiquiluca, Tetliztaca, Tepeapulco, Cempoala. There are also details about the local jurisdiction, local hierarchy, systems of governance, etymology of names, and fauna.  Also included is a visual representation of the landscape, known as a pintura or map. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "utblac:c5f60019-ec83-41b3-8641-a383d2a7773c" , "JGI_XXV-11_Epazoyuca_text" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -1439,7 +1439,7 @@
         dcterms:issued       "1580-11-01"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/epazoyucan> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_c5f60019-ec83-41b3-8641-a383d2a7773c/TN/utblac_c5f60019-ec83-41b3-8641-a383d2a7773c.jpg> ;
-        edm:hasType          "text@e"@en ;
+        edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:5bc4e8a8-3f8f-4729-83c2-49e4f319c3fa> .
 
 <https://unlockingarchives.com/relaciones/aggregation/9e181f9e-0d70-4b7c-af4c-7c1ea3ae244b>
@@ -1621,7 +1621,7 @@
         dc:date              "2022-01-11"^^xsd:date ;
         dc:description       "Description of Tetiquipa and Cozautepec, towns located in the Diocese of Oaxaca. Census is signed by Cristóbal de Salas. Document lists Mixteca and Zapoteca as the spoken languages, flora and fauna, and medicines used. Mentions the sixteen towns under the governance of Tetiquipa and Cozutepec's geographical positioning related to Tetiquipa and the Puerto de Guatulco. Also mentioned are descriptions of the native population, local jurisdiction, hierarchy, systems of governance, and etymology of names. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "JGI_XXV-06_Tetiquipa_text" , "utblac:b91481c8-525a-4ac0-b84d-60465d394b93" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -1631,7 +1631,7 @@
         dcterms:issued       "1579-11-30"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/sanfranciscocozoaltepec> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_b91481c8-525a-4ac0-b84d-60465d394b93/TN/utblac_b91481c8-525a-4ac0-b84d-60465d394b93.jpg> ;
-        edm:hasType          "text@e"@en .
+        edm:hasType          "text"@en .
 
 <https://unlockingarchives.com/relaciones/roles/signer>
         a               skos:Concept ;
@@ -1659,7 +1659,7 @@
         dc:date              "2022-01-14"^^xsd:date ;
         dc:description       "Description of Cholula and surrounding towns located in the Diocese of Tlaxcala. Census signed by Gabriel de Rojas. Responses describe locations of churches, lists Mexicana as the language spoken, topographic features including roads leading to Acapetlahuacan, Tlaxcallan, Mexico, Angeles, and Uexotzinco. Additionally, the document describes etymology of names, fauna, local hierarchy and customs. Also included is a visual representation of the landscape, known as a pintura or map. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "JGI_XXIV-01_Cholula_text" , "utblac:bfe9df59-d0c1-46a6-8c45-0026a345642b" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -1669,7 +1669,7 @@
         dcterms:issued       "1580-11-30"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/choluladerivadabia> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_bfe9df59-d0c1-46a6-8c45-0026a345642b/TN/utblac_bfe9df59-d0c1-46a6-8c45-0026a345642b.jpg> ;
-        edm:hasType          "text@e"@en ;
+        edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:90dca2a6-6851-4d2b-b6c9-9fc2b75104b7> .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_68c4084b-0c5c-4f4e-8c3f-3ff15560bd65.jp2>
@@ -1690,7 +1690,7 @@
         dc:date              "2022-01-11"^^xsd:date ;
         dc:description       "Description of Cuylapa, Diocese of Oaxaca. Census was signed by Fray Agustín de Salazar. Document lists Mixteca as a spoken language, etymology of place names, and 16 estancias and small towns. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "utblac:a56bebca-9296-472a-a60c-11c36c1c9c1b" , "JGI_XXIV-10_Cuylapa_text" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -1700,7 +1700,7 @@
         dcterms:issued       "1580-11-20"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/cuilapandeguerrero> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_a56bebca-9296-472a-a60c-11c36c1c9c1b/TN/utblac_a56bebca-9296-472a-a60c-11c36c1c9c1b.jpg> ;
-        edm:hasType          "text@e"@en .
+        edm:hasType          "text"@en .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_0a22bcf2-b70f-496f-8f8f-83bc1ea94089.jp2>
         a           edm:WebResource ;
@@ -1895,7 +1895,7 @@
         dc:date              "2022-01-14"^^xsd:date ;
         dc:description       "Description of la Veracruz located in the Diocese of Tlaxcala. Census is signed by Bachiller licensed medic Alonso Hernández Diosdado. Description lists Mexicana as the spoken language, discoverer of the province, location of churches, topographic features and their names. The document also describes the climate, fauna, the native population, health of the land, hospitals, medicinal practices, and port capacity. Also included is a visual representation of the landscape, known as a pintura or map. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "utblac:cf7b3eec-f560-46d4-901b-f54ab62be0ae" , "JGI_XXV-08_laVeracruz_text" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -1905,7 +1905,7 @@
         dcterms:issued       "1580-03-15"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/heroicaveracruz> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_cf7b3eec-f560-46d4-901b-f54ab62be0ae/TN/utblac_cf7b3eec-f560-46d4-901b-f54ab62be0ae.jpg> ;
-        edm:hasType          "text@e"@en ;
+        edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:c0d5dd3e-71e2-4634-a433-9cbd6941ed04> .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_678df51c-6156-4a55-a374-b02e3df0bd72.jp2>
@@ -2009,7 +2009,7 @@
         dc:date              "2022-01-19"^^xsd:date ;
         dc:description       "Description of Cempoala and surrounding towns located in the Archdiocese of Mexico. Census was signed by Luis de Obregón. Document details Cempoala's local jurisdiction, etymology of names, systems of governances, and local hierarchy and customs. Three other cabeceras are mentioned: Tlaquilpa, Tzaquala, and Tecpupan. Additionally, the census lists Mexicana as the spoken language, churches and hospitals. Also included is a visual representation of the landscape, known as a pintura or map. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "utblac:f87917e2-e3c9-4eb2-a838-51ea2975c655" , "JGI-XXV-10_Cempoala_text" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -2019,7 +2019,7 @@
         dcterms:issued       "1580-11-01"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/zempoala> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_f87917e2-e3c9-4eb2-a838-51ea2975c655/TN/utblac_f87917e2-e3c9-4eb2-a838-51ea2975c655.jpg> ;
-        edm:hasType          "text@e"@en ;
+        edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:b35a74c8-358b-4192-8c61-9668332985dd> .
 
 <https://unlockingarchives.com/relaciones/agent/arevalo-alonsode>
@@ -2034,7 +2034,7 @@
         dc:date              "2022-01-14"^^xsd:date ;
         dc:description       "Description of the provincial capital of Meztitlan and its surroundings, located in the Archdiocese of Mexico. Responses describe the history of the community, the division of surrounding provinces and their respective government officials, and the land itself listing native species of flora and fauna. Also included is an extensive description of the religious orders in the area with the most active being the Order of Saint Augustine.  A description of the topographic features of the land is included along with a description of the rivers and other water sources. The smaller towns located in province are also described, which include Xelitla, Fuerte de Xalpa, Chicontepec, Guaxulla, Llamaltlan, Chapulhuacan, Tlanchinolticpac, Yagualíca, Hueyacocotlan, Molango, Suchicoatlan, Tzaqualtipan, and Malila. At the start of the manuscript is an illustration depicting the method of recording time in the Aztec calendar. Also included is a visual representation of the landscape, known as a pintura or map. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "utblac:a41e7023-c6d3-4488-a1b0-2e91146364b1" , "JGI_XXIV-12_Meztitlan_text" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -2044,7 +2044,7 @@
         dcterms:issued       "1579-10-10"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/metztitlan> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_a41e7023-c6d3-4488-a1b0-2e91146364b1/TN/utblac_a41e7023-c6d3-4488-a1b0-2e91146364b1.jpg> ;
-        edm:hasType          "text@e"@en ;
+        edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:3117851b-8782-420f-898a-a6c968ec81ba> .
 
 <https://unlockingarchives.com/relaciones/aggregation/929d3c16-f31f-49a8-910d-71b34cada1e4>
@@ -2215,7 +2215,7 @@
         dc:date              "2022-01-19"^^xsd:date ;
         dc:description       "Description of Teguantepec and several other towns located in the Diocese of Oaxaca. Signers of the census are Juan de Torre de Lagunas, Diego de Alcalá, Andrés López, and Diego Ruiz de Andrada. Details list Zapoteca, Mixteca, and Mexicana as languages spoken, etymology of place names, systems of governance, fauna, and monasteries and convents. Also included are topographic features and the communities of Xalapa, Tequantepec, Santuin, Nustequilla, Hiulotepec, Suchitlom, Yztactepec Coba, Conitlom, Hacotepec, Petapa, Siltepec, Decetun, and Petchitlan. Also included is a visual representation of the landscape, known as a pintura or map. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "JGI_XXV-04_Teguantepec_text" , "utblac:eb72cf9e-6be9-4698-a675-b0a081ab014d" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -2225,7 +2225,7 @@
         dcterms:issued       "1580-09-20"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/tehuantepec> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_eb72cf9e-6be9-4698-a675-b0a081ab014d/TN/utblac_eb72cf9e-6be9-4698-a675-b0a081ab014d.jpg> ;
-        edm:hasType          "text@e"@en ;
+        edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:15876f70-a403-404b-a8d4-85e58e222465> .
 
 <https://unlockingarchives.com/relaciones/aggregation/bfe9df59-d0c1-46a6-8c45-0026a345642b>
@@ -2246,7 +2246,7 @@
         dc:date              "2022-01-19"^^xsd:date ;
         dc:description       "Description of Teozacoalco and Amoltepec, towns in the Diocese of Oaxaca. Census signed by Juan Ruiz Zuazo and Hernando de Cervantes. Document lists Mixteca as the spoken language, surrounding towns such as Zenzontepeque, topographic features, and flora and fauna. There are also details of the local jurisdiction, hierarchy, and systems of governance, etymology of names,  and churches. Also included is a visual representation of the landscape, known as a pintura or map. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "JGI_XXV-03_TeozacoalcoAmoltepec_text" , "utblac:67573049-3633-43b1-8c0e-82b8dc8c89db" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -2256,7 +2256,7 @@
         dcterms:issued       "1580-01-09"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/santiagoamoltepec> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_67573049-3633-43b1-8c0e-82b8dc8c89db/TN/utblac_67573049-3633-43b1-8c0e-82b8dc8c89db.jpg> ;
-        edm:hasType          "text@e"@en ;
+        edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:059d9312-d77c-41d9-81ed-da65bda50a15> .
 
 <https://unlockingarchives.com/relaciones/cho/e1372d7e-40f1-47b5-90b4-cb9568457187>
@@ -2291,7 +2291,7 @@
         dc:date              "2022-01-11"^^xsd:date ;
         dc:description       "Description of Patzcuaro, located in the Diocese of Michoacan. Document lists Tarasca as the spoken language, natural resources, and fauna. There are also details of etymology of names, local hierarchy and systems of governance, and hospitals. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "utblac:209aa6dc-a36e-46f7-9207-0d044ecfe86b" , "JGI_XXIV-14_Patzcuaro_text" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -2301,7 +2301,7 @@
         dcterms:issued       "1581-04-08"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/patzcuaro> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_209aa6dc-a36e-46f7-9207-0d044ecfe86b/TN/utblac_209aa6dc-a36e-46f7-9207-0d044ecfe86b.jpg> ;
-        edm:hasType          "text@e"@en .
+        edm:hasType          "text"@en .
 
 <https://unlockingarchives.com/relaciones/aggregation/15fe4b37-7b5c-48f5-acc8-0858ff0d1d47>
         a                       ore:Aggregation ;
@@ -2337,7 +2337,7 @@
         dc:date              "2022-01-14"^^xsd:date ;
         dc:description       "Description of los Peñoles, towns in the Diocese of Oaxaca. Towns included are Itzcuintepéc, Eztitla, Quauxoloticpac, Huiztepec, Totomachapa, and Elotepec. Census was signed by corregidor Diosdado Treviño and Juan López de Zárate. Document lists Mixteca and Zapoteca as the spoken languages, topographic features, flora and fauna, and other natural resources. There are also descriptions of the local hierarchy and systems of governance, etymology of names, and medicines used. Also included is a visual representation of the landscape, known as a pintura or map. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "utblac:20c443dd-6b30-4629-8ddf-04c9703bdd3e" , "JGI_XXIV-15_losPenoles_text" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -2347,7 +2347,7 @@
         dcterms:issued       "1579-08-20"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/santamariapeñoles> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_20c443dd-6b30-4629-8ddf-04c9703bdd3e/TN/utblac_20c443dd-6b30-4629-8ddf-04c9703bdd3e.jpg> ;
-        edm:hasType          "text@e"@en ;
+        edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:7d1cca63-5ecd-4d6b-b801-885147253548> .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_9202cf3b-3a38-4498-89bc-67d0b03e9509.jp2>
@@ -2362,7 +2362,7 @@
         dc:date              "2022-01-11"^^xsd:date ;
         dc:description       "Description of Iguala, located in the Archdiocese of Mexico. The only visible signature is that of the scribe, Fernando Alfonso de Estrada. Document lists Cuixca and Chontal as the spoken languages. Document also details the native population, wildlife, climate, the province, and full descriptions of the region's cabeceras: Iguala, Cocula, Tepecuacuilco, Mayanala, Ohuapa, Tasmalaca, and Izuco. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "JGI_XXIV-06_Iguala_text" , "utblac:678df51c-6156-4a55-a374-b02e3df0bd72" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -2372,7 +2372,7 @@
         dcterms:issued       "1579-08-31"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/tepecoacuilcodetrujano> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_678df51c-6156-4a55-a374-b02e3df0bd72/TN/utblac_678df51c-6156-4a55-a374-b02e3df0bd72.jpg> ;
-        edm:hasType          "text@e"@en .
+        edm:hasType          "text"@en .
 
 <https://unlockingarchives.com/relaciones/agent/conapo-benito>
         skos:prefLabel  "Conápo, Benito" .
@@ -2456,7 +2456,7 @@
         dc:date              "2022-01-11"^^xsd:date ;
         dc:description       "Description of Zapotitlan located in the province of Amula, Diocese of Guadalajara. Also included are full descriptions of Tuscacuesco and Cusalapa. Census was signed by alcalde mayor Francisco de Agüero. Document details the history of the province of Amula, lists Mexicana and Otomí as the languages spoken, topographic features, as well as systems of governance and local hierarchies.  This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "JGI_XXIII-09_Amula_text" , "utblac:fe075326-e366-49f0-8642-767f3bc57527" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -2466,7 +2466,7 @@
         dcterms:issued       "1579-09-04"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/zapotitlandevadillo> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_fe075326-e366-49f0-8642-767f3bc57527/TN/utblac_fe075326-e366-49f0-8642-767f3bc57527.jpg> ;
-        edm:hasType          "text@e"@en .
+        edm:hasType          "text"@en .
 
 <https://unlockingarchives.com/relaciones/agent/mendoza-luisde>
         skos:prefLabel  "Mendoza, Luis de" .
@@ -2601,7 +2601,7 @@
         dc:date              "2022-01-11"^^xsd:date ;
         dc:description       "Description of Tequixquiac, located in the Archdiocese of Mexico. Census is signed by Alonso de Galdo. Document lists Otomí and Mexicana as the spoken languages, surrounding towns such as Tepexi, Quauhtitlan, Hueypustla, Atitalaquia, Xilolzingo, Atotonilco, Citlaltepec. Also mentioned are details of the local jurisdiction, hierarchy, and systems of governance, topographic features, medicines used, fauna, etymology of names, and farms. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "JGI_XXV-05_Tequixquiac_text" , "utblac:add9d89a-1c5f-41d8-9854-7bda1e6632a2" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -2611,7 +2611,7 @@
         dcterms:issued       "1579-09-10"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/sanjuanzitlaltepec> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_add9d89a-1c5f-41d8-9854-7bda1e6632a2/TN/utblac_add9d89a-1c5f-41d8-9854-7bda1e6632a2.jpg> ;
-        edm:hasType          "text@e"@en .
+        edm:hasType          "text"@en .
 
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_cf7b3eec-f560-46d4-901b-f54ab62be0ae/PDF/utblac_cf7b3eec-f560-46d4-901b-f54ab62be0ae.pdf>
         a           edm:WebResource ;
@@ -2629,7 +2629,7 @@
         dc:date              "2022-01-19"^^xsd:date ;
         dc:description       "Description of Misantla, town in the Diocese of Tlaxcala. Census signed by Diego Pérez de Arteaga. Document lists Totonaco as the spoken language, flora and fauna, and surrounding towns such as Colipa, Mezcalizingo, and Chiconquiaco. There are also details of the native population, topographic features, etymology of names, local hierarchy and systems of governance, and medicines used.  Also included is a visual representation of the landscape, known as a pintura or map. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "JGI_XXIV-13_Misantla_text" , "utblac:15fe4b37-7b5c-48f5-acc8-0858ff0d1d47" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -2639,7 +2639,7 @@
         dcterms:issued       "1579-10-01"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/misantla> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_15fe4b37-7b5c-48f5-acc8-0858ff0d1d47/TN/utblac_15fe4b37-7b5c-48f5-acc8-0858ff0d1d47.jpg> ;
-        edm:hasType          "text@e"@en ;
+        edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:0ed957f7-d5d4-432e-a371-70f9e02c8651> .
 
 <https://unlockingarchives.com/relaciones/place/heroicaveracruz>
@@ -2665,7 +2665,7 @@
         dc:date              "2022-01-19"^^xsd:date ;
         dc:description       "Description of Iztapalapa, town subject to Mexicaltzingo in the Archdiocese of Mexico. Census was signed by Dr. Francisco de Loya. Document lists Mexicana as the spoken language, surrounding towns such as Xuckimilco and Cuitlahuac, and flora and fauna. There are also details of topographic features, local jurisdiction, hierarchy and systems of governance, and monasteries and convents.  Also included is a visual representation of the landscape, known as a pintura or map. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "JGI_XXIV-08_Iztapalapa_text" , "utblac:a1d7fe6b-6f27-49c3-9818-8e0666d9dd73" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -2675,7 +2675,7 @@
         dcterms:issued       "1580-01-31"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/iztapalapa> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_a1d7fe6b-6f27-49c3-9818-8e0666d9dd73/TN/utblac_a1d7fe6b-6f27-49c3-9818-8e0666d9dd73.jpg> ;
-        edm:hasType          "text@e"@en ;
+        edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:e45a4bc1-8115-4938-879d-ac7f93fb5655> .
 
 <https://unlockingarchives.com/relaciones/agent/hernandezalconohel-gonzalo>
@@ -2689,7 +2689,7 @@
         dc:date              "2022-01-11"^^xsd:date ;
         dc:description       "Description of Querétaro, located in the Diocese of Michoacan. Signer of census is unknown. Document lists Mexicana and Otomí as the spoken languages, topographic features, and flora and fauna. Also included are details of the native population, province, local jurisdiction, hierarchy, and systems of governance, etymology of names, medicines used, hospitals, and monasteries and convents. The census makes reference to the creation of an accompanying map, but it is not included in the Joaquín García Icazbalceta Manuscript Collection. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "utblac:b9393f97-b3ce-4da6-a905-e14db71cf765" , "JGI_XXIV-17_Queretaro_text" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -2699,7 +2699,7 @@
         dcterms:issued       "1582-01-20"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/santiagodequeretaro> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_b9393f97-b3ce-4da6-a905-e14db71cf765/TN/utblac_b9393f97-b3ce-4da6-a905-e14db71cf765.jpg> ;
-        edm:hasType          "text@e"@en .
+        edm:hasType          "text"@en .
 
 <https://unlockingarchives.com/relaciones/agent/avila-pedrode>
         a               edm:Agent ;
@@ -2894,7 +2894,7 @@
         dc:date              "2022-01-14"^^xsd:date ;
         dc:description       "Description of Quatlatlauca and Gueguetlan, towns in the Diocese of Tlaxcala. Census signed by Fray Juan Miguélez, Fray Agustín de Aranda, and Antonio de Vargas. Document lists Mexicana as the spoken language, topographic features, and flora and fauna. There are also details of the native population and the monasteries and convents. Also included is a visual representation of the landscape, known as a pintura or map. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "JGI_XXIV-16_QuatlatlaucaGueguetlan_text" , "utblac:6ede75e1-f3b5-4af6-9b61-b924a87e4cd3" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -2904,7 +2904,7 @@
         dcterms:issued       "1579-09-02"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/santodomingohuehuetlan> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_6ede75e1-f3b5-4af6-9b61-b924a87e4cd3/TN/utblac_6ede75e1-f3b5-4af6-9b61-b924a87e4cd3.jpg> ;
-        edm:hasType          "text@e"@en ;
+        edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:71ee2192-0893-48d8-bfc9-17325829c792> .
 
 <https://unlockingarchives.com/relaciones/aggregation/50098d40-75e0-4f70-8622-6c156da2e45d>
@@ -3041,7 +3041,7 @@
         dc:date              "2022-01-14"^^xsd:date ;
         dc:description       "Description of Tistla and Muchitlan, towns near the Mines of Zumpango and in the Diocese of Tlaxcala. Census was signed by Gonzalo Bazán the Alcalde Mayor, and Francisco Martínez. Document lists Matlatzinca, Mexicana, and Tuzteco as the spoken languages, topographic features, medicines used, and flora and fauna. There are also descriptions of the native population, local jurisdiction, hierarchy, and systems of governance, etymology of names, farms, hospitals, and monasteries and convents. Also included is a visual representation of the landscape, known as a pintura or map. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "JGI_XXV-13_TistlaMuchitlan_text" , "utblac:fbc92b3e-bb28-4258-975a-b5d439afda12" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -3051,7 +3051,7 @@
         dcterms:issued       "1582-03-07"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/mochitlan> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_fbc92b3e-bb28-4258-975a-b5d439afda12/TN/utblac_fbc92b3e-bb28-4258-975a-b5d439afda12.jpg> ;
-        edm:hasType          "text@e"@en ;
+        edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:f5b6a65a-1c41-48b5-b856-437d1bd4a586> .
 
 <https://unlockingarchives.com/relaciones/cho/15b6a34a-4837-4e71-ab46-0b65e3ae4c2a>
@@ -3096,7 +3096,7 @@
         dc:date              "2022-01-11"^^xsd:date ;
         dc:description       "Description of Tiripitio, located in the Diocese of Michoacan. Census was signed by Fray Guillermo de Santa María and Pedro de Montes de Oca. Document lists Tarasca as the spoken language, topographic features,  medicines used, and flora and fauna. Document also contains pages of correspondence, including from Montes de Oca dated 1580 and Fray Guillermo de Santa María dated 1580. Also mentioned are descriptions of the local hierarchy and systems of governance, etymology of names, architecture, farms, churches, hospitals, and monasteries and convents. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "utblac:7f50756e-7000-43d0-b593-62c80ae36892" , "JGI-XXV-07_Tiripitio_text" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -3106,7 +3106,7 @@
         dcterms:issued       "1580-09-15"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/tiripetio> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_7f50756e-7000-43d0-b593-62c80ae36892/TN/utblac_7f50756e-7000-43d0-b593-62c80ae36892.jpg> ;
-        edm:hasType          "text@e"@en .
+        edm:hasType          "text"@en .
 
 <https://unlockingarchives.com/relaciones/place/santamariapeñoles>
         a               edm:Place ;
@@ -3135,7 +3135,7 @@
         dc:date              "2022-01-14"^^xsd:date ;
         dc:description       "Description of Ixcatlan, located in the Diocese of Oaxaca. Census was signed by Gonzalo Velázquez de Lara. Document lists Cuicateca, Chochona, and Mexicana as the spoken languages and includes full descriptions of Ixcatlan, Quiotepeque, and Tecomahuaca. Additionally included are descriptions of the relationship between Quiotepec and Tecomahuac,  the climate, native population, local jurisdiction, hierarchy and customs, and flora and fauna. Also included is a visual representation of the landscape, known as a pintura or map. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "JGI_XXIV-07_Ixcatlan_text" , "utblac:8c77bcaf-7be7-4aee-976e-9e3de17dd463" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -3145,7 +3145,7 @@
         dcterms:issued       "1579-10-13"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/santamariatecomavaca> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_8c77bcaf-7be7-4aee-976e-9e3de17dd463/TN/utblac_8c77bcaf-7be7-4aee-976e-9e3de17dd463.jpg> ;
-        edm:hasType          "text@e"@en ;
+        edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:5e2afb53-d229-48e1-a279-bd6c707edb69> .
 
 <https://unlockingarchives.com/relaciones/aggregation/fe075326-e366-49f0-8642-767f3bc57527>
@@ -3193,7 +3193,7 @@
         dc:date              "2022-01-11"^^xsd:date ;
         dc:description       "Description of the administrative capital of Cuautla and full descriptions of its surrounding communities named Xocoticpaque, Xaltepetongo, Tututepetongo, and Tanatepec in the Diocese of Oaxaca. Census was signed by Mélchior Suárez. Document lists Mixteca and Cuicateca as the spoken languages, local hierarchies, systems of governance, and fauna. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "JGI_XXIV-04_Cuautla_text" , "utblac:5c984bf0-b48f-4da9-a8c5-5def4ef44c6e" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -3203,7 +3203,7 @@
         dcterms:issued       "1580-02-26"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/sanmiguelhuautla> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_5c984bf0-b48f-4da9-a8c5-5def4ef44c6e/TN/utblac_5c984bf0-b48f-4da9-a8c5-5def4ef44c6e.jpg> ;
-        edm:hasType          "text@e"@en .
+        edm:hasType          "text"@en .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_a41e7023-c6d3-4488-a1b0-2e91146364b1.jp2>
         a           edm:WebResource ;
@@ -3297,7 +3297,7 @@
         dc:date              "2022-01-14"^^xsd:date ;
         dc:description       "Description of Huaxtepeque, town in the Archdiocese of Mexico. Census was signed by alcalde mayor Juan Gutiérrez de Liébana. Document lists Mexicana as the language spoken, surrounding towns such as Yauhtepeque and Tlayacapana, and flora and fauna. There are also details of the local jurisdiction, medicines used, topographic features, local hierarchy, systems of governance, etymology of names,  Also included is a visual representation of the landscape, known as a pintura or map. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "utblac:08e8318a-13f1-4bd9-934e-dca47020281b" , "JGI_XXIV-03_Huaxtepeque_text" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -3307,7 +3307,7 @@
         dcterms:issued       "1580-09-24"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/oaxtepec> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_08e8318a-13f1-4bd9-934e-dca47020281b/TN/utblac_08e8318a-13f1-4bd9-934e-dca47020281b.jpg> ;
-        edm:hasType          "text@e"@en ;
+        edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:50098d40-75e0-4f70-8622-6c156da2e45d> .
 
 <https://unlockingarchives.com/relaciones/aggregation/b9393f97-b3ce-4da6-a905-e14db71cf765>
@@ -3418,7 +3418,7 @@
         dc:date              "2022-01-20"^^xsd:date ;
         dc:description       "Description of the administrative capital Acapistla and its surroundings, located in the Archdiocese of Mexico. Census was signed by alcalde mayor Juan Gutiérrez de Liébana. Document details the history of Acapistla, the etymology of its name and other community names within its jurisdiction, lists Mexicana as the language spoken, natural resources, flora and fauna, locations of churches and monasteries, and Acapistla's location within the Archdiocese of Mexico. Also mentioned are the sixteen smaller communities found within the jurisdiction of Acapistla, which are Texcala, Atlitiqui, Suchitlan, Zuquiapa, Ayapanco, Itlacan, Tecaxiqui, Tecocuzpa, Zahuatlan, Tetliculuca, Calalpa, Ecatepeque, Zacatepeque, Atlahuymulco, and Pazulco. Also included is a visual representation of the landscape, known as a pintura or map. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "utblac:740d6d5b-280a-45f4-a3b6-e4382efb6c8f" , "JGI_XXIII-08_Acapistla_text" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -3428,7 +3428,7 @@
         dcterms:issued       "1580-10-10"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/yecapixtla> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_740d6d5b-280a-45f4-a3b6-e4382efb6c8f/TN/utblac_740d6d5b-280a-45f4-a3b6-e4382efb6c8f.jpg> ;
-        edm:hasType          "text@e"@en ;
+        edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:9202cf3b-3a38-4498-89bc-67d0b03e9509> .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_50098d40-75e0-4f70-8622-6c156da2e45d.jp2>
@@ -3496,7 +3496,7 @@
         dc:date              "2022-01-14"^^xsd:date ;
         dc:description       "Description of Cuzcatlan located in the Diocese of Tlaxcala. Census was signed by Juan de Castañeda León. Document lists Chocho, Mazateca, and Mexicana as languages spoken, estancias, locations of churches, topographic features, and flora. Also mentioned are fauna and a description of the native population. Also included is a visual representation of the landscape, known as a pintura or map. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "JGI_XXIII-15_Cuzcatlan_text" , "utblac:1dafc85c-ba6b-45cc-8975-fd9b2cfd1f2b" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -3506,7 +3506,7 @@
         dcterms:issued       "1580-10-26"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/coxcatlan> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_1dafc85c-ba6b-45cc-8975-fd9b2cfd1f2b/TN/utblac_1dafc85c-ba6b-45cc-8975-fd9b2cfd1f2b.jpg> ;
-        edm:hasType          "text@e"@en ;
+        edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:e38f8f71-f967-46fb-9493-1edec8cbc1b3> .
 
 <https://unlockingarchives.com/relaciones/aggregation/e9055aaa-903a-4cc3-9611-da0015c607f1>
@@ -3663,7 +3663,7 @@
         dc:date              "2022-01-11"^^xsd:date ;
         dc:description       "Description of Tenamaztlan, located in the Diocese of Guadalajara. Signer of census is Pedro de Ávila. Document lists Mexicana and two unidentified languages as the spoken languages, surrounding towns such as Cocula, Ayutla, Tepantla, and Zoyatlan, topographic features, and flora and fauna. Also mentioned are descriptions of the native population, local jurisdiction, hierarchy, and systems of governance, etymology of names, medicines used, and architecture. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "JGI_XXV-01_Tenamaztlan_text" , "utblac:c43cc46e-4694-40d2-be2b-193ef0b5065d" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -3673,7 +3673,7 @@
         dcterms:issued       "1579-11-08"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/tenamaxtlan> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_c43cc46e-4694-40d2-be2b-193ef0b5065d/TN/utblac_c43cc46e-4694-40d2-be2b-193ef0b5065d.jpg> ;
-        edm:hasType          "text@e"@en .
+        edm:hasType          "text"@en .
 
 <https://unlockingarchives.com/relaciones/agent/leyva-antoniode>
         a               edm:Agent ;
@@ -3838,7 +3838,7 @@
         dc:date              "2022-01-19"^^xsd:date ;
         dc:description       "Description of Atengo and Misquiahuala located in the Archdiocese of Mexico. Census signed by Pedro Franco. Document details Otomí as the language spoken, etymology of its names, church locations, and topographic features. Additionally, there are descriptions of each town's natural resources, hospitals and schools. Also included is a visual representation of the landscape, known as a pintura or map. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "utblac:e9055aaa-903a-4cc3-9611-da0015c607f1" , "JGI_XXIII-12_AtengoMisquiahuala_text" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
@@ -3848,7 +3848,7 @@
         dcterms:issued       "1579-10-08"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/mixquiahualadejuarez> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_e9055aaa-903a-4cc3-9611-da0015c607f1/TN/utblac_e9055aaa-903a-4cc3-9611-da0015c607f1.jpg> ;
-        edm:hasType          "text@e"@en ;
+        edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:d6360c5d-e505-49af-84a3-b2538f7be43b> .
 
 <https://unlockingarchives.com/relaciones/agent/obregon-luisde>
@@ -3943,7 +3943,7 @@
         dc:date              "2022-01-14"^^xsd:date ;
         dc:description       "Description of Zapotitlan, province in the Diocese of Guatemala. Census is signed by Juan de Estrada. Document lists Mexicana as well as other Guatemalan languages as the spoken languages, topographic features, surrounding towns such as Xicalpa, Izapa, Patzicía, Patzum, and Tolimán Alto, medicines used, and flora and fauna. There is also description of the native population, local jurisdiction, hierarchy, and systems of governance etymology of names, architecture, farms, churches, hospitals, ports, and monasteries and convents. Also included is a visual representation of the landscape, known as a pintura or map. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
         dc:identifier        "utblac:3affb1e7-0e19-4c34-944b-d57313f05482" , "JGI_XX-09_Zapotitlan_text" ;
-        dc:language          "Spanish@e"@en ;
+        dc:language          "Spanish"@en ;
         dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
         dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
         dc:subject           "Indigenous peoples--Guatemala--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Guatemala--History--16th century--Sources"@en ;
@@ -3953,7 +3953,7 @@
         dcterms:issued       "1579-11-22"^^xsd:date ;
         dcterms:spatial      <https://unlockingarchives.com/relaciones/place/sanantoniosuchitepequez> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_3affb1e7-0e19-4c34-944b-d57313f05482/TN/utblac_3affb1e7-0e19-4c34-944b-d57313f05482.jpg> ;
-        edm:hasType          "text@e"@en ;
+        edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:32713c87-b23c-474c-acb9-0757bc1d2dd3> .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_0ed957f7-d5d4-432e-a371-70f9e02c8651.jp2>
