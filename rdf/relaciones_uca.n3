@@ -20,16 +20,21 @@
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
 <https://unlockingarchives.com/relaciones/agent/ruizdemendoza-juan>
+        a               edm:Agent ;
         skos:prefLabel  "Ruiz de Mendoza, Juan" .
 
 <https://unlockingarchives.com/relaciones/place/epazoyucan>
         a               edm:Place ;
         wgs84_pos:lat   "20.017849" ;
         wgs84_pos:long  "-98.635318" ;
-        skos:prefLabel  "Mexico (country)| Hidalgo (state)| Epazoyucan (city)"@en .
+        skos:prefLabel  "Mexico (country)| Hidalgo (state)| Epazoyucan"@en .
 
 <https://unlockingarchives.com/relaciones/agent/philippe-pedro>
+        a               edm:Agent ;
         skos:prefLabel  "Philippe, Pedro" .
+
+<https://unlockingarchives.com/relaciones/agent/ramosdecardenas-francisco>
+        a       edm:Agent .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_28734f55-c00f-4426-b517-6052fd2145ba.jp2>
         a           edm:WebResource ;
@@ -77,16 +82,21 @@
         a               edm:Place ;
         wgs84_pos:lat   "16.332566" ;
         wgs84_pos:long  "-95.231997" ;
-        skos:prefLabel  "Mexico (country)| Oaxaca (state)| Tehuantepec (city)"@en .
+        skos:prefLabel  "Mexico (country)| Oaxaca (state)| Tehuantepec"@en .
 
 <https://unlockingarchives.com/relaciones/agent/alcala-diegode>
+        a               edm:Agent ;
         skos:prefLabel  "Alcalá, Diego de" .
 
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_eb72cf9e-6be9-4698-a675-b0a081ab014d/PDF/utblac_eb72cf9e-6be9-4698-a675-b0a081ab014d.pdf>
         a           edm:WebResource ;
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
+<https://unlockingarchives.com/relaciones/agent/mongedeleon-martin>
+        a       edm:Agent .
+
 <https://unlockingarchives.com/relaciones/agent/gutierrezdevardiga-pedro>
+        a               edm:Agent ;
         skos:prefLabel  "Gutiérrez de Vardiga, Pedro" .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_6f42ff06-ff73-4471-9454-d3a264276d67.jp2>
@@ -100,6 +110,7 @@
         foaf:homepage        <https://txarchives.org/utlac/finding_aids/00056.xmltml> .
 
 <https://unlockingarchives.com/relaciones/agent/jacobo-dondiego>
+        a               edm:Agent ;
         skos:prefLabel  "Jacobo, Don Diego" .
 
 <https://unlockingarchives.com/relaciones/aggregation/1dafc85c-ba6b-45cc-8975-fd9b2cfd1f2b>
@@ -121,6 +132,7 @@
         edm:isShownBy           <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_9e9ca33c-2580-4851-86c2-0760d62fa7fb/TN/utblac_9e9ca33c-2580-4851-86c2-0760d62fa7fb.jpg> .
 
 <https://unlockingarchives.com/relaciones/agent/aranda-frayagustinde>
+        a               edm:Agent ;
         skos:prefLabel  "Aranda, Fray Agustín de" .
 
 <https://unlockingarchives.com/relaciones/agent/salas-cristobalde>
@@ -130,6 +142,12 @@
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_20c443dd-6b30-4629-8ddf-04c9703bdd3e/PDF/utblac_20c443dd-6b30-4629-8ddf-04c9703bdd3e.pdf>
         a           edm:WebResource ;
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
+
+<https://unlockingarchives.com/relaciones/place/sanbartolomemilpasaltas>
+        a               edm:Place ;
+        wgs84_pos:lat   "14.6082" ;
+        wgs84_pos:long  "-90.679" ;
+        skos:prefLabel  "| Guatemala (country)| Sacatepéquez (state)| San Bartolomé Milpas Altas" .
 
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_059d9312-d77c-41d9-81ed-da65bda50a15/PDF/utblac_059d9312-d77c-41d9-81ed-da65bda50a15.pdf>
         a           edm:WebResource ;
@@ -152,7 +170,7 @@
         dcterms:alternative  "Descripción de los pueblos de Tecuicuilco, Atepeque, Zoquiapa y Xaltianguis"@es ;
         dcterms:extent       "32 pages; 31 cm"@en ;
         dcterms:issued       "1580-10-02"^^xsd:date ;
-        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/santamariajaltianguis> ;
+        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/santamariajaltianguis> , <https://unlockingarchives.com/relaciones/place/santiagozoquiapam> , <https://unlockingarchives.com/relaciones/place/teococuilcodemarcosperez> , <https://unlockingarchives.com/relaciones/place/sanjuanatepec> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_6944fa60-46f6-4bb8-97da-c7adeae33b66/TN/utblac_6944fa60-46f6-4bb8-97da-c7adeae33b66.jpg> ;
         edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:b48b5d10-4a89-493f-a14f-cf8019599bbb> .
@@ -170,7 +188,7 @@
         a               edm:Place ;
         wgs84_pos:lat   "18.0087" ;
         wgs84_pos:long  "-102.1783" ;
-        skos:prefLabel  "Mexico (country)| Guerrero (state)| Zacatula (city)"@en .
+        skos:prefLabel  "Mexico (country)| Guerrero (state)| Zacatula"@en .
 
 <https://unlockingarchives.com/relaciones/agent/montesdeoca-pedrode>
         a               edm:Agent ;
@@ -195,6 +213,7 @@
         edm:isShownBy           <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_874cc4b5-f987-4987-a640-b60133be3d07/TN/utblac_874cc4b5-f987-4987-a640-b60133be3d07.jpg> .
 
 <https://unlockingarchives.com/relaciones/agent/robles-nicolasde>
+        a               edm:Agent ;
         skos:prefLabel  "Robles, Nicolás de" .
 
 <https://unlockingarchives.com/relaciones/agent/vascones-hernandode>
@@ -211,13 +230,18 @@
         edm:isShownBy           <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_c43cc46e-4694-40d2-be2b-193ef0b5065d/TN/utblac_c43cc46e-4694-40d2-be2b-193ef0b5065d.jpg> .
 
 <https://unlockingarchives.com/relaciones/agent/padilla-bartolomede>
+        a               edm:Agent ;
         skos:prefLabel  "Padilla, Bartolomé de" .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_67573049-3633-43b1-8c0e-82b8dc8c89db.jp2>
         a           edm:WebResource ;
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
+<https://unlockingarchives.com/relaciones/agent/vargas-melchorde>
+        a       edm:Agent .
+
 <https://unlockingarchives.com/relaciones/agent/haro-juande>
+        a               edm:Agent ;
         skos:prefLabel  "Haro, Juan De" .
 
 <https://unlockingarchives.com/relaciones/aggregation/0a22bcf2-b70f-496f-8f8f-83bc1ea94089>
@@ -237,7 +261,7 @@
         a               edm:Place ;
         wgs84_pos:lat   "19.337665" ;
         wgs84_pos:long  "-102.36245" ;
-        skos:prefLabel  "Mexico (country)| Michoacán (state)| Tancítaro (city)"@en .
+        skos:prefLabel  "Mexico (country)| Michoacán (state)| Tancítaro"@en .
 
 <https://unlockingarchives.com/relaciones/cho/627cf1b7-9f91-4df6-8101-c5a8b5e55272>
         a                    edm:ProvidedCHO ;
@@ -264,7 +288,11 @@
         edm:type             "maps (documents)"@en .
 
 <https://unlockingarchives.com/relaciones/agent/martin-juan>
+        a               edm:Agent ;
         skos:prefLabel  "Martín, Juan" .
+
+<https://unlockingarchives.com/relaciones/agent/gabrielbobo-alonso>
+        a       edm:Agent .
 
 <https://unlockingarchives.com/relaciones/cho/9abf4616-db21-4905-affb-54b77b89c501>
         a                    edm:ProvidedCHO ;
@@ -291,6 +319,7 @@
         edm:type             "maps (documents)"@en .
 
 <https://unlockingarchives.com/relaciones/agent/santafe-juande>
+        a               edm:Agent ;
         skos:prefLabel  "Santa Fe, Juan de" .
 
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_209aa6dc-a36e-46f7-9207-0d044ecfe86b/PDF/utblac_209aa6dc-a36e-46f7-9207-0d044ecfe86b.pdf>
@@ -335,13 +364,14 @@
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
 <https://unlockingarchives.com/relaciones/agent/vazquez-juan>
+        a               edm:Agent ;
         skos:prefLabel  "Vázquez, Juan" .
 
 <https://unlockingarchives.com/relaciones/place/sanpedroteozacoalco>
         a               edm:Place ;
         wgs84_pos:lat   "17.016609" ;
-        wgs84_pos:long  "-97.2862" ;
-        skos:prefLabel  "Mexico (country)| Oaxaca (state)| San Pedro Teozacoalco (city)"@en .
+        wgs84_pos:long  "-97.286" , "-97.2862" ;
+        skos:prefLabel  "Mexico (country)| Oaxaca (state)| San Pedro Teozacoalco"@en .
 
 <https://unlockingarchives.com/relaciones/cho/15876f70-a403-404b-a8d4-85e58e222465>
         a                    edm:ProvidedCHO ;
@@ -383,7 +413,7 @@
         a               edm:Place ;
         wgs84_pos:lat   "20.596815" ;
         wgs84_pos:long  "-98.76222" ;
-        skos:prefLabel  "Mexico (country)| Hidalgo (state)| Metztitlán (city)"@en .
+        skos:prefLabel  "Mexico (country)| Hidalgo (state)| Metztitlán"@en .
 
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_e9055aaa-903a-4cc3-9611-da0015c607f1/PDF/utblac_e9055aaa-903a-4cc3-9611-da0015c607f1.pdf>
         a           edm:WebResource ;
@@ -415,7 +445,7 @@
         dcterms:alternative  "Descripción de Ixcatlan"@es ;
         dcterms:extent       "1 map, 33 x 31 cm."@en ;
         dcterms:issued       "1579-10-13"^^xsd:date ;
-        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/santamariatecomavaca> ;
+        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/santiagoquiotepec> , <https://unlockingarchives.com/relaciones/place/santamariatecomavaca> , <https://unlockingarchives.com/relaciones/place/santamariaixcatlan> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_5e2afb53-d229-48e1-a279-bd6c707edb69/TN/utblac_5e2afb53-d229-48e1-a279-bd6c707edb69.jpg> ;
         edm:hasType          "maps (documents)"@en ;
         edm:hasType          <http://vocab.getty.edu/aat/300028233> ;
@@ -433,9 +463,9 @@
 
 <https://unlockingarchives.com/relaciones/place/santamariazacatepec>
         a               edm:Place ;
-        wgs84_pos:lat   "17.335365" ;
-        wgs84_pos:long  "-98.011699" ;
-        skos:prefLabel  "Mexico (country)| Oaxaca (state)| Santiago Juxtlahuaca (city)| Mexico (country)| Oaxaca (state)| Santos Reyes Zochiquilazola (city)| Mexico (country)| Oaxaca (state)| San Juan Mixtepec (city)| Mexico (country)| Oaxaca (state)| Putla Villa de Guerrero (city)| Mexico (country)| Guerrero (state)| Jicayán de Tovar (city)| Mexico (country)| Oaxaca (state)| Santa María Zacatepec (city)"@en .
+        wgs84_pos:lat   "16.762559" ;
+        wgs84_pos:long  "-97.99008" ;
+        skos:prefLabel  "| Mexico (country)| Oaxaca (state)| Santa María Zacatepec" .
 
 <https://unlockingarchives.com/relaciones/aggregation/3affb1e7-0e19-4c34-944b-d57313f05482>
         a                       ore:Aggregation ;
@@ -463,7 +493,7 @@
         dcterms:alternative  "Descripción de Atengo y Misquiahuala"@es ;
         dcterms:extent       "1 map, 77 x 56 cm"@en ;
         dcterms:issued       "1579-10-08"^^xsd:date ;
-        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/mixquiahualadejuarez> ;
+        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/mixquiahualadejuarez> , <https://unlockingarchives.com/relaciones/place/atengo> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_d6360c5d-e505-49af-84a3-b2538f7be43b/TN/utblac_d6360c5d-e505-49af-84a3-b2538f7be43b.jpg> ;
         edm:hasType          "maps (documents)"@en ;
         edm:hasType          <http://vocab.getty.edu/aat/300028233> ;
@@ -475,6 +505,7 @@
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
 <https://unlockingarchives.com/relaciones/agent/ruizzuazo-juan>
+        a               edm:Agent ;
         skos:prefLabel  "Ruiz Zuazo, Juan" .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_f5b6a65a-1c41-48b5-b856-437d1bd4a586.jp2>
@@ -499,6 +530,7 @@
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
 <https://unlockingarchives.com/relaciones/agent/bosque-juan>
+        a               edm:Agent ;
         skos:prefLabel  "Bosque, Juan" .
 
 <https://unlockingarchives.com/relaciones/agent/gallegos-gonzalo>
@@ -515,18 +547,23 @@
         edm:isShownBy           <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_68c4084b-0c5c-4f4e-8c3f-3ff15560bd65/TN/utblac_68c4084b-0c5c-4f4e-8c3f-3ff15560bd65.jpg> .
 
 <https://unlockingarchives.com/relaciones/agent/illescaas-pedrode>
+        a               edm:Agent ;
         skos:prefLabel  "Illescaas, Pedro de" .
 
 <https://unlockingarchives.com/relaciones/agent/bejarano-pedro>
+        a               edm:Agent ;
         skos:prefLabel  "Bejarano, Pedro" .
 
 <https://unlockingarchives.com/relaciones/agent/cruz-gabrieldela>
+        a               edm:Agent ;
         skos:prefLabel  "Cruz, Gabriel de la" .
 
 <https://unlockingarchives.com/relaciones/agent/mendoza-diegode>
+        a               edm:Agent ;
         skos:prefLabel  "Mendoza, Diego de" .
 
 <https://unlockingarchives.com/relaciones/agent/zapata-pedro>
+        a               edm:Agent ;
         skos:prefLabel  "Zapata, Pedro" .
 
 <https://unlockingarchives.com/relaciones/cho/0a22bcf2-b70f-496f-8f8f-83bc1ea94089>
@@ -587,19 +624,22 @@
 
 <https://unlockingarchives.com/relaciones/place/sanjuanzitlaltepec>
         a               edm:Place ;
-        wgs84_pos:lat   "19.894012" ;
-        wgs84_pos:long  "-99.140278" ;
-        skos:prefLabel  "Mexico (country)| Mexico (state)| Tequixquiac (city)| Mexico (country)| Mexico (state)| Jilotzingo (city)| Mexico (country)| Mexico (state)| San Juan Zitlaltepec (city)"@en .
+        wgs84_pos:lat   "19.810751" ;
+        wgs84_pos:long  "-99.147804" ;
+        skos:prefLabel  "| Mexico (country)| Mexico (state)| San Juan Zitlaltepec" .
 
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_5c984bf0-b48f-4da9-a8c5-5def4ef44c6e/PDF/utblac_5c984bf0-b48f-4da9-a8c5-5def4ef44c6e.pdf>
         a           edm:WebResource ;
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
+<https://unlockingarchives.com/relaciones/agent/vazquez-alonso>
+        a       edm:Agent .
+
 <https://unlockingarchives.com/relaciones/place/misantla>
         a               edm:Place ;
         wgs84_pos:lat   "19.928022" ;
         wgs84_pos:long  "-96.854313" ;
-        skos:prefLabel  "Mexico (country)| Veracruz (state)| Misantla (city)"@en .
+        skos:prefLabel  "Mexico (country)| Veracruz (state)| Misantla"@en .
 
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_5e2afb53-d229-48e1-a279-bd6c707edb69/PDF/utblac_5e2afb53-d229-48e1-a279-bd6c707edb69.pdf>
         a           edm:WebResource ;
@@ -646,11 +686,12 @@
 
 <https://unlockingarchives.com/relaciones/place/tenampulco>
         a               edm:Place ;
-        wgs84_pos:lat   "20.026808" , "20.171199" ;
-        wgs84_pos:long  "-97.696745" , "-97.405858" ;
-        skos:prefLabel  "Mexico (country)| Puebla (state)| Hueytlalpan (city)| Mexico (country)| Puebla (state)| Zacatlán (city)| Mexico (country)| Puebla (state)| San Miguel Jojupango (city)| Mexico (country)| Puebla (state)| Chila (city)| Mexico (country)| Veracruz (state)| Papantla de Olarte (city)| Mexico (country)| Veracruz (state)| Tecolutla (city)| Mexico (country)| Puebla (state)| Tenampulco (city)"@en , "Mexico (country)| Puebla (state)| Tenampulco (city)"@en .
+        wgs84_pos:lat   "20.171199" ;
+        wgs84_pos:long  "-97.405858" ;
+        skos:prefLabel  "| Mexico (country)| Puebla (state)| Tenampulco" , "Mexico (country)| Puebla (state)| Tenampulco"@en .
 
 <https://unlockingarchives.com/relaciones/agent/guzman-donfranciscode>
+        a               edm:Agent ;
         skos:prefLabel  "Guzmán, Don Francisco de" .
 
 <https://unlockingarchives.com/relaciones/cho/9a78720b-d927-4635-bdc0-9993a3024f9a>
@@ -691,6 +732,7 @@
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
 <https://unlockingarchives.com/relaciones/agent/garciaruiz-hernan>
+        a               edm:Agent ;
         skos:prefLabel  "García Ruiz, Hernán" .
 
 <https://unlockingarchives.com/relaciones/cho/9e181f9e-0d70-4b7c-af4c-7c1ea3ae244b>
@@ -710,7 +752,7 @@
         dcterms:alternative  "Descripción de Atitlan y sus subjetos"@es ;
         dcterms:extent       "95 pages; 31 cm"@en ;
         dcterms:issued       "1585-02-08"^^xsd:date ;
-        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/sanfranciscozapotitlan> ;
+        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/santiagoatitlan> , <https://unlockingarchives.com/relaciones/place/sanbartolomemilpasaltas> , <https://unlockingarchives.com/relaciones/place/sanfranciscozapotitlan> , <https://unlockingarchives.com/relaciones/place/sanandressemetabaj> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_9e181f9e-0d70-4b7c-af4c-7c1ea3ae244b/TN/utblac_9e181f9e-0d70-4b7c-af4c-7c1ea3ae244b.jpg> ;
         edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:a04b68ae-8c53-43d7-838a-e04e2a20284e> .
@@ -800,7 +842,7 @@
         dcterms:alternative  "Descripción de la Alcaldia maior de las minas de Zumpango"@es ;
         dcterms:extent       "1 map, 76 x 56.5 cm"@en ;
         dcterms:issued       "1582-03-07"^^xsd:date ;
-        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/mochitlan> ;
+        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/mochitlan> , <https://unlockingarchives.com/relaciones/place/tixtla> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_f5b6a65a-1c41-48b5-b856-437d1bd4a586/TN/utblac_f5b6a65a-1c41-48b5-b856-437d1bd4a586.jpg> ;
         edm:hasType          "maps (documents)"@en ;
         edm:hasType          <http://vocab.getty.edu/aat/300028233> ;
@@ -808,6 +850,7 @@
         edm:type             "maps (documents)"@en .
 
 <https://unlockingarchives.com/relaciones/agent/sanjuan-martinde>
+        a               edm:Agent ;
         skos:prefLabel  "San Juan, Martín de" .
 
 <https://unlockingarchives.com/relaciones/cho/32713c87-b23c-474c-acb9-0757bc1d2dd3>
@@ -851,7 +894,7 @@
         dcterms:alternative  "Descripción de Gueytlalpa (Zacatlan, Xuxupango, Matlatlan y Chila, Papantla, Tecolutla, Tenanpulco y Matlactonatico)"@es ;
         dcterms:extent       "44 pages; 31 cm"@en ;
         dcterms:issued       "1581-05-30"^^xsd:date ;
-        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/tenampulco> ;
+        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/hueytlalpan> , <https://unlockingarchives.com/relaciones/place/tenampulco> , <https://unlockingarchives.com/relaciones/place/zacatlan> , <https://unlockingarchives.com/relaciones/place/tecolutla> , <https://unlockingarchives.com/relaciones/place/sanmigueljojupango> , <https://unlockingarchives.com/relaciones/place/chila> , <https://unlockingarchives.com/relaciones/place/papantladeolarte> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_c967a6e3-9bc2-45b9-91ce-4a9f1792f830/TN/utblac_c967a6e3-9bc2-45b9-91ce-4a9f1792f830.jpg> ;
         edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:9abf4616-db21-4905-affb-54b77b89c501> .
@@ -892,6 +935,7 @@
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:6f42ff06-ff73-4471-9454-d3a264276d67> .
 
 <https://unlockingarchives.com/relaciones/agent/ilmana-juande>
+        a               edm:Agent ;
         skos:prefLabel  "Ilmana, Juan de" .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_3affb1e7-0e19-4c34-944b-d57313f05482.jp2>
@@ -902,7 +946,14 @@
         a           edm:WebResource ;
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
+<https://unlockingarchives.com/relaciones/place/cocula>
+        a               edm:Place ;
+        wgs84_pos:lat   "18.238866" ;
+        wgs84_pos:long  "-99.66119" ;
+        skos:prefLabel  "Mexico (country)| Guerrero (state)| Cocula"@en .
+
 <https://unlockingarchives.com/relaciones/agent/ruizdeandrada-diego>
+        a               edm:Agent ;
         skos:prefLabel  "Ruiz de Andrada, Diego" .
 
 <https://unlockingarchives.com/relaciones/agent/lopezdezarate-juan>
@@ -947,9 +998,9 @@
 
 <https://unlockingarchives.com/relaciones/place/santiagoamoltepec>
         a               edm:Place ;
-        wgs84_pos:lat   "17.016609" , "16.641311" ;
-        wgs84_pos:long  "-97.2862" , "-97.496198" ;
-        skos:prefLabel  "Mexico (country)| Oaxaca (state)| San Pedro Teozacoalco (city)| Mexico (country)| Oaxaca (state)| Santiago Amoltepec (city)"@en , "Mexico (country)| Oaxaca (state)| Santiago Amoltepec (city)"@en .
+        wgs84_pos:lat   "16.641311" ;
+        wgs84_pos:long  "-97.496198" ;
+        skos:prefLabel  "| Mexico (country)| Oaxaca (state)| Santiago Amoltepec" , "Mexico (country)| Oaxaca (state)| Santiago Amoltepec"@en .
 
 <https://unlockingarchives.com/relaciones/aggregation/88f85e35-6ce0-4899-a4eb-2632c435edbe>
         a                       ore:Aggregation ;
@@ -965,9 +1016,11 @@
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
 <https://unlockingarchives.com/relaciones/agent/aguilera-pedrode>
+        a               edm:Agent ;
         skos:prefLabel  "Aguilera, Pedro de" .
 
 <https://unlockingarchives.com/relaciones/agent/gomez-christobal>
+        a               edm:Agent ;
         skos:prefLabel  "Gómez, Christóbal" .
 
 <https://unlockingarchives.com/relaciones/cho/68c4084b-0c5c-4f4e-8c3f-3ff15560bd65>
@@ -1045,7 +1098,7 @@
         dcterms:alternative  "Descripciones del Pueblo de Justlavaca (Mixteca baja), el pueblo de Mixtepeque, el pueblo de Ayusuchiquilazala, el pueblo de Xicayan, el pueblo de Puctla, y el pueblo de Zacatepeque"@es ;
         dcterms:extent       "64 pages; 31 cm"@en ;
         dcterms:issued       "1580-01-03"^^xsd:date ;
-        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/santamariazacatepec> ;
+        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/santosreyeszochiquilazola> , <https://unlockingarchives.com/relaciones/place/santiagojuxtlahuaca> , <https://unlockingarchives.com/relaciones/place/santamariazacatepec> , <https://unlockingarchives.com/relaciones/place/jicayandetovar> , <https://unlockingarchives.com/relaciones/place/sanjuanmixtepec> , <https://unlockingarchives.com/relaciones/place/putlavilladeguerrero> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_49a6f268-446e-4379-a947-35a7cf20864e/TN/utblac_49a6f268-446e-4379-a947-35a7cf20864e.jpg> ;
         edm:hasType          "text"@en .
 
@@ -1187,8 +1240,8 @@
 <https://unlockingarchives.com/relaciones/place/tecolutla>
         a               edm:Place ;
         wgs84_pos:lat   "20.477139" ;
-        wgs84_pos:long  "-97.00846" ;
-        skos:prefLabel  "Mexico (country)| Veracruz (state)| Tecolutla (city)"@en .
+        wgs84_pos:long  "-97.0084" , "-97.00846" ;
+        skos:prefLabel  "| Mexico (country)| Veracruz (state)| Tecolutla" , "Mexico (country)| Veracruz (state)| Tecolutla"@en .
 
 <https://unlockingarchives.com/relaciones/aggregation/15876f70-a403-404b-a8d4-85e58e222465>
         a                       ore:Aggregation ;
@@ -1213,11 +1266,18 @@
         edm:isShownBy           <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_7d1cca63-5ecd-4d6b-b801-885147253548/TN/utblac_7d1cca63-5ecd-4d6b-b801-885147253548.jpg> .
 
 <https://unlockingarchives.com/relaciones/agent/martindevalencia-juan>
+        a               edm:Agent ;
         skos:prefLabel  "Martín de Valencia, Juan" .
 
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_7d1cca63-5ecd-4d6b-b801-885147253548/PDF/utblac_7d1cca63-5ecd-4d6b-b801-885147253548.pdf>
         a           edm:WebResource ;
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
+
+<https://unlockingarchives.com/relaciones/place/mayanalan>
+        a               edm:Place ;
+        wgs84_pos:lat   "18.360862" ;
+        wgs84_pos:long  "-99.4141" ;
+        skos:prefLabel  "| Mexico (country)| Guerrero (state)| Mayanalán" .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_08e8318a-13f1-4bd9-934e-dca47020281b.jp2>
         a           edm:WebResource ;
@@ -1274,6 +1334,7 @@
         edm:isShownBy           <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_a56bebca-9296-472a-a60c-11c36c1c9c1b/TN/utblac_a56bebca-9296-472a-a60c-11c36c1c9c1b.jpg> .
 
 <https://unlockingarchives.com/relaciones/agent/garcia-genaro-1867-1920>
+        a               edm:Agent ;
         skos:prefLabel  "García, Genaro, 1867-1920" .
 
 <https://unlockingarchives.com/relaciones/agent/macarro-sebastian>
@@ -1281,6 +1342,7 @@
         skos:prefLabel  "Macarro, Sebastian" .
 
 <https://unlockingarchives.com/relaciones/agent/valades-juan>
+        a               edm:Agent ;
         skos:prefLabel  "Valadés, Juan" .
 
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_24db164c-91c4-423a-af08-3e163774a3d7/PDF/utblac_24db164c-91c4-423a-af08-3e163774a3d7.pdf>
@@ -1291,7 +1353,28 @@
         a               edm:Place ;
         wgs84_pos:lat   "19.514571" ;
         wgs84_pos:long  "-98.882750" ;
-        skos:prefLabel  "Mexico (country)| Mexico (state)| Texcoco (city)"@en .
+        skos:prefLabel  "Mexico (country)| Mexico (state)| Texcoco"@en .
+
+<https://unlockingarchives.com/relaciones/cho/88f85e35-6ce0-4899-a4eb-2632c435edbe>
+        a                    edm:ProvidedCHO ;
+        dc:contributor       <https://unlockingarchives.com/relaciones/agent/garciaicazbalceta-joaquin-1825-1894> , <https://unlockingarchives.com/relaciones/agent/julian-anton> ;
+        dc:coverage          "16th century"@en ;
+        dc:coverage          <http://vocab.getty.edu/aat/300404510> ;
+        dc:creator           <https://unlockingarchives.com/relaciones/agent/gallegos-hernando> ;
+        dc:date              "2022-01-11"^^xsd:date ;
+        dc:description       "Description of Tequaltiche, located in the Diocese of Guadalajara. Census signed by Hernando Gallegos. Document lists Caxan and Mexicana as the spoken languages, and topographic features. Also mentioned are descriptions of the native population, local jurisdiction, hierarchy, and systems of governance, and medicines used. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
+        dc:identifier        "utblac:88f85e35-6ce0-4899-a4eb-2632c435edbe" , "JGI_XXV-02_Tequaltiche_text" ;
+        dc:language          "Spanish"@en ;
+        dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
+        dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
+        dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
+        dc:title             "Relación de Tequaltiche"@es ;
+        dcterms:alternative  "Descripción de Tequaltiche"@es ;
+        dcterms:extent       "20 pages; 31 cm"@en ;
+        dcterms:issued       "1584-12-30"^^xsd:date ;
+        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/teocaltiche> ;
+        schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_88f85e35-6ce0-4899-a4eb-2632c435edbe/TN/utblac_88f85e35-6ce0-4899-a4eb-2632c435edbe.jpg> ;
+        edm:hasType          "text"@en .
 
 <https://unlockingarchives.com/relaciones/cho/28734f55-c00f-4426-b517-6052fd2145ba>
         a                    edm:ProvidedCHO ;
@@ -1321,33 +1404,19 @@
         a               skos:Concept ;
         skos:prefLabel  "contributor"@en .
 
-<https://unlockingarchives.com/relaciones/cho/88f85e35-6ce0-4899-a4eb-2632c435edbe>
-        a                    edm:ProvidedCHO ;
-        dc:contributor       <https://unlockingarchives.com/relaciones/agent/garciaicazbalceta-joaquin-1825-1894> , <https://unlockingarchives.com/relaciones/agent/julian-anton> ;
-        dc:coverage          "16th century"@en ;
-        dc:coverage          <http://vocab.getty.edu/aat/300404510> ;
-        dc:creator           <https://unlockingarchives.com/relaciones/agent/gallegos-hernando> ;
-        dc:date              "2022-01-11"^^xsd:date ;
-        dc:description       "Description of Tequaltiche, located in the Diocese of Guadalajara. Census signed by Hernando Gallegos. Document lists Caxan and Mexicana as the spoken languages, and topographic features. Also mentioned are descriptions of the native population, local jurisdiction, hierarchy, and systems of governance, and medicines used. This is one of a series of responses to a political and cultural survey circulated by King Philip II of Spain titled relaciones geográficas, which were gathered between the years 1579-1585."@en ;
-        dc:identifier        "utblac:88f85e35-6ce0-4899-a4eb-2632c435edbe" , "JGI_XXV-02_Tequaltiche_text" ;
-        dc:language          "Spanish"@en ;
-        dc:publisher         "Benson Latin American Collection, LLILAS Benson Latin American Studies and Collections, The University of Texas at Austin"@en ;
-        dc:rights            <https://creativecommons.org/publicdomain/mark/1.0/> ;
-        dc:subject           "Indigenous peoples--Mexico--History--Sources| New Spain--Description and travel| New Spain--History--Sources| New Spain--Maps, Manuscript| Spain--Colonies--History--Sources| Mexico--History--16th century--Sources| Manuscripts, Mexican"@en ;
-        dc:title             "Relación de Tequaltiche"@es ;
-        dcterms:alternative  "Descripción de Tequaltiche"@es ;
-        dcterms:extent       "20 pages; 31 cm"@en ;
-        dcterms:issued       "1584-12-30"^^xsd:date ;
-        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/teocaltiche> ;
-        schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_88f85e35-6ce0-4899-a4eb-2632c435edbe/TN/utblac_88f85e35-6ce0-4899-a4eb-2632c435edbe.jpg> ;
-        edm:hasType          "text"@en .
-
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_68c4084b-0c5c-4f4e-8c3f-3ff15560bd65/PDF/utblac_68c4084b-0c5c-4f4e-8c3f-3ff15560bd65.pdf>
         a           edm:WebResource ;
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
 <https://unlockingarchives.com/relaciones/agent/cortes-martin-1532-1589>
+        a               edm:Agent ;
         skos:prefLabel  "Cortes, Martín, 1532-1589" , "Cortes, Martin, 1532-1589" .
+
+<https://unlockingarchives.com/relaciones/place/santiagoatitlan>
+        a               edm:Place ;
+        wgs84_pos:lat   "14.638588" ;
+        wgs84_pos:long  "-91.22988" ;
+        skos:prefLabel  "Guatemala (country)| Sololá (state)| Santiago Atitlán"@en .
 
 <https://unlockingarchives.com/relaciones/aggregation/90dca2a6-6851-4d2b-b6c9-9fc2b75104b7>
         a                       ore:Aggregation ;
@@ -1372,6 +1441,7 @@
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
 <https://unlockingarchives.com/relaciones/agent/acatl-juan>
+        a               edm:Agent ;
         skos:prefLabel  "Acatl, Juan" .
 
 <https://unlockingarchives.com/relaciones/aggregation/cf4d787d-3872-4fd8-8900-4417ffdc468b>
@@ -1384,19 +1454,23 @@
         edm:isShownBy           <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_cf4d787d-3872-4fd8-8900-4417ffdc468b/TN/utblac_cf4d787d-3872-4fd8-8900-4417ffdc468b.jpg> .
 
 <https://unlockingarchives.com/relaciones/agent/poblete-juande>
+        a               edm:Agent ;
         skos:prefLabel  "Poblete, Juan de" .
+
+<https://unlockingarchives.com/relaciones/agent/velasquezdelara-gonzalo>
+        a       edm:Agent .
 
 <https://unlockingarchives.com/relaciones/place/chila>
         a               edm:Place ;
         wgs84_pos:lat   "17.970267" ;
-        wgs84_pos:long  "-97.860806" ;
-        skos:prefLabel  "Mexico (country)| Puebla (state)| Chila (city)"@en .
+        wgs84_pos:long  "-97.86080" , "-97.860806" ;
+        skos:prefLabel  "| Mexico (country)| Puebla (state)| Chila" , "Mexico (country)| Puebla (state)| Chila"@en .
 
 <https://unlockingarchives.com/relaciones/place/cuilapandeguerrero>
         a               edm:Place ;
         wgs84_pos:lat   "16.993044" ;
         wgs84_pos:long  "-96.779509" ;
-        skos:prefLabel  "Mexico (country)| Oaxaca (state)| Cuilapan de Guerrero (city)"@en .
+        skos:prefLabel  "Mexico (country)| Oaxaca (state)| Cuilapan de Guerrero"@en .
 
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_08e8318a-13f1-4bd9-934e-dca47020281b/PDF/utblac_08e8318a-13f1-4bd9-934e-dca47020281b.pdf>
         a           edm:WebResource ;
@@ -1497,6 +1571,7 @@
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
 <https://unlockingarchives.com/relaciones/agent/arboleda-fraypedrode>
+        a               edm:Agent ;
         skos:prefLabel  "Arboleda, Fray Pedro de" .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_c967a6e3-9bc2-45b9-91ce-4a9f1792f830.jp2>
@@ -1509,9 +1584,9 @@
 
 <https://unlockingarchives.com/relaciones/place/mixquiahualadejuarez>
         a               edm:Place ;
-        wgs84_pos:lat   "20.176589" ;
-        wgs84_pos:long  "-99.332347" ;
-        skos:prefLabel  "Mexico (country)| Hidalgo (state)| Atengo (city)| Mexico (country)| Hidalgo (state)| Mixquiahuala de Juárez (city)"@en .
+        wgs84_pos:lat   "20.2304" ;
+        wgs84_pos:long  "-99.2107" ;
+        skos:prefLabel  "| Mexico (country)| Hidalgo (state)| Mixquiahuala de Juárez" .
 
 <https://unlockingarchives.com/relaciones/aggregation/f5b6a65a-1c41-48b5-b856-437d1bd4a586>
         a                       ore:Aggregation ;
@@ -1530,7 +1605,7 @@
         a               edm:Place ;
         wgs84_pos:lat   "19.902578" ;
         wgs84_pos:long  "-98.568965" ;
-        skos:prefLabel  "Mexico (country)| Hidalgo (state)| Santo Tomás (city)"@en .
+        skos:prefLabel  "Mexico (country)| Hidalgo (state)| Santo Tomás"@en .
 
 <https://unlockingarchives.com/relaciones/cho/7d1cca63-5ecd-4d6b-b801-885147253548>
         a                    edm:ProvidedCHO ;
@@ -1575,6 +1650,7 @@
         edm:isShownBy           <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_c967a6e3-9bc2-45b9-91ce-4a9f1792f830/TN/utblac_c967a6e3-9bc2-45b9-91ce-4a9f1792f830.jpg> .
 
 <https://unlockingarchives.com/relaciones/agent/ledesma-pedrode-1544-1616>
+        a               edm:Agent ;
         skos:prefLabel  "Ledesma, Pedro de, 1544-1616" .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_e45a4bc1-8115-4938-879d-ac7f93fb5655.jp2>
@@ -1585,9 +1661,10 @@
         a               edm:Place ;
         wgs84_pos:lat   "18.147329" ;
         wgs84_pos:long  "-94.416455" ;
-        skos:prefLabel  "Mexico (country)| Veracruz (state)| Coatzacoalcos (city)"@en .
+        skos:prefLabel  "Mexico (country)| Veracruz (state)| Coatzacoalcos"@en .
 
 <https://unlockingarchives.com/relaciones/agent/mesa-franciscode>
+        a               edm:Agent ;
         skos:prefLabel  "Mesa, Francisco de" .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_e38f8f71-f967-46fb-9493-1edec8cbc1b3.jp2>
@@ -1604,13 +1681,14 @@
         edm:isShownBy           <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_3117851b-8782-420f-898a-a6c968ec81ba/TN/utblac_3117851b-8782-420f-898a-a6c968ec81ba.jpg> .
 
 <https://unlockingarchives.com/relaciones/agent/nunez-juan>
+        a               edm:Agent ;
         skos:prefLabel  "Núñez, Juan" .
 
 <https://unlockingarchives.com/relaciones/place/santamariajaltianguis>
         a               edm:Place ;
-        wgs84_pos:lat   "17.353667" ;
-        wgs84_pos:long  "-96.611231" ;
-        skos:prefLabel  "Mexico (country)| Oaxaca (state)| Teococuilco de Marcos Pérez (city)| Mexico (country)| Oaxaca (state)| San Juan Atepec (city)| Mexico (country)| Oaxaca (state)| Santiago Zoquiápam (city)| Mexico (country)| Oaxaca (state)| Santa María Jaltianguis (city)"@en .
+        wgs84_pos:lat   "17.3667" ;
+        wgs84_pos:long  "-96.5333" ;
+        skos:prefLabel  "| Mexico (country)| Oaxaca (state)| Santa María Jaltianguis" .
 
 <https://unlockingarchives.com/relaciones/cho/b91481c8-525a-4ac0-b84d-60465d394b93>
         a                    edm:ProvidedCHO ;
@@ -1629,7 +1707,7 @@
         dcterms:alternative  "Descripción de Tetiquipa y Cozautepec"@es ;
         dcterms:extent       "20 pages; 31 cm"@en ;
         dcterms:issued       "1579-11-30"^^xsd:date ;
-        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/sanfranciscocozoaltepec> ;
+        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/sanfranciscocozoaltepec> , <https://unlockingarchives.com/relaciones/place/sansebastianriohondo> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_b91481c8-525a-4ac0-b84d-60465d394b93/TN/utblac_b91481c8-525a-4ac0-b84d-60465d394b93.jpg> ;
         edm:hasType          "text"@en .
 
@@ -1642,13 +1720,14 @@
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
 <https://unlockingarchives.com/relaciones/agent/umana-juande>
+        a               edm:Agent ;
         skos:prefLabel  "Umana, Juan de" .
 
 <https://unlockingarchives.com/relaciones/place/coxcatlan>
         a               edm:Place ;
         wgs84_pos:lat   "18.266262" ;
         wgs84_pos:long  "-97.147278" ;
-        skos:prefLabel  "Mexico (country)| Puebla (state)| Coxcatlán (city)"@en .
+        skos:prefLabel  "Mexico (country)| Puebla (state)| Coxcatlán"@en .
 
 <https://unlockingarchives.com/relaciones/cho/bfe9df59-d0c1-46a6-8c45-0026a345642b>
         a                    edm:ProvidedCHO ;
@@ -1677,9 +1756,11 @@
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
 <https://unlockingarchives.com/relaciones/agent/loya-franciscode>
+        a               edm:Agent ;
         skos:prefLabel  "Loya, Francisco de" .
 
 <https://unlockingarchives.com/relaciones/agent/alonso>
+        a               edm:Agent ;
         skos:prefLabel  "Alonso" .
 
 <https://unlockingarchives.com/relaciones/cho/a56bebca-9296-472a-a60c-11c36c1c9c1b>
@@ -1755,9 +1836,21 @@
         a           edm:WebResource ;
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
+<https://unlockingarchives.com/relaciones/place/sanjuanatepec>
+        a               edm:Place ;
+        wgs84_pos:lat   "17.4265" ;
+        wgs84_pos:long  "-96.540" ;
+        skos:prefLabel  "| Mexico (country)| Oaxaca (state)| San Juan Atepec" .
+
 <https://unlockingarchives.com/relaciones/agent/obregon-luis>
         a               edm:Agent ;
         skos:prefLabel  "Obregón, Luis" .
+
+<https://unlockingarchives.com/relaciones/place/santiagozoquiapam>
+        a               edm:Place ;
+        wgs84_pos:lat   "17.2883" ;
+        wgs84_pos:long  "-96.620" ;
+        skos:prefLabel  "| Mexico (country)| Oaxaca (state)| Santiago Zoquiápam" .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_1dafc85c-ba6b-45cc-8975-fd9b2cfd1f2b.jp2>
         a           edm:WebResource ;
@@ -1788,7 +1881,7 @@
         dcterms:alternative  "Descripción de los pueblos de Tecuicuilco, Atepeque, Zoquiapa y Xaltianguis"@es ;
         dcterms:extent       "1 map, 21.5 x 31 cm"@en ;
         dcterms:issued       "1580-10-02"^^xsd:date ;
-        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/santamariajaltianguis> ;
+        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/santiagozoquiapam> , <https://unlockingarchives.com/relaciones/place/santamariajaltianguis> , <https://unlockingarchives.com/relaciones/place/teococuilcodemarcosperez> , <https://unlockingarchives.com/relaciones/place/sanjuanatepec> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_b48b5d10-4a89-493f-a14f-cf8019599bbb/TN/utblac_b48b5d10-4a89-493f-a14f-cf8019599bbb.jpg> ;
         edm:hasType          "maps (documents)"@en ;
         edm:hasType          <http://vocab.getty.edu/aat/300028233> ;
@@ -1809,11 +1902,15 @@
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
 <https://unlockingarchives.com/relaciones/agent/dealcala-diego>
+        a               edm:Agent ;
         skos:prefLabel  "de Alcalá, Diego" .
 
 <https://unlockingarchives.com/relaciones/agent/carrion-juande>
         a               edm:Agent ;
         skos:prefLabel  "Carrion, Juan de" .
+
+<https://unlockingarchives.com/relaciones/agent/ribera-balthasarde>
+        a       edm:Agent .
 
 <https://unlockingarchives.com/relaciones/aggregation/0841382a-d043-4cbf-9701-bc3c21bceadd>
         a                       ore:Aggregation ;
@@ -1825,6 +1922,7 @@
         edm:isShownBy           <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_0841382a-d043-4cbf-9701-bc3c21bceadd/TN/utblac_0841382a-d043-4cbf-9701-bc3c21bceadd.jpg> .
 
 <https://unlockingarchives.com/relaciones/agent/paz-diegode>
+        a               edm:Agent ;
         skos:prefLabel  "Paz, Diego de" .
 
 <https://unlockingarchives.com/relaciones/aggregation/9202cf3b-3a38-4498-89bc-67d0b03e9509>
@@ -1852,11 +1950,17 @@
         a           edm:WebResource ;
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
+<https://unlockingarchives.com/relaciones/place/tequixquiac>
+        a               edm:Place ;
+        wgs84_pos:lat   "19.894012" ;
+        wgs84_pos:long  "-99.14027" ;
+        skos:prefLabel  "Mexico (country)| Mexico (state)| Tequixquiac"@en .
+
 <https://unlockingarchives.com/relaciones/place/oaxaca>
         a               edm:Place ;
         wgs84_pos:lat   "17.060614" ;
         wgs84_pos:long  "-96.725386" ;
-        skos:prefLabel  "Mexico (country)| Oaxaca (state)| Oaxaca (city)"@en .
+        skos:prefLabel  "Mexico (country)| Oaxaca (state)| Oaxaca"@en .
 
 <https://unlockingarchives.com/relaciones/agent/patino-alvaro>
         a               edm:Agent ;
@@ -1920,6 +2024,9 @@
         a           edm:WebResource ;
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
+<https://unlockingarchives.com/relaciones/agent/guzman-alonsode>
+        a       edm:Agent .
+
 <https://unlockingarchives.com/relaciones/aggregation/d5ddf214-248e-462f-acdc-81d27463226f>
         a                       ore:Aggregation ;
         dcterms:isReferencedBy  <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_d5ddf214-248e-462f-acdc-81d27463226f/manifests/2/utblac_d5ddf214-248e-462f-acdc-81d27463226f.json> ;
@@ -1930,6 +2037,7 @@
         edm:isShownBy           <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_d5ddf214-248e-462f-acdc-81d27463226f/TN/utblac_d5ddf214-248e-462f-acdc-81d27463226f.jpg> .
 
 <https://unlockingarchives.com/relaciones/agent/ortega-diegode>
+        a               edm:Agent ;
         skos:prefLabel  "Órtega, Diego de" .
 
 <https://unlockingarchives.com/relaciones/aggregation/67573049-3633-43b1-8c0e-82b8dc8c89db>
@@ -1941,11 +2049,21 @@
         edm:isShownAt           <https://collections.lib.utexas.edu/catalog/utblac:67573049-3633-43b1-8c0e-82b8dc8c89db> ;
         edm:isShownBy           <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_67573049-3633-43b1-8c0e-82b8dc8c89db/TN/utblac_67573049-3633-43b1-8c0e-82b8dc8c89db.jpg> .
 
+<https://unlockingarchives.com/relaciones/agent/martinez-bonifacio>
+        a       edm:Agent .
+
+<https://unlockingarchives.com/relaciones/place/iguala>
+        a               edm:Place ;
+        wgs84_pos:lat   "18.345113" ;
+        wgs84_pos:long  "-99.54047" ;
+        skos:prefLabel  "| Mexico (country)| Guerrero (state)| Iguala" .
+
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_fbc92b3e-bb28-4258-975a-b5d439afda12.jp2>
         a           edm:WebResource ;
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
 <https://unlockingarchives.com/relaciones/agent/agustindearanda-fray>
+        a               edm:Agent ;
         skos:prefLabel  "Agustín de Aranda, Fray" .
 
 <https://unlockingarchives.com/relaciones/aggregation/28734f55-c00f-4426-b517-6052fd2145ba>
@@ -1957,9 +2075,27 @@
         edm:isShownAt           <https://collections.lib.utexas.edu/catalog/utblac:28734f55-c00f-4426-b517-6052fd2145ba> ;
         edm:isShownBy           <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_28734f55-c00f-4426-b517-6052fd2145ba/TN/utblac_28734f55-c00f-4426-b517-6052fd2145ba.jpg> .
 
+<https://unlockingarchives.com/relaciones/place/atengo>
+        a               edm:Place ;
+        wgs84_pos:lat   "20.176589" ;
+        wgs84_pos:long  "-99.33234" ;
+        skos:prefLabel  "Mexico (country)| Hidalgo (state)| Atengo"@en .
+
+<https://unlockingarchives.com/relaciones/place/tlaxmalac>
+        a               edm:Place ;
+        wgs84_pos:lat   "18.286968" , "18.375982" ;
+        wgs84_pos:long  "-99.46531" , "-99.38008" ;
+        skos:prefLabel  "| Mexico (country)| Guerrero (state)| Tlaxmalac" .
+
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_9a78720b-d927-4635-bdc0-9993a3024f9a.jp2>
         a           edm:WebResource ;
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
+
+<https://unlockingarchives.com/relaciones/place/tuxcacuesco>
+        a               edm:Place ;
+        wgs84_pos:lat   "19.698452" ;
+        wgs84_pos:long  "-103.9829" ;
+        skos:prefLabel  "| Mexico (country)| Jalisco (state)| Tuxcacuesco" .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_71ee2192-0893-48d8-bfc9-17325829c792.jp2>
         a           edm:WebResource ;
@@ -1989,8 +2125,8 @@
 <https://unlockingarchives.com/relaciones/place/huatlatlauca>
         a               edm:Place ;
         wgs84_pos:lat   "18.678126" ;
-        wgs84_pos:long  "-98.050986" ;
-        skos:prefLabel  "Mexico (country)| Puebla (state)| Huatlatlauca (city)"@en .
+        wgs84_pos:long  "-98.05098" , "-98.050986" ;
+        skos:prefLabel  "Mexico (country)| Puebla (state)| Huatlatlauca"@en .
 
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_0a22bcf2-b70f-496f-8f8f-83bc1ea94089/PDF/utblac_0a22bcf2-b70f-496f-8f8f-83bc1ea94089.pdf>
         a           edm:WebResource ;
@@ -2023,6 +2159,7 @@
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:b35a74c8-358b-4192-8c61-9668332985dd> .
 
 <https://unlockingarchives.com/relaciones/agent/arevalo-alonsode>
+        a               edm:Agent ;
         skos:prefLabel  "Arévalo, Alonso de" .
 
 <https://unlockingarchives.com/relaciones/cho/a41e7023-c6d3-4488-a1b0-2e91146364b1>
@@ -2062,15 +2199,15 @@
 
 <https://unlockingarchives.com/relaciones/place/mochitlan>
         a               edm:Place ;
-        wgs84_pos:lat   "17.567484" ;
-        wgs84_pos:long  "-99.398866" ;
-        skos:prefLabel  "Mexico (country)| Guerrero (state)| Tixtla (city)| Mexico (country)| Guerrero (state)| Mochitlán (city)"@en .
+        wgs84_pos:lat   "17.4727" ;
+        wgs84_pos:long  "-99.3713" ;
+        skos:prefLabel  "| Mexico (country)| Guerrero (state)| Mochitlán" .
 
 <https://unlockingarchives.com/relaciones/place/tepecoacuilcodetrujano>
         a               edm:Place ;
-        wgs84_pos:lat   "18.238866" ;
-        wgs84_pos:long  "-99.661192" ;
-        skos:prefLabel  "Mexico (country)| Guerrero (state)| Cocula (city)| Mexico (country)| Guerrero (state)| San Agustín Oapan (city)| Mexico (country)| Guerrero (state)| Iguala (city)| Mexico (country)| Guerrero (state)| Tlaxmalac (city)| Mexico (country)| Guerrero (state)| Mayanalán (city)| Mexico (country)| Guerrero (state)| Tlaxmalac (city)| Mexico (country)| Guerrero (state)| Tepecoacuilco de Trujano (city)"@en .
+        wgs84_pos:lat   "18.173574" ;
+        wgs84_pos:long  "-99.434844" ;
+        skos:prefLabel  "| Mexico (country)| Guerrero (state)| Tepecoacuilco de Trujano" .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_15fe4b37-7b5c-48f5-acc8-0858ff0d1d47.jp2>
         a           edm:WebResource ;
@@ -2100,15 +2237,25 @@
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:1dafc85c-ba6b-45cc-8975-fd9b2cfd1f2b> ;
         edm:type             "maps (documents)"@en .
 
+<https://unlockingarchives.com/relaciones/agent/herrera-franciscode>
+        a       edm:Agent .
+
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_7f50756e-7000-43d0-b593-62c80ae36892/PDF/utblac_7f50756e-7000-43d0-b593-62c80ae36892.pdf>
         a           edm:WebResource ;
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
+
+<https://unlockingarchives.com/relaciones/place/tixtla>
+        a               edm:Place ;
+        wgs84_pos:lat   "17.567484" ;
+        wgs84_pos:long  "-99.39886" ;
+        skos:prefLabel  "Mexico (country)| Guerrero (state)| Tixtla"@en .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_929d3c16-f31f-49a8-910d-71b34cada1e4.jp2>
         a           edm:WebResource ;
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
 <https://unlockingarchives.com/relaciones/agent/rayon-ignacio1811->
+        a               edm:Agent ;
         skos:prefLabel  "Rayón, Ignacio 1811-" .
 
 <https://unlockingarchives.com/relaciones/agent/villacastin-franciscode>
@@ -2144,6 +2291,12 @@
         edm:hasView             <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_b91481c8-525a-4ac0-b84d-60465d394b93/PDF/utblac_b91481c8-525a-4ac0-b84d-60465d394b93.pdf> , <https://curio.lib.utexas.edu/assets/images/utldams_utblac_b91481c8-525a-4ac0-b84d-60465d394b93.jp2> ;
         edm:isShownAt           <https://collections.lib.utexas.edu/catalog/utblac:b91481c8-525a-4ac0-b84d-60465d394b93> ;
         edm:isShownBy           <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_b91481c8-525a-4ac0-b84d-60465d394b93/TN/utblac_b91481c8-525a-4ac0-b84d-60465d394b93.jpg> .
+
+<https://unlockingarchives.com/relaciones/place/sanjuanmixtepec>
+        a               edm:Place ;
+        wgs84_pos:lat   "17.306511" ;
+        wgs84_pos:long  "-97.8311" ;
+        skos:prefLabel  "| Mexico (country)| Oaxaca (state)| San Juan Mixtepec" .
 
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_9e181f9e-0d70-4b7c-af4c-7c1ea3ae244b/PDF/utblac_9e181f9e-0d70-4b7c-af4c-7c1ea3ae244b.pdf>
         a           edm:WebResource ;
@@ -2254,7 +2407,7 @@
         dcterms:alternative  "Descripción de Teozacualco y Amoltepec"@es ;
         dcterms:extent       "27 pages; 31 cm"@en ;
         dcterms:issued       "1580-01-09"^^xsd:date ;
-        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/santiagoamoltepec> ;
+        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/sanpedroteozacoalco> , <https://unlockingarchives.com/relaciones/place/santiagoamoltepec> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_67573049-3633-43b1-8c0e-82b8dc8c89db/TN/utblac_67573049-3633-43b1-8c0e-82b8dc8c89db.jpg> ;
         edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:059d9312-d77c-41d9-81ed-da65bda50a15> .
@@ -2370,11 +2523,12 @@
         dcterms:alternative  "Descripción de Iguala y su distrito"@es ;
         dcterms:extent       "38 pages; 22.4 cm"@en ;
         dcterms:issued       "1579-08-31"^^xsd:date ;
-        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/tepecoacuilcodetrujano> ;
+        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/tepecoacuilcodetrujano> , <https://unlockingarchives.com/relaciones/place/tlaxmalac> , <https://unlockingarchives.com/relaciones/place/iguala> , <https://unlockingarchives.com/relaciones/place/cocula> , <https://unlockingarchives.com/relaciones/place/sanagustinoapan> , <https://unlockingarchives.com/relaciones/place/mayanalan> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_678df51c-6156-4a55-a374-b02e3df0bd72/TN/utblac_678df51c-6156-4a55-a374-b02e3df0bd72.jpg> ;
         edm:hasType          "text"@en .
 
 <https://unlockingarchives.com/relaciones/agent/conapo-benito>
+        a               edm:Agent ;
         skos:prefLabel  "Conápo, Benito" .
 
 <https://unlockingarchives.com/relaciones/cho/e783be03-6c1a-4c1c-9893-7c568ef18d87>
@@ -2410,9 +2564,11 @@
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
 <https://unlockingarchives.com/relaciones/agent/perez-bartolome>
+        a               edm:Agent ;
         skos:prefLabel  "Perez, Bartolome" .
 
 <https://unlockingarchives.com/relaciones/agent/salcedo-franciscode>
+        a               edm:Agent ;
         skos:prefLabel  "Salcedo, Francisco de" .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_49a6f268-446e-4379-a947-35a7cf20864e.jp2>
@@ -2425,11 +2581,12 @@
 
 <https://unlockingarchives.com/relaciones/place/santamariatecomavaca>
         a               edm:Place ;
-        wgs84_pos:lat   "17.853303" ;
-        wgs84_pos:long  "-97.190949" ;
-        skos:prefLabel  "Mexico (country)| Oaxaca (state)| Santa María Ixcatlán (city)| Mexico (country)| Oaxaca (state)| Santiago Quiotepec (city)| Mexico (country)| Oaxaca (state)| Santa María Tecomavaca (city)"@en .
+        wgs84_pos:lat   "17.956073" ;
+        wgs84_pos:long  "-97.024119" ;
+        skos:prefLabel  "| Mexico (country)| Oaxaca (state)| Santa María Tecomavaca" .
 
 <https://unlockingarchives.com/relaciones/agent/coronel-pedrofray>
+        a               edm:Agent ;
         skos:prefLabel  "Coronel, Pedro Fray" .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_209aa6dc-a36e-46f7-9207-0d044ecfe86b.jp2>
@@ -2445,6 +2602,7 @@
         skos:prefLabel  "artist"@en .
 
 <https://unlockingarchives.com/relaciones/agent/santamaria-frayguillermode>
+        a               edm:Agent ;
         skos:prefLabel  "Santa María, Fray Guillermo de" .
 
 <https://unlockingarchives.com/relaciones/cho/fe075326-e366-49f0-8642-767f3bc57527>
@@ -2464,11 +2622,12 @@
         dcterms:alternative  "Descripción de Zapotitlán, Tuscacuesco, y Cusalapa (Provincia de Amula)"@es ;
         dcterms:extent       "34 pages; 31 cm"@en ;
         dcterms:issued       "1579-09-04"^^xsd:date ;
-        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/zapotitlandevadillo> ;
+        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/tuxcacuesco> , <https://unlockingarchives.com/relaciones/place/zapotitlandevadillo> , <https://unlockingarchives.com/relaciones/place/cuautitlandegarciabarragan> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_fe075326-e366-49f0-8642-767f3bc57527/TN/utblac_fe075326-e366-49f0-8642-767f3bc57527.jpg> ;
         edm:hasType          "text"@en .
 
 <https://unlockingarchives.com/relaciones/agent/mendoza-luisde>
+        a               edm:Agent ;
         skos:prefLabel  "Mendoza, Luis de" .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_11c85fb0-e48b-434a-b17d-317b57eb037f.jp2>
@@ -2484,6 +2643,7 @@
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
 <https://unlockingarchives.com/relaciones/agent/sandoval-alonsode>
+        a               edm:Agent ;
         skos:prefLabel  "Sandoval, Alonso de" .
 
 <https://unlockingarchives.com/relaciones/cho/e45a4bc1-8115-4938-879d-ac7f93fb5655>
@@ -2509,6 +2669,9 @@
         edm:hasType          <http://vocab.getty.edu/aat/300028233> ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:a1d7fe6b-6f27-49c3-9818-8e0666d9dd73> ;
         edm:type             "maps (documents)"@en .
+
+<https://unlockingarchives.com/relaciones/agent/alvaixtlilxochitl-fernandode>
+        a       edm:Agent .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_9abf4616-db21-4905-affb-54b77b89c501.jp2>
         a           edm:WebResource ;
@@ -2548,6 +2711,7 @@
         edm:isShownBy           <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_cf7b3eec-f560-46d4-901b-f54ab62be0ae/TN/utblac_cf7b3eec-f560-46d4-901b-f54ab62be0ae.jpg> .
 
 <https://unlockingarchives.com/relaciones/agent/acebo-gasparde>
+        a               edm:Agent ;
         skos:prefLabel  "Acebo, Gaspar de" .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_b91481c8-525a-4ac0-b84d-60465d394b93.jp2>
@@ -2583,6 +2747,7 @@
         edm:type             "maps (documents)"@en .
 
 <https://unlockingarchives.com/relaciones/agent/garciaicazbalceta-joaquin-1825-1894>
+        a               edm:Agent ;
         skos:prefLabel  "García Icazbalceta, Joaquín, 1825-1894" , "García Icazbalceta, Joaquín,‏ ‎1825-1894" .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_24db164c-91c4-423a-af08-3e163774a3d7.jp2>
@@ -2590,6 +2755,7 @@
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
 <https://unlockingarchives.com/relaciones/agent/basurto-diego>
+        a               edm:Agent ;
         skos:prefLabel  "Basurto, Diego" .
 
 <https://unlockingarchives.com/relaciones/cho/add9d89a-1c5f-41d8-9854-7bda1e6632a2>
@@ -2609,7 +2775,7 @@
         dcterms:alternative  "Descripción de Tequisquiac, Citlaltepec y Xilocingo"@es ;
         dcterms:extent       "34 pages; 31 cm"@en ;
         dcterms:issued       "1579-09-10"^^xsd:date ;
-        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/sanjuanzitlaltepec> ;
+        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/jilotzingo> , <https://unlockingarchives.com/relaciones/place/tequixquiac> , <https://unlockingarchives.com/relaciones/place/sanjuanzitlaltepec> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_add9d89a-1c5f-41d8-9854-7bda1e6632a2/TN/utblac_add9d89a-1c5f-41d8-9854-7bda1e6632a2.jpg> ;
         edm:hasType          "text"@en .
 
@@ -2618,6 +2784,7 @@
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
 <https://unlockingarchives.com/relaciones/agent/hernandez-donpablo>
+        a               edm:Agent ;
         skos:prefLabel  "Hernández, Don Pablo" .
 
 <https://unlockingarchives.com/relaciones/cho/15fe4b37-7b5c-48f5-acc8-0858ff0d1d47>
@@ -2646,7 +2813,7 @@
         a               edm:Place ;
         wgs84_pos:lat   "19.200268" ;
         wgs84_pos:long  "-96.138515" ;
-        skos:prefLabel  "Mexico (country)| Veracruz (state)| Heroica Veracruz (city)"@en .
+        skos:prefLabel  "Mexico (country)| Veracruz (state)| Heroica Veracruz"@en .
 
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_c967a6e3-9bc2-45b9-91ce-4a9f1792f830/PDF/utblac_c967a6e3-9bc2-45b9-91ce-4a9f1792f830.pdf>
         a           edm:WebResource ;
@@ -2679,6 +2846,7 @@
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:e45a4bc1-8115-4938-879d-ac7f93fb5655> .
 
 <https://unlockingarchives.com/relaciones/agent/hernandezalconohel-gonzalo>
+        a               edm:Agent ;
         skos:prefLabel  "Hernández Alconohel, Gonzalo" .
 
 <https://unlockingarchives.com/relaciones/cho/b9393f97-b3ce-4da6-a905-e14db71cf765>
@@ -2719,6 +2887,7 @@
         skos:prefLabel  "Cangas y Quiñonez , Suero de" .
 
 <https://unlockingarchives.com/relaciones/agent/tzuriqui-pedro>
+        a               edm:Agent ;
         skos:prefLabel  "Tzuriqui, Pedro" .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_add9d89a-1c5f-41d8-9854-7bda1e6632a2.jp2>
@@ -2739,9 +2908,11 @@
         edm:isShownBy           <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_8c77bcaf-7be7-4aee-976e-9e3de17dd463/TN/utblac_8c77bcaf-7be7-4aee-976e-9e3de17dd463.jpg> .
 
 <https://unlockingarchives.com/relaciones/agent/garcia-pero>
+        a               edm:Agent ;
         skos:prefLabel  "García, Pero" .
 
 <https://unlockingarchives.com/relaciones/agent/coronel-pedro>
+        a               edm:Agent ;
         skos:prefLabel  "Coronel, Pedro" .
 
 <https://unlockingarchives.com/relaciones/aggregation/e38f8f71-f967-46fb-9493-1edec8cbc1b3>
@@ -2758,19 +2929,27 @@
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
 <https://unlockingarchives.com/relaciones/agent/harobazan-juande>
+        a               edm:Agent ;
         skos:prefLabel  "Haro Bazán, Juan de" .
 
 <https://unlockingarchives.com/relaciones/place/ameca>
         a               edm:Place ;
         wgs84_pos:lat   "20.547647" ;
         wgs84_pos:long  "-104.04662" ;
-        skos:prefLabel  "Mexico (country)| Jalisco (state)| Ameca (city)"@en .
+        skos:prefLabel  "Mexico (country)| Jalisco (state)| Ameca"@en .
 
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_49a6f268-446e-4379-a947-35a7cf20864e/PDF/utblac_49a6f268-446e-4379-a947-35a7cf20864e.pdf>
         a           edm:WebResource ;
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
+<https://unlockingarchives.com/relaciones/place/jicayandetovar>
+        a               edm:Place ;
+        wgs84_pos:lat   "17.126595" ;
+        wgs84_pos:long  "-98.23569" ;
+        skos:prefLabel  "| Mexico (country)| Guerrero (state)| Jicayán de Tovar" .
+
 <https://unlockingarchives.com/relaciones/agent/cortes-pablo>
+        a               edm:Agent ;
         skos:prefLabel  "Cortés, Pablo" .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_a1d7fe6b-6f27-49c3-9818-8e0666d9dd73.jp2>
@@ -2785,7 +2964,13 @@
         a               edm:Place ;
         wgs84_pos:lat   "19.339773" ;
         wgs84_pos:long  "-99.107265" ;
-        skos:prefLabel  "Mexico (country)| Mexico (state)| Culhuacán (city)"@en , "Mexico (country)| State of Mexico (state)| Culhuacán (city)"@en .
+        skos:prefLabel  "Mexico (country)| Mexico (state)| Culhuacán"@en , "Mexico (country)| State of Mexico (state)| Culhuacán"@en .
+
+<https://unlockingarchives.com/relaciones/place/cuautitlandegarciabarragan>
+        a               edm:Place ;
+        wgs84_pos:lat   "19.452168" ;
+        wgs84_pos:long  "-104.35823" ;
+        skos:prefLabel  "Mexico (country)| Jalisco (state)| Cuautitlán de García Barragán"@en .
 
 <https://unlockingarchives.com/relaciones/cho/9515798e-4808-4078-844a-4a62e4b11a4d>
         a                    edm:ProvidedCHO ;
@@ -2820,6 +3005,7 @@
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
 <https://unlockingarchives.com/relaciones/agent/bazan-gonzalo>
+        a               edm:Agent ;
         skos:prefLabel  "Bazán, Gonzalo" .
 
 <https://unlockingarchives.com/relaciones/agent/gutierrezdeliebana-juan>
@@ -2831,21 +3017,23 @@
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
 <https://unlockingarchives.com/relaciones/agent/cortes-martin>
+        a               edm:Agent ;
         skos:prefLabel  "Cortes, Martin" , "Cortes, Martín" .
 
 <https://unlockingarchives.com/relaciones/place/santacruzmixtepec>
         a               edm:Place ;
         wgs84_pos:lat   "16.792501" ;
         wgs84_pos:long  "-96.881645" ;
-        skos:prefLabel  "Mexico (country)| Oaxaca (state)| Santa Cruz Mixtepec (city)"@en .
+        skos:prefLabel  "Mexico (country)| Oaxaca (state)| Santa Cruz Mixtepec"@en .
 
 <https://unlockingarchives.com/relaciones/place/sanfranciscozapotitlan>
         a               edm:Place ;
-        wgs84_pos:lat   "14.638588" ;
-        wgs84_pos:long  "-91.229887" ;
-        skos:prefLabel  "Guatemala (country)| Sololá (state)| Santiago Atitlán (city)| Guatemala (country)| Sacatepéquez (state)| San Bartolomé Milpas Altas (city)| Guatemala (country)| Sololá (state)| San Andrés Semetabaj (city)| Guatemala (country)| Suchitepéquez (state)| San Francisco Zapotitlán (city)"@en .
+        wgs84_pos:lat   "14.5897" ;
+        wgs84_pos:long  "-91.5257" ;
+        skos:prefLabel  "| Guatemala (country)| Suchitepéquez (state)| San Francisco Zapotitlán" .
 
 <https://unlockingarchives.com/relaciones/agent/betancor-alonsopaez>
+        a               edm:Agent ;
         skos:prefLabel  "Betancor, Alonso Páez" .
 
 <https://unlockingarchives.com/relaciones/cho/c0d5dd3e-71e2-4634-a433-9cbd6941ed04>
@@ -2902,7 +3090,7 @@
         dcterms:alternative  "Descripción de Quatlatlauca"@es ;
         dcterms:extent       "22 pages; 31 cm"@en ;
         dcterms:issued       "1579-09-02"^^xsd:date ;
-        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/santodomingohuehuetlan> ;
+        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/huatlatlauca> , <https://unlockingarchives.com/relaciones/place/santodomingohuehuetlan> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_6ede75e1-f3b5-4af6-9b61-b924a87e4cd3/TN/utblac_6ede75e1-f3b5-4af6-9b61-b924a87e4cd3.jpg> ;
         edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:71ee2192-0893-48d8-bfc9-17325829c792> .
@@ -2935,11 +3123,18 @@
         edm:isShownBy           <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_eb72cf9e-6be9-4698-a675-b0a081ab014d/TN/utblac_eb72cf9e-6be9-4698-a675-b0a081ab014d.jpg> .
 
 <https://unlockingarchives.com/relaciones/agent/bautistadehorozco-juan>
+        a               edm:Agent ;
         skos:prefLabel  "Bautista de Horozco, Juan" .
 
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_fbc92b3e-bb28-4258-975a-b5d439afda12/PDF/utblac_fbc92b3e-bb28-4258-975a-b5d439afda12.pdf>
         a           edm:WebResource ;
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
+
+<https://unlockingarchives.com/relaciones/place/santiagojuxtlahuaca>
+        a               edm:Place ;
+        wgs84_pos:lat   "17.335365" ;
+        wgs84_pos:long  "-98.01169" ;
+        skos:prefLabel  "Mexico (country)| Oaxaca (state)| Santiago Juxtlahuaca"@en .
 
 <https://unlockingarchives.com/relaciones/aggregation/e1372d7e-40f1-47b5-90b4-cb9568457187>
         a                       ore:Aggregation ;
@@ -2963,10 +3158,18 @@
         a           edm:WebResource ;
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
+<https://unlockingarchives.com/relaciones/place/jilotzingo>
+        a               edm:Place ;
+        wgs84_pos:lat   "19.870636" ;
+        wgs84_pos:long  "-99.05990" ;
+        skos:prefLabel  "| Mexico (country)| Mexico (state)| Jilotzingo" .
+
 <https://unlockingarchives.com/relaciones/agent/lorenzo-juan>
+        a               edm:Agent ;
         skos:prefLabel  "Lorenzo, Juan" .
 
 <https://unlockingarchives.com/relaciones/agent/nunez-frayjuan>
+        a               edm:Agent ;
         skos:prefLabel  "Núñez, Fray Juan" .
 
 <https://unlockingarchives.com/relaciones/agent/gallegos-hernando>
@@ -3004,10 +3207,18 @@
         edm:isShownAt           <https://collections.lib.utexas.edu/catalog/utblac:678df51c-6156-4a55-a374-b02e3df0bd72> ;
         edm:isShownBy           <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_678df51c-6156-4a55-a374-b02e3df0bd72/TN/utblac_678df51c-6156-4a55-a374-b02e3df0bd72.jpg> .
 
+<https://unlockingarchives.com/relaciones/place/teococuilcodemarcosperez>
+        a               edm:Place ;
+        wgs84_pos:lat   "17.353667" ;
+        wgs84_pos:long  "-96.61123" ;
+        skos:prefLabel  "Mexico (country)| Oaxaca (state)| Teococuilco de Marcos Pérez"@en .
+
 <https://unlockingarchives.com/relaciones/agent/miguelez-frayjuan>
+        a               edm:Agent ;
         skos:prefLabel  "Miguélez, Fray Juan" .
 
 <https://unlockingarchives.com/relaciones/agent/moras-pedrode>
+        a               edm:Agent ;
         skos:prefLabel  "Moras, Pedro de" .
 
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_bfe9df59-d0c1-46a6-8c45-0026a345642b/PDF/utblac_bfe9df59-d0c1-46a6-8c45-0026a345642b.pdf>
@@ -3030,7 +3241,7 @@
         a               edm:Place ;
         wgs84_pos:lat   "20.21856" ;
         wgs84_pos:long  "-104.16474" ;
-        skos:prefLabel  "Mexico (country)| Jalisco (state)| Tenamaxtlán (city)"@en .
+        skos:prefLabel  "Mexico (country)| Jalisco (state)| Tenamaxtlán"@en .
 
 <https://unlockingarchives.com/relaciones/cho/fbc92b3e-bb28-4258-975a-b5d439afda12>
         a                    edm:ProvidedCHO ;
@@ -3049,7 +3260,7 @@
         dcterms:alternative  "Descripción de la Alcaldia mayor de las minas de Zumpango"@es ;
         dcterms:extent       "21 pages; 31 cm"@en ;
         dcterms:issued       "1582-03-07"^^xsd:date ;
-        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/mochitlan> ;
+        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/tixtla> , <https://unlockingarchives.com/relaciones/place/mochitlan> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_fbc92b3e-bb28-4258-975a-b5d439afda12/TN/utblac_fbc92b3e-bb28-4258-975a-b5d439afda12.jpg> ;
         edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:f5b6a65a-1c41-48b5-b856-437d1bd4a586> .
@@ -3112,7 +3323,7 @@
         a               edm:Place ;
         wgs84_pos:lat   "17.079163" ;
         wgs84_pos:long  "-97.002235" ;
-        skos:prefLabel  "Mexico (country)| Oaxaca (state)| Santa María Peñoles (city)"@en .
+        skos:prefLabel  "Mexico (country)| Oaxaca (state)| Santa María Peñoles"@en .
 
 <https://unlockingarchives.com/relaciones/agent/martinez-francisco>
         a               edm:Agent ;
@@ -3143,7 +3354,7 @@
         dcterms:alternative  "Descripción de Ixcatlan"@es ;
         dcterms:extent       "28 pages; 31 cm"@en ;
         dcterms:issued       "1579-10-13"^^xsd:date ;
-        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/santamariatecomavaca> ;
+        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/santiagoquiotepec> , <https://unlockingarchives.com/relaciones/place/santamariaixcatlan> , <https://unlockingarchives.com/relaciones/place/santamariatecomavaca> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_8c77bcaf-7be7-4aee-976e-9e3de17dd463/TN/utblac_8c77bcaf-7be7-4aee-976e-9e3de17dd463.jpg> ;
         edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:5e2afb53-d229-48e1-a279-bd6c707edb69> .
@@ -3165,6 +3376,12 @@
         a           edm:WebResource ;
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
+<https://unlockingarchives.com/relaciones/place/santiagoquiotepec>
+        a               edm:Place ;
+        wgs84_pos:lat   "17.900164" ;
+        wgs84_pos:long  "-96.98287" ;
+        skos:prefLabel  "| Mexico (country)| Oaxaca (state)| Santiago Quiotepec" .
+
 <https://unlockingarchives.com/relaciones/aggregation/e45a4bc1-8115-4938-879d-ac7f93fb5655>
         a                       ore:Aggregation ;
         dcterms:isReferencedBy  <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_e45a4bc1-8115-4938-879d-ac7f93fb5655/manifests/2/utblac_e45a4bc1-8115-4938-879d-ac7f93fb5655.json> ;
@@ -3174,15 +3391,18 @@
         edm:isShownAt           <https://collections.lib.utexas.edu/catalog/utblac:e45a4bc1-8115-4938-879d-ac7f93fb5655> ;
         edm:isShownBy           <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_e45a4bc1-8115-4938-879d-ac7f93fb5655/TN/utblac_e45a4bc1-8115-4938-879d-ac7f93fb5655.jpg> .
 
+<https://unlockingarchives.com/relaciones/agent/delgado-gaspar>
+        a       edm:Agent .
+
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_678df51c-6156-4a55-a374-b02e3df0bd72/PDF/utblac_678df51c-6156-4a55-a374-b02e3df0bd72.pdf>
         a           edm:WebResource ;
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
 <https://unlockingarchives.com/relaciones/place/sanfranciscocozoaltepec>
         a               edm:Place ;
-        wgs84_pos:lat   "16.182693" ;
-        wgs84_pos:long  "-96.464174" ;
-        skos:prefLabel  "Mexico (country)| Oaxaca (state)| San Sebastián Río Hondo (city)| Mexico (country)| Oaxaca (state)| San Francisco Cozoaltepec (city)"@en .
+        wgs84_pos:lat   "15.8122" ;
+        wgs84_pos:long  "-96.7222" ;
+        skos:prefLabel  "| Mexico (country)| Oaxaca (state)| San Francisco Cozoaltepec" .
 
 <https://unlockingarchives.com/relaciones/cho/5c984bf0-b48f-4da9-a8c5-5def4ef44c6e>
         a                    edm:ProvidedCHO ;
@@ -3219,9 +3439,9 @@
 
 <https://unlockingarchives.com/relaciones/place/santodomingohuehuetlan>
         a               edm:Place ;
-        wgs84_pos:lat   "18.678126" , "18.737869" ;
-        wgs84_pos:long  "-98.050986" , "-98.168138" ;
-        skos:prefLabel  "Mexico (country)| Puebla (state)| Huatlatlauca (city)| Mexico (country)| Puebla (state)| Santo Domingo Huehuetlán (city)"@en , "Mexico (country)| Puebla (state)| Santo Domingo Huehuetlán (city)"@en .
+        wgs84_pos:lat   "18.737869" ;
+        wgs84_pos:long  "-98.168138" ;
+        skos:prefLabel  "| Mexico (country)| Puebla (state)| Santo Domingo Huehuetlán" , "Mexico (country)| Puebla (state)| Santo Domingo Huehuetlán"@en .
 
 <https://unlockingarchives.com/relaciones/aggregation/add9d89a-1c5f-41d8-9854-7bda1e6632a2>
         a                       ore:Aggregation ;
@@ -3233,6 +3453,7 @@
         edm:isShownBy           <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_add9d89a-1c5f-41d8-9854-7bda1e6632a2/TN/utblac_add9d89a-1c5f-41d8-9854-7bda1e6632a2.jpg> .
 
 <https://unlockingarchives.com/relaciones/agent/perales-franciscode>
+        a               edm:Agent ;
         skos:prefLabel  "Perales, Francisco de" .
 
 <https://unlockingarchives.com/relaciones/cho/a04b68ae-8c53-43d7-838a-e04e2a20284e>
@@ -3252,7 +3473,7 @@
         dcterms:alternative  "Descripción de Atitlan y sus subjetos"@es ;
         dcterms:extent       "1 map, 61.5 x 81 cm"@en ;
         dcterms:issued       "1585-02-08"^^xsd:date ;
-        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/sanfranciscozapotitlan> ;
+        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/sanbartolomemilpasaltas> , <https://unlockingarchives.com/relaciones/place/sanfranciscozapotitlan> , <https://unlockingarchives.com/relaciones/place/santiagoatitlan> , <https://unlockingarchives.com/relaciones/place/sanandressemetabaj> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_a04b68ae-8c53-43d7-838a-e04e2a20284e/TN/utblac_a04b68ae-8c53-43d7-838a-e04e2a20284e.jpg> ;
         edm:hasType          "maps (documents)"@en ;
         edm:hasType          <http://vocab.getty.edu/aat/300028233> ;
@@ -3263,7 +3484,10 @@
         a               edm:Place ;
         wgs84_pos:lat   "18.906218" ;
         wgs84_pos:long  "-98.969033" ;
-        skos:prefLabel  "Mexico (country)| Morelos (state)| Oaxtepec (city)"@en .
+        skos:prefLabel  "Mexico (country)| Morelos (state)| Oaxtepec"@en .
+
+<https://unlockingarchives.com/relaciones/agent/tharengo-alonso>
+        a       edm:Agent .
 
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_8c77bcaf-7be7-4aee-976e-9e3de17dd463/PDF/utblac_8c77bcaf-7be7-4aee-976e-9e3de17dd463.pdf>
         a           edm:WebResource ;
@@ -3282,7 +3506,7 @@
         a               edm:Place ;
         wgs84_pos:lat   "20.593002" ;
         wgs84_pos:long  "-100.392123" ;
-        skos:prefLabel  "Mexico (country)| Querétaro (state)| Santiago de Querétaro (city)"@en .
+        skos:prefLabel  "Mexico (country)| Querétaro (state)| Santiago de Querétaro"@en .
 
 <https://unlockingarchives.com/relaciones/agent/vargas-hernandode>
         a               edm:Agent ;
@@ -3310,6 +3534,18 @@
         edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:50098d40-75e0-4f70-8622-6c156da2e45d> .
 
+<https://unlockingarchives.com/relaciones/place/santosreyeszochiquilazola>
+        a               edm:Place ;
+        wgs84_pos:lat   "17.265829" ;
+        wgs84_pos:long  "-98.18355" ;
+        skos:prefLabel  "| Mexico (country)| Oaxaca (state)| Santos Reyes Zochiquilazola" .
+
+<https://unlockingarchives.com/relaciones/place/putlavilladeguerrero>
+        a               edm:Place ;
+        wgs84_pos:lat   "17.026449" ;
+        wgs84_pos:long  "-97.9281" ;
+        skos:prefLabel  "| Mexico (country)| Oaxaca (state)| Putla Villa de Guerrero" .
+
 <https://unlockingarchives.com/relaciones/aggregation/b9393f97-b3ce-4da6-a905-e14db71cf765>
         a                       ore:Aggregation ;
         dcterms:isReferencedBy  <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_b9393f97-b3ce-4da6-a905-e14db71cf765/manifests/2/utblac_b9393f97-b3ce-4da6-a905-e14db71cf765.json> ;
@@ -3336,7 +3572,7 @@
         dcterms:alternative  "Descripción de Ixcatlan"@es ;
         dcterms:extent       "1 map, 31.1 x 21.5 cm"@en ;
         dcterms:issued       "1579-10-13"^^xsd:date ;
-        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/santamariatecomavaca> ;
+        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/santamariaixcatlan> , <https://unlockingarchives.com/relaciones/place/santiagoquiotepec> , <https://unlockingarchives.com/relaciones/place/santamariatecomavaca> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_32d57913-539d-432c-8b8f-5177e4c519ef/TN/utblac_32d57913-539d-432c-8b8f-5177e4c519ef.jpg> ;
         edm:hasType          "maps (documents)"@en ;
         edm:hasType          <http://vocab.getty.edu/aat/300028233> ;
@@ -3348,6 +3584,7 @@
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
 <https://unlockingarchives.com/relaciones/agent/rendeno-nicolasde>
+        a               edm:Agent ;
         skos:prefLabel  "Rendeno, Nicolás de" .
 
 <https://unlockingarchives.com/relaciones/aggregation/38127378-7a33-412f-a425-cc511ff1d351>
@@ -3360,21 +3597,23 @@
         edm:isShownBy           <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_38127378-7a33-412f-a425-cc511ff1d351/TN/utblac_38127378-7a33-412f-a425-cc511ff1d351.jpg> .
 
 <https://unlockingarchives.com/relaciones/agent/cortes-dongaspar>
+        a               edm:Agent ;
         skos:prefLabel  "Cortés, Don Gaspar" .
 
 <https://unlockingarchives.com/relaciones/place/teocaltiche>
         a               edm:Place ;
         wgs84_pos:lat   "21.436978" ;
         wgs84_pos:long  "-102.576205" ;
-        skos:prefLabel  "Mexico (country)| Jalisco (state)| Teocaltiche (city)"@en .
+        skos:prefLabel  "Mexico (country)| Jalisco (state)| Teocaltiche"@en .
 
 <https://unlockingarchives.com/relaciones/place/papantladeolarte>
         a               edm:Place ;
         wgs84_pos:lat   "20.446642" ;
-        wgs84_pos:long  "-97.322151" ;
-        skos:prefLabel  "Mexico (country)| Veracruz (state)| Papantla de Olarte (city)"@en .
+        wgs84_pos:long  "-97.32215" , "-97.322151" ;
+        skos:prefLabel  "| Mexico (country)| Veracruz (state)| Papantla de Olarte" , "Mexico (country)| Veracruz (state)| Papantla de Olarte"@en .
 
 <https://unlockingarchives.com/relaciones/agent/nino-andres>
+        a               edm:Agent ;
         skos:prefLabel  "Niño, Andrés" .
 
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_88f85e35-6ce0-4899-a4eb-2632c435edbe/PDF/utblac_88f85e35-6ce0-4899-a4eb-2632c435edbe.pdf>
@@ -3439,9 +3678,10 @@
         a               edm:Place ;
         wgs84_pos:lat   "14.539595" ;
         wgs84_pos:long  "-91.41645" ;
-        skos:prefLabel  "Guatemala (country)| Suchitepéquez (state)| San Antonio Suchitepéquez (city)"@en .
+        skos:prefLabel  "Guatemala (country)| Suchitepéquez (state)| San Antonio Suchitepéquez"@en .
 
 <https://unlockingarchives.com/relaciones/agent/lujan-pedroariasde>
+        a               edm:Agent ;
         skos:prefLabel  "Luján, Pedro Arias de" .
 
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_71ee2192-0893-48d8-bfc9-17325829c792/PDF/utblac_71ee2192-0893-48d8-bfc9-17325829c792.pdf>
@@ -3449,25 +3689,31 @@
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
 <https://unlockingarchives.com/relaciones/agent/garcia-alonso>
+        a               edm:Agent ;
         skos:prefLabel  "García, Alonso" .
 
+<https://unlockingarchives.com/relaciones/agent/herrera-pedrode-1548-1630>
+        a       edm:Agent .
+
 <https://unlockingarchives.com/relaciones/agent/hernandezdiosdado-alonso>
+        a               edm:Agent ;
         skos:prefLabel  "Hernández Diosdado, Alonso" .
 
 <https://unlockingarchives.com/relaciones/agent/fernandezdecordoba-francisco>
+        a               edm:Agent ;
         skos:prefLabel  "Fernández de Córdoba, Francisco" .
 
 <https://unlockingarchives.com/relaciones/roles/witness>
         a               skos:Concept ;
         skos:prefLabel  "witness"@en .
 
-<https://unlockingarchives.com/relaciones/agent/villagar-franciscode>
-        a               edm:Agent ;
-        skos:prefLabel  "Villagar, Francisco de" .
-
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_d5ddf214-248e-462f-acdc-81d27463226f.jp2>
         a           edm:WebResource ;
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
+
+<https://unlockingarchives.com/relaciones/agent/villagar-franciscode>
+        a               edm:Agent ;
+        skos:prefLabel  "Villagar, Francisco de" .
 
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_28734f55-c00f-4426-b517-6052fd2145ba/PDF/utblac_28734f55-c00f-4426-b517-6052fd2145ba.pdf>
         a           edm:WebResource ;
@@ -3477,11 +3723,17 @@
         a               edm:Agent ;
         skos:prefLabel  "Velázquez de Lara, Gonzalo" .
 
+<https://unlockingarchives.com/relaciones/agent/villegas-juande>
+        a       edm:Agent .
+
+<https://unlockingarchives.com/relaciones/agent/julian-anton>
+        a       edm:Agent .
+
 <https://unlockingarchives.com/relaciones/place/sanmigueljojupango>
         a               edm:Place ;
         wgs84_pos:lat   "20.096289" ;
-        wgs84_pos:long  "-97.771694" ;
-        skos:prefLabel  "Mexico (country)| Puebla (state)| San Miguel Jojupango (city)"@en .
+        wgs84_pos:long  "-97.77169" , "-97.771694" ;
+        skos:prefLabel  "| Mexico (country)| Puebla (state)| San Miguel Jojupango" , "Mexico (country)| Puebla (state)| San Miguel Jojupango"@en .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_32d57913-539d-432c-8b8f-5177e4c519ef.jp2>
         a           edm:WebResource ;
@@ -3531,13 +3783,13 @@
         a               edm:Place ;
         wgs84_pos:lat   "18.883171" ;
         wgs84_pos:long  "-98.866007" ;
-        skos:prefLabel  "Mexico (country)| Morelos (state)| Yecapixtla (city)"@en .
+        skos:prefLabel  "Mexico (country)| Morelos (state)| Yecapixtla"@en .
 
 <https://unlockingarchives.com/relaciones/place/sanmiguelhuautla>
         a               edm:Place ;
         wgs84_pos:lat   "17.745467" ;
-        wgs84_pos:long  "-97.137307" ;
-        skos:prefLabel  "Mexico (country)| Oaxaca (state)| San Miguel Huautla (city)"@en .
+        wgs84_pos:long  "-97.13730" ;
+        skos:prefLabel  "Mexico (country)| Oaxaca (state)| San Miguel Huautla"@en .
 
 <https://unlockingarchives.com/relaciones/agent/aznardecozar-andres>
         a               edm:Agent ;
@@ -3546,6 +3798,12 @@
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_c0d5dd3e-71e2-4634-a433-9cbd6941ed04.jp2>
         a           edm:WebResource ;
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
+
+<https://unlockingarchives.com/relaciones/place/santamariaixcatlan>
+        a               edm:Place ;
+        wgs84_pos:lat   "17.853303" ;
+        wgs84_pos:long  "-97.19094" ;
+        skos:prefLabel  "Mexico (country)| Oaxaca (state)| Santa María Ixcatlán"@en .
 
 <https://unlockingarchives.com/relaciones/aggregation/c0d5dd3e-71e2-4634-a433-9cbd6941ed04>
         a                       ore:Aggregation ;
@@ -3560,13 +3818,13 @@
         a               edm:Place ;
         wgs84_pos:lat   "19.062581" ;
         wgs84_pos:long  "-98.306357" ;
-        skos:prefLabel  "Mexico (country)| Puebla (state)| Cholula de Rivadabia (city)"@en .
+        skos:prefLabel  "Mexico (country)| Puebla (state)| Cholula de Rivadabia"@en .
 
 <https://unlockingarchives.com/relaciones/place/patzcuaro>
         a               edm:Place ;
         wgs84_pos:lat   "19.513479" ;
         wgs84_pos:long  "-101.60919" ;
-        skos:prefLabel  "Mexico (country)| Michoacán (state)| Pátzcuaro (city)"@en .
+        skos:prefLabel  "Mexico (country)| Michoacán (state)| Pátzcuaro"@en .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_bfe9df59-d0c1-46a6-8c45-0026a345642b.jp2>
         a           edm:WebResource ;
@@ -3589,7 +3847,7 @@
         a               edm:Place ;
         wgs84_pos:lat   "19.360932" ;
         wgs84_pos:long  "-99.092485" ;
-        skos:prefLabel  "Mexico (country)| Mexico (state)| Iztapalapa (city)"@en , "Mexico (country)| Mexico City (state)| Iztapalapa (city)"@en .
+        skos:prefLabel  "Mexico (country)| Mexico (state)| Iztapalapa"@en , "Mexico (country)| Mexico City (state)| Iztapalapa"@en .
 
 <https://unlockingarchives.com/relaciones/agent/pomar-juanbautistade>
         a               edm:Agent ;
@@ -3648,6 +3906,7 @@
         edm:type             "maps (documents)"@en .
 
 <https://unlockingarchives.com/relaciones/agent/velasco-pablode>
+        a               edm:Agent ;
         skos:prefLabel  "Velasco, Pablo de" .
 
 <https://unlockingarchives.com/relaciones/agent/cano-martin>
@@ -3675,6 +3934,12 @@
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_c43cc46e-4694-40d2-be2b-193ef0b5065d/TN/utblac_c43cc46e-4694-40d2-be2b-193ef0b5065d.jpg> ;
         edm:hasType          "text"@en .
 
+<https://unlockingarchives.com/relaciones/place/sansebastianriohondo>
+        a               edm:Place ;
+        wgs84_pos:lat   "16.182693" ;
+        wgs84_pos:long  "-96.46417" ;
+        skos:prefLabel  "Mexico (country)| Oaxaca (state)| San Sebastián Río Hondo"@en .
+
 <https://unlockingarchives.com/relaciones/agent/leyva-antoniode>
         a               edm:Agent ;
         skos:prefLabel  "Leyva, Antonio de" .
@@ -3686,16 +3951,17 @@
 <https://unlockingarchives.com/relaciones/place/hueytlalpan>
         a               edm:Place ;
         wgs84_pos:lat   "20.026808" ;
-        wgs84_pos:long  "-97.696745" ;
-        skos:prefLabel  "Mexico (country)| Puebla (state)| Hueytlalpan (city)"@en .
+        wgs84_pos:long  "-97.69674" , "-97.696745" ;
+        skos:prefLabel  "Mexico (country)| Puebla (state)| Hueytlalpan"@en .
 
 <https://unlockingarchives.com/relaciones/place/zapotitlandevadillo>
         a               edm:Place ;
-        wgs84_pos:lat   "19.452168" ;
-        wgs84_pos:long  "-104.358237" ;
-        skos:prefLabel  "Mexico (country)| Jalisco (state)| Cuautitlán de García Barragán (city)| Mexico (country)| Jalisco (state)| Tuxcacuesco (city)| Mexico (country)| Jalisco (state)| Zapotitlán de Vadillo (city)"@en .
+        wgs84_pos:lat   "19.54753" ;
+        wgs84_pos:long  "-103.813409" ;
+        skos:prefLabel  "| Mexico (country)| Jalisco (state)| Zapotitlán de Vadillo" .
 
 <https://unlockingarchives.com/relaciones/agent/loretodeanasco-miguel>
+        a               edm:Agent ;
         skos:prefLabel  "Loreto de Añasco, Miguel" .
 
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_1dafc85c-ba6b-45cc-8975-fd9b2cfd1f2b/PDF/utblac_1dafc85c-ba6b-45cc-8975-fd9b2cfd1f2b.pdf>
@@ -3703,6 +3969,7 @@
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
 <https://unlockingarchives.com/relaciones/agent/aquino-donpablode>
+        a               edm:Agent ;
         skos:prefLabel  "Aquino, Don Pablo de" .
 
 <https://unlockingarchives.com/relaciones/agent/trevino-diosdado>
@@ -3757,9 +4024,10 @@
         a               edm:Place ;
         wgs84_pos:lat   "19.915595" ;
         wgs84_pos:long  "-98.668525" ;
-        skos:prefLabel  "Mexico (country)| Hidalgo (state)| Zempoala (city)"@en .
+        skos:prefLabel  "Mexico (country)| Hidalgo (state)| Zempoala"@en .
 
 <https://unlockingarchives.com/relaciones/agent/chavez-juande>
+        a               edm:Agent ;
         skos:prefLabel  "Chávez, Juan de" .
 
 <https://unlockingarchives.com/relaciones/aggregation/fbc92b3e-bb28-4258-975a-b5d439afda12>
@@ -3794,6 +4062,7 @@
         edm:isShownBy           <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_7f50756e-7000-43d0-b593-62c80ae36892/TN/utblac_7f50756e-7000-43d0-b593-62c80ae36892.jpg> .
 
 <https://unlockingarchives.com/relaciones/agent/najer-frayfranciscode>
+        a               edm:Agent ;
         skos:prefLabel  "Nájer, Fray Francisco de" .
 
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_b91481c8-525a-4ac0-b84d-60465d394b93/PDF/utblac_b91481c8-525a-4ac0-b84d-60465d394b93.pdf>
@@ -3815,6 +4084,7 @@
         foaf:homepage        <https://txarchives.org/utlac/finding_aids/00056.xml> .
 
 <https://unlockingarchives.com/relaciones/agent/ircio-martinde>
+        a               edm:Agent ;
         skos:prefLabel  "Ircio, Martín de" .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_38127378-7a33-412f-a425-cc511ff1d351.jp2>
@@ -3846,17 +4116,18 @@
         dcterms:alternative  "Descripción de Atengo y Misquiahuala"@es ;
         dcterms:extent       "18 pages; 31 cm"@en ;
         dcterms:issued       "1579-10-08"^^xsd:date ;
-        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/mixquiahualadejuarez> ;
+        dcterms:spatial      <https://unlockingarchives.com/relaciones/place/atengo> , <https://unlockingarchives.com/relaciones/place/mixquiahualadejuarez> ;
         schema:thumbnail     <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_e9055aaa-903a-4cc3-9611-da0015c607f1/TN/utblac_e9055aaa-903a-4cc3-9611-da0015c607f1.jpg> ;
         edm:hasType          "text"@en ;
         edm:isRelatedTo      <https://collections.lib.utexas.edu/catalog/utblac:d6360c5d-e505-49af-84a3-b2538f7be43b> .
 
+<https://unlockingarchives.com/relaciones/agent/osorio-bartolome>
+        a               edm:Agent ;
+        skos:prefLabel  "Osorio, Bartolomé" .
+
 <https://unlockingarchives.com/relaciones/agent/obregon-luisde>
         a               edm:Agent ;
         skos:prefLabel  "Obregón, Luis de" .
-
-<https://unlockingarchives.com/relaciones/agent/osorio-bartolome>
-        skos:prefLabel  "Osorio, Bartolomé" .
 
 <https://curio.lib.utexas.edu/assets/DAMS/utblac/utblac_627cf1b7-9f91-4df6-8101-c5a8b5e55272/PDF/utblac_627cf1b7-9f91-4df6-8101-c5a8b5e55272.pdf>
         a           edm:WebResource ;
@@ -3865,8 +4136,8 @@
 <https://unlockingarchives.com/relaciones/place/zacatlan>
         a               edm:Place ;
         wgs84_pos:lat   "19.931958" ;
-        wgs84_pos:long  "-97.960259" ;
-        skos:prefLabel  "Mexico (country)| Puebla (state)| Zacatlán (city)"@en .
+        wgs84_pos:long  "-97.96025" , "-97.960259" ;
+        skos:prefLabel  "| Mexico (country)| Puebla (state)| Zacatlán" , "Mexico (country)| Puebla (state)| Zacatlán"@en .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_c5f60019-ec83-41b3-8641-a383d2a7773c.jp2>
         a           edm:WebResource ;
@@ -3876,7 +4147,7 @@
         a               edm:Place ;
         wgs84_pos:lat   "19.5506" ;
         wgs84_pos:long  "-101.3452" ;
-        skos:prefLabel  "Mexico (country)| Michoacán (state)| Tiripetío (city)"@en .
+        skos:prefLabel  "Mexico (country)| Michoacán (state)| Tiripetío"@en .
 
 <https://curio.lib.utexas.edu/assets/images/utldams_utblac_15876f70-a403-404b-a8d4-85e58e222465.jp2>
         a           edm:WebResource ;
@@ -3890,7 +4161,14 @@
         a           edm:WebResource ;
         edm:rights  <https://creativecommons.org/publicdomain/mark/1.0/> .
 
+<https://unlockingarchives.com/relaciones/place/sanandressemetabaj>
+        a               edm:Place ;
+        wgs84_pos:lat   "14.7464" ;
+        wgs84_pos:long  "-91.132" ;
+        skos:prefLabel  "| Guatemala (country)| Sololá (state)| San Andrés Semetabaj" .
+
 <https://unlockingarchives.com/relaciones/agent/lopez-andres>
+        a               edm:Agent ;
         skos:prefLabel  "López, Andrés" .
 
 <https://unlockingarchives.com/relaciones/cho/11c85fb0-e48b-434a-b17d-317b57eb037f>
@@ -3964,11 +4242,17 @@
         a               edm:Place ;
         wgs84_pos:lat   "19.06939" ;
         wgs84_pos:long  "-99.611873" ;
-        skos:prefLabel  "Mexico (country)| Mexico (state)| San Bartolomé Atlatlahuca (city)"@en , "Mexico (country)| State of Mexico (state)| San Bartolomé Atlatlahuca (city)"@en .
+        skos:prefLabel  "Mexico (country)| Mexico (state)| San Bartolomé Atlatlahuca"@en , "Mexico (country)| State of Mexico (state)| San Bartolomé Atlatlahuca"@en .
 
 <https://unlockingarchives.com/relaciones/agent/chavez-gabrielde>
         a               edm:Agent ;
         skos:prefLabel  "Chávez, Gabriel de" .
+
+<https://unlockingarchives.com/relaciones/place/sanagustinoapan>
+        a               edm:Place ;
+        wgs84_pos:lat   "17.952245" ;
+        wgs84_pos:long  "-99.43815" ;
+        skos:prefLabel  "| Mexico (country)| Guerrero (state)| San Agustín Oapan" .
 
 <https://unlockingarchives.com/relaciones/aggregation/08e8318a-13f1-4bd9-934e-dca47020281b>
         a                       ore:Aggregation ;
