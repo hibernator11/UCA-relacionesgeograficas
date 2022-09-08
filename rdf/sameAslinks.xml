@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/heroicaveracruz">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q173270"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3514783"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/sanantoniosuchitepequez">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1748818"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3590411"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/texcoco">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2115196"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8379483"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/santamariatecomavaca">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3892619"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8582906"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/putlavilladeguerrero">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q617691"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8582544"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/sanagustinoapan">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q20132684"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3519975"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/santiagodequeretaro">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q173121"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3991164"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/ameca">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2842525"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8582108"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/santiagoquiotepec">
+    <owl:sameAs rdf:resource="https://www.geonames.org/3762697"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/sanfranciscozapotitlan">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2608452"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3590196"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/santosreyeszochiquilazola">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q20284390"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8860293"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/teocaltiche">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q20287259"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8582191"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/tepecoacuilcodetrujano">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q796311"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8581999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/santiagozoquiapam">
+    <owl:sameAs rdf:resource="https://www.geonames.org/3801416"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/sanfranciscocozoaltepec">
+    <owl:sameAs rdf:resource="https://www.geonames.org/3800596"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/papantladeolarte">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1962777"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3521922"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/iguala">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2466669"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8581975"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/tehuantepec">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q629479"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3516843"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/tancitaro">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q6138624"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3982548"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/jicayandetovar">
+    <owl:sameAs rdf:resource="https://www.geonames.org/3526517"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/mayanalan">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q20146553"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3523431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/santotomas">
+    <owl:sameAs rdf:resource="https://www.geonames.org/3516824"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/cocula">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q5775998"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3530482"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/cuautitlandegarciabarragan">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3311299"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8582127"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/santacruzmixtepec">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3892861"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8582853"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/oaxaca">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q34110"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3522509"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/zapotitlandevadillo">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3311317"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8582221"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/santamariapeñoles">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3892209"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8582901"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/sanpedroteozacoalco">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q20294779"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8582803"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/coxcatlan">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q20135264"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3530150"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/iztapalapa">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q741771"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3526683"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/zacatlan">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q20204353"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3514148"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/sansebastianriohondo">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q4967862"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8582821"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/hueytlalpan">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q27769229"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3526925"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/teococuilcodemarcosperez">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q985841"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8583020"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/zempoala">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3845508"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8582101"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/patzcuaro">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1021051"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3993179"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/huatlatlauca">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q10769258"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8583114"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/coatzacoalcos">
+    <owl:sameAs rdf:resource="https://www.geonames.org/3530517"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/sanandressemetabaj">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2402766"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3590523"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/sanjuanmixtepec">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q10812443"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8582681"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/atengo">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3316715"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8582113"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/santiagoatitlan">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q168622"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3589104"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/epazoyucan">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3845429"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8582042"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/cuilapandeguerrero">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3625184"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3529915"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/tiripetio">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q6147309"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3981498"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/tenampulco">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3887619"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8583204"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/santiagoamoltepec">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3889082"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3516971"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/sanbartolomemilpasaltas">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2401093"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3590392"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/oaxtepec">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1018792"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3522505"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/jilotzingo">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2129957"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8583679"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/metztitlan">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1465498"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3523287"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/tixtla">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2448991"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3515510"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/tecolutla">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1675800"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/3516148"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/sanmiguelhuautla">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3890628"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8582744"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/misantla">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q20270899"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8583754"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/chila">
+    <owl:sameAs rdf:resource="https://www.geonames.org/8583099"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/tequixquiac">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q34828"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8379492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/culhuacan">
+    <owl:sameAs rdf:resource="https://www.geonames.org/3529897"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/tenamaxtlan">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3311607"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8582190"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/mixquiahualadejuarez">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3846413"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8582061"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/tuxcacuesco">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2918021"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8582206"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/yecapixtla">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2732754"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8582398"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/tlaxmalac">
+    <owl:sameAs rdf:resource="https://www.geonames.org/3515346"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/sanjuanatepec">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q394927"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8582645"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/sanjuanzitlaltepec">
+    <owl:sameAs rdf:resource="https://www.geonames.org/3518593"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/santamariajaltianguis">
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q282998"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/8582894"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://unlockingarchives.com/relaciones/place/santodomingohuehuetlan">
+    <owl:sameAs rdf:resource="https://www.geonames.org/3516851"/>
+  </rdf:Description>
+</rdf:RDF>
