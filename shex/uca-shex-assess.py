@@ -54,22 +54,22 @@ weso-s:ProvidedCHO
    rdf:type  [edm:ProvidedCHO]  ;                              # 100.0 %
    dc:rights  IRI  ;                                           # 100.0 %
    schema:thumbnail  IRI  ;                                    # 100.0 %
-   dc:coverage  rdf:langString*;                              # 100.0 %
-   dc:coverage  IRI*;
+   dc:coverage  rdf:langString *;                              # 100.0 %
    dc:description  rdf:langString  ;                           # 100.0 %
-   dc:spatial  @weso-s:Place  ;                                # 100.0 %
+   dc:spatial  @weso-s:Place  *;                                # 100.0 %
    dc:publisher  rdf:langString  ;                             # 100.0 %
-   dc:issued  xsd:date  ;                                      # 100.0 %
+   dc:issued  xsd:date  *;                                      # 100.0 %
    dc:identifier  xsd:string  {2};                             # 100.0 %
-   dc:alternative  rdf:langString  ;                           # 100.0 %
+   dc:alternative  rdf:langString  *;                           # 100.0 %
    dc:subject  rdf:langString  ;                               # 100.0 %
    dc:language  rdf:langString  ;                              # 100.0 %
    dc:contributor  IRI  +;                                     # 100.0 %
-   edm:hasType  rdf:langString  ;                              # 100.0 %
+   edm:hasType  rdf:langString  *;                              # 100.0 %
+   edm:hasType  IRI *; 
    dc:date  xsd:date  ;                                        # 100.0 %
    dc:title  rdf:langString  ;                                 # 100.0 %
-   dc:extent  rdf:langString  ;                                # 100.0 %
-   dc:coverage  IRI  ?;
+   dc:extent  rdf:langString  *;                                # 100.0 %
+   dc:coverage  IRI  *;
             # 97.53086419753086 % obj: IRI. Cardinality: {1}
    dc:creator  IRI  *
             # 92.5925925925926 % obj: IRI. Cardinality: +
@@ -85,7 +85,7 @@ weso-s:Aggregation
             # 91.35802469135803 % obj: @weso-s:WebResource. Cardinality: {2}
    edm:isShownAt  IRI  ;                                       # 100.0 %
    edm:aggregatedCHO  @weso-s:ProvidedCHO  ;                   # 100.0 %
-   dc:isReferencedBy  IRI  ;                                   # 100.0 %
+   dc:isReferencedBy  IRI  *;                                   # 100.0 %
    edm:dataProvider  rdf:langString                            # 100.0 %
 }
 
@@ -118,17 +118,62 @@ g = Graph()
 g.parse("../rdf/relaciones_uca.ttl")
 
 rslt, reason = evaluate(g, shex, focus="https://unlockingarchives.com/relaciones/aggregation/20c443dd-6b30-4629-8ddf-04c9703bdd3e")
-
 if rslt:
     print("CONFORMS")
 else:
     print(f"{reason if reason else 'DOES NOT CONFORM'}")
 
 rslt, reason = evaluate(g, shex, focus="https://unlockingarchives.com/relaciones/aggregation/209aa6dc-a36e-46f7-9207-0d044ecfe86b")
-
 if rslt:
     print("CONFORMS")
 else:
     print(f"{reason if reason else 'DOES NOT CONFORM'}")
 
+rslt, reason = evaluate(g, shex, focus="https://unlockingarchives.com/relaciones/aggregation/15fe4b37-7b5c-48f5-acc8-0858ff0d1d47")
+if rslt:
+    print("CONFORMS")
+else:
+    print(f"{reason if reason else 'DOES NOT CONFORM'}")
+
+rslt, reason = evaluate(g, shex, focus="https://unlockingarchives.com/relaciones/aggregation/627cf1b7-9f91-4df6-8101-c5a8b5e55272")
+if rslt:
+    print("CONFORMS")
+else:
+    print(f"{reason if reason else 'DOES NOT CONFORM'}")
+
+rslt, reason = evaluate(g, shex, focus="https://unlockingarchives.com/relaciones/aggregation/6f42ff06-ff73-4471-9454-d3a264276d67")
+if rslt:
+    print("CONFORMS")
+else:
+    print(f"{reason if reason else 'DOES NOT CONFORM'}")
+
+rslt, reason = evaluate(g, shex, focus="https://unlockingarchives.com/relaciones/aggregation/1dafc85c-ba6b-45cc-8975-fd9b2cfd1f2b")
+if rslt:
+    print("CONFORMS")
+else:
+    print(f"{reason if reason else 'DOES NOT CONFORM'}")
+
+rslt, reason = evaluate(g, shex, focus="https://unlockingarchives.com/relaciones/aggregation/9e9ca33c-2580-4851-86c2-0760d62fa7fb")
+if rslt:
+    print("CONFORMS")
+else:
+    print(f"{reason if reason else 'DOES NOT CONFORM'}")
+
+rslt, reason = evaluate(g, shex, focus="https://unlockingarchives.com/relaciones/aggregation/5e2afb53-d229-48e1-a279-bd6c707edb69")
+if rslt:
+    print("CONFORMS")
+else:
+    print(f"{reason if reason else 'DOES NOT CONFORM'}")
+
+rslt, reason = evaluate(g, shex, focus="https://unlockingarchives.com/relaciones/aggregation/d3b0a22d-e861-4ccd-a7df-b2be938c1b00")
+if rslt:
+    print("CONFORMS")
+else:
+    print(f"{reason if reason else 'DOES NOT CONFORM'}")
+
+rslt, reason = evaluate(g, shex, focus="https://unlockingarchives.com/relaciones/aggregation/874cc4b5-f987-4987-a640-b60133be3d07")
+if rslt:
+    print("CONFORMS")
+else:
+    print(f"{reason if reason else 'DOES NOT CONFORM'}")
 
