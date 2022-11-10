@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Relaciones Geográficas of Mexico and Guatemala</title>
+	    <link rel="stylesheet" href="style.css" type="text/css" />
+	</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+                                		                    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="">
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+
+<link rel="stylesheet" href="https://leaflet.github.io/Leaflet.markercluster/dist/MarkerCluster.css">
+<link rel="stylesheet" href="https://leaflet.github.io/Leaflet.markercluster/dist/MarkerCluster.Default.css">
+<script src="https://unpkg.com/leaflet.markercluster@1.1.0/dist/leaflet.markercluster.js"></script>
+
+
+<script src="datos.js"></script>
+
+<script src="funciones.js"></script>
+<div id="geo_home">
+
+<div class="row"> 
+  <div class="col_mapa">
+    <h2><span class="primera_parte"><span class="inicial">G</span>eolocalización</span> <span class="segunda_parte"> Relaciones Geográficas of Mexico and Guatemala</span></h2>
+    <div id="mapa"></div>
+  </div>
+  <div class="col_checkbox">
+    <div class="checkbox">
+    <h3><span class="inicial">T</span>opics </h3>
+    <ul>
+      <li>
+        <input type="checkbox" id="españa_colonias" checked="" onchange="refresca(datos)">
+        <label for="españa_colonias">España--Colonias--Historia--Fuentes</label>
+      </li>
+      <li>
+        <input type="checkbox" id="guatemala_historia" checked="" onchange="refresca(datos)">
+        <label for="guatemala_historia">Guatemala--Historia--Siglo XVI--Fuentes</label>
+      </li>
+      <li>
+        <input type="checkbox" id="manuscritos_mexicanos" checked="" onchange="refresca(datos)">
+        <label for="manuscritos_mexicanos">Manuscritos, Mexicanos</label>
+      </li>
+      <li>
+        <input type="checkbox" id="mexico_historia" checked="" onchange="refresca(datos)">
+        <label for="mexico_historia">México--Historia--Siglo XVI--Fuentes</label>
+      </li>
+      <li>
+        <input type="checkbox" id="nueva_españa_descripcion" checked="" onchange="refresca(datos)">
+        <label for="nueva_españa_descripcion">Nueva España--Descripción y viaje</label>
+      </li>
+      <li>
+        <input type="checkbox" id="nueva_españa_historia" checked="" onchange="refresca(datos)">
+        <label for="nueva_españa_historia">Nueva España--Historia--Fuentes</label>
+      </li>
+      <li>
+        <input type="checkbox" id="nueva_españa_mapas" checked="" onchange="refresca(datos)">
+        <label for="nueva_españa_mapas">Nueva España--Mapas, Manuscritos</label>
+      </li>      
+      <li>
+        <input type="checkbox" id="Pindigenas_guatemala_arte" checked="" onchange="refresca(datos)">
+        <label for="Pindigenas_guatemala_arte">Pueblos indígenas--Guatemala--Arte</label>
+      </li>      
+      <li>
+        <input type="checkbox" id="Pindigenas_guatemala_historia" checked="" onchange="refresca(datos)">
+        <label for="Pindigenas_guatemala_historia">Pueblos indígenas--Guatemala--Historia--Fuentes</label>
+      </li>     
+      <li>
+        <input type="checkbox" id="Pindigenas_mexico_artes" checked="" onchange="refresca(datos)">
+        <label for="Pindigenas_mexico_artes">Pueblos indígenas--México--Artes</label>
+      </li> 
+      <li>
+        <input type="checkbox" id="Pindigenas_mexico_historia" checked="" onchange="refresca(datos)">
+        <label for="Pindigenas_mexico_historia">Pueblos indígenas--México--Historia--Fuentes</label>
+      </li> 
+      <li>
+        <input type="checkbox" id="Arte_siglo_xvi" checked="" onchange="refresca(datos)">
+        <label for="Arte_siglo_xvi">Arte--Siglo XVI--Nueva España</label>
+      </li> 
+    </ul>
+    </div>
+  </div>
+</div>
+</div>
+<script>
+    var mapid=mostrarMapa(datos);
+</script>
+</body>
+</html>
